@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Zhangliang",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.15.0"
+  }
 }

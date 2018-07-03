@@ -8,7 +8,7 @@
 ## Class
 ### 1. Ebay
 A singleton in the application. It takes `appId`, `devId` and `certId` secret to construct. Provide the following functions:
-#### `GetToken`: For OAuth
+#### `GetOAuthToken`: For OAuth
 #### `GetRefreshToken`: For OAuth renew
 #### `GetSessionId`: For Auth'nAuth
 #### `RecieveNotification`: For parse eBay notification
