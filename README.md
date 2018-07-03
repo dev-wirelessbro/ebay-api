@@ -8,15 +8,16 @@
 ## Class
 ### 1. Ebay
 A singleton in the application. It takes `appId`, `devId` and `certId` secret to construct. Provide the following functions:
-#### `GetOAuthToken`: For OAuth
-#### `GetRefreshToken`: For OAuth renew
-#### `GetSessionId`: For Auth'nAuth
-#### `RecieveNotification`: For parse eBay notification
-
+#### [x] `GetOAuthToken`: For OAuth
+#### [x] `GetRefreshToken`: For OAuth renew
+#### [x] `GetSessionId`: For Auth'nAuth
 
 ### 2. EbayClient
 It is like eBay seller. It takes `token` to construct. There are two authentication methods provided by
 eBay, i.e `OAuth` and `Auth'nAuth` which you have to specify when you create it. 
+
+### 3. ParsedFixedPriceItemNotification
+Parse info from the recieved ebay notification
 
 General flow of calling eBay API:
 1. Build XML request by API name and authentication type. `xml-builder`

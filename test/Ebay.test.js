@@ -140,12 +140,11 @@ describe("Ebay class init", () => {
         grant_type: "authorization_code",
         code,
         redirect_uri: "TEST"
-      })
+      });
 
       assert.deepEqual(result, successToken);
     });
   });
-
 
   it("getRefreshToken is able to post correctly", () => {
     const successToken = {
@@ -192,9 +191,56 @@ describe("Ebay class init", () => {
         grant_type: "refresh_token",
         refresh_token,
         redirect_uri: "TEST"
-      })
+      });
 
       assert.deepEqual(result, successToken);
     });
-  })
+  });
+
+  it("GetSeesionId is able to get seesion Id", () => {
+    const config = {
+      clientId: "Wireless-wireless-SBX-85d705b3d-529548a6",
+      certId: "SBX-5d705b3d6c82-1c55-473a-8979-04be",
+      authType: "OAuth",
+      env: "sandbox",
+      redirectURI: "TEST",
+      scope
+    };
+
+    const ebay = new Ebay(config);
+
+    const expectedPostData = `<?xml version="1.0" encoding="utf-8"?>
+    <GetSessionIDRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+      <!-- Call-specific Input Fields -->
+      <RuName>${config.redirectURI}</RuName>
+      <!-- Standard Input Fields -->
+      <ErrorLanguage>en_US</ErrorLanguage>
+      <Version>1057</Version>
+      <WarningLevel>High</WarningLevel>
+    </GetSessionIDRequest>`;
+
+    let postData = {};
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(data => {
+      postData = data;
+      const response = `<?xml version="1.0" encoding="UTF-8"?>
+      <GetSessionIDResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+        <Timestamp>2015-11-10T01:31:34.148Z</Timestamp>
+        <Ack>Success</Ack>
+        <Version>967</Version>
+        <Build>E967_CORE_BUNDLED_12301500_R1</Build>
+        <SessionID>MySessionID</SessionID>
+      </GetSessionIDResponse>`;
+      return [200, response];
+    });
+
+    return ebay
+      .getSessionId()
+      .then(sessionId => {
+        assert.equal(sessionId, "MySessionID");
+        assert.equal(postData.data, expectedPostData);
+      })
+      .catch(error => {
+        throw error;
+      });
+  });
 });
