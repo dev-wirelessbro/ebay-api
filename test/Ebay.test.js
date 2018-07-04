@@ -17,7 +17,7 @@ const scope = [
   "https://api.ebay.com/oauth/api_scope/sell.analytics.readonly"
 ];
 
-describe("Ebay class init", () => {
+describe("Ebay class", () => {
   it("should save clientId, certId, devId, authType ans env", () => {
     const config = {
       clientId: "TEST clientId",

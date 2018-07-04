@@ -12,9 +12,11 @@
     "axios": "^0.18.0",
     "bluebird": "^3.5.1",
     "blueimp-md5": "^2.10.0",
+    "es6-error": "^4.1.1",
     "lodash": "^4.17.10",
     "mocha": "^5.2.0",
     "moment": "^2.22.2",
+    "object-to-xml": "^1.1.0",
     "xml2js": "^0.4.19",
     "xml2js-xpath": "^0.9.0"
   },
