@@ -212,7 +212,7 @@ describe("EbayClient", () => {
       if (pageInfo && pageInfo[1]) {
         return [200, pages[parseInt(pageInfo[1]) - 1]];
       }
-      return [200, Page1];
+      return [200, pages[0]];
     });
 
     return ebayClient.getSellerList().then(result => {
@@ -352,6 +352,77 @@ describe("EbayClient", () => {
         JSON.parse(toJson(expected))
       );
       assert(result.CompleteSaleResponse.Ack);
+    });
+  });
+
+  it("setNotification is able to post correctly", () => {
+    const ebayClient = new EbayClient(AuthNAuthClientData);
+    let postData;
+
+    const setNotificationPreferenceSample = fs
+      .readFileSync(
+        path.resolve(__dirname, "./setNotificationPreferenceSample.xml")
+      )
+      .toString();
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, setNotificationPreferenceSample];
+    });
+
+    const expectedPostData = `<?xml version="1.0" encoding="utf-8"?>
+    <SetNotificationPreferencesRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+    <RequesterCredentials>
+      <eBayAuthToken>TOKENTOKENTOKEN</eBayAuthToken>
+    </RequesterCredentials>
+    <ApplicationDeliveryPreferences>
+    <ApplicationEnable>Enable</ApplicationEnable>
+    <ApplicationURL>APPLICATIONURL</ApplicationURL>
+    <DeliveryURLDetails>
+        <DeliveryURL>DELIVERYURL</DeliveryURL>
+        <DeliveryURLName>office</DeliveryURLName>
+        <Status>Enable</Status>
+    </DeliveryURLDetails>
+    <DeviceType>Platform</DeviceType>
+    <PayloadVersion>1057</PayloadVersion>
+  </ApplicationDeliveryPreferences>
+      <DeliveryURLName>office</DeliveryURLName>
+      <UserDeliveryPreferenceArray>
+       <NotificationEnable>
+          <EventType>FixedPriceTransaction</EventType>
+          <EventEnable>Enable</EventEnable>
+        </NotificationEnable>
+      </UserDeliveryPreferenceArray>
+      <Version>1061</Version>
+      <WarningLevel>High</WarningLevel>
+    </SetNotificationPreferencesRequest>`;
+
+    const options = {
+      ApplicationDeliveryPreferences: {
+        ApplicationEnable: "Enable",
+        ApplicationURL: "APPLICATIONURL",
+        DeliveryURLDetails: {
+          DeliveryURL: "DELIVERYURL",
+          DeliveryURLName: "office",
+          Status: "Enable"
+        },
+        DeviceType: "Platform"
+      },
+      DeliveryURLName: "office",
+      UserDeliveryPreferenceArray: {
+        NotificationEnable: {
+          EventType: "FixedPriceTransaction",
+          EventEnable: "Enable"
+        }
+      }
+    };
+
+    return ebayClient.setNotificationPreferences(options).then(result => {
+      assert.deepEqual(
+        JSON.parse(toJson(postData.data)),
+        JSON.parse(toJson(expectedPostData))
+      );
+      assert(result.SetNotificationPreferencesResponse.Ack);
     });
   });
 });

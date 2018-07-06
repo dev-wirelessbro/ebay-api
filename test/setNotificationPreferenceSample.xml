@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetNotificationPreferencesResponse 
+  xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-07-06T01:06:57.813Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>991</Version>
+  <Build>E991_CORE_APINOTIFY_18563593_R1</Build>
+</SetNotificationPreferencesResponse>
