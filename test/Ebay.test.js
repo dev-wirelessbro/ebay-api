@@ -1,9 +1,7 @@
 const assert = require("assert");
 const Ebay = require("../lib/Ebay");
 const _ = require("lodash");
-const axios = require("axios");
-const MockAdapter = require("axios-mock-adapter");
-const mock = new MockAdapter(axios);
+const mock = require("./Mock").create();
 const scope = [
   "https://api.ebay.com/oauth/api_scope",
   "https://api.ebay.com/oauth/api_scope/sell.marketing.readonly",
@@ -18,6 +16,7 @@ const scope = [
 ];
 
 describe("Ebay class", () => {
+  afterEach(() => mock.reset());
   it("should save clientId, certId, devId, authType ans env", () => {
     const config = {
       clientId: "TEST clientId",
@@ -110,15 +109,6 @@ describe("Ebay class", () => {
         "Basic V2lyZWxlc3Mtd2lyZWxlc3MtU0JYLTg1ZDcwNWIzZC01Mjk1NDhhNjpTQlgtNWQ3MDViM2Q2YzgyLTFjNTUtNDczYS04OTc5LTA0YmU="
     };
 
-    let postData = {};
-
-    mock
-      .onPost("https://api.sandbox.ebay.com/identity/v1/oauth2/token")
-      .reply(config => {
-        postData = config;
-        return [200, successToken];
-      });
-
     const config = {
       clientId: "Wireless-wireless-SBX-85d705b3d-529548a6",
       certId: "SBX-5d705b3d6c82-1c55-473a-8979-04be",
@@ -127,23 +117,32 @@ describe("Ebay class", () => {
       redirectURI: "TEST",
       scope
     };
-
     const ebay = new Ebay(config);
-    const code = "TestAuthorizationCodeReturnByEbay";
-    return ebay.getOAuthToken(code).then(result => {
-      assert.deepEqual(
-        _.pick(postData.headers, ["Content-Type", "Authorization"]),
-        expectedHeaders
-      );
+    let postData = {};
 
-      assert.deepEqual(JSON.parse(postData.data), {
-        grant_type: "authorization_code",
-        code,
-        redirect_uri: "TEST"
-      });
-
-      assert.deepEqual(result, successToken);
+    mock.onAny().reply(postConfig => {
+      postData = postConfig;
+      return [200, successToken];
     });
+
+    const code = "TestAuthorizationCodeReturnByEbay";
+    return ebay
+      .getOAuthToken(code)
+      .catch(err => {})
+      .then(result => {
+        assert.deepEqual(
+          _.pick(postData.headers, ["Content-Type", "Authorization"]),
+          expectedHeaders
+        );
+
+        assert.deepEqual(JSON.parse(postData.data), {
+          grant_type: "authorization_code",
+          code,
+          redirect_uri: "TEST"
+        });
+
+        assert.deepEqual(result, successToken);
+      });
   });
 
   it("getRefreshToken is able to post correctly", () => {
@@ -206,7 +205,12 @@ describe("Ebay class", () => {
       redirectURI: "TEST",
       scope
     };
-
+    mock
+      .onPost("https://api.sandbox.ebay.com/identity/v1/oauth2/token")
+      .reply(config => {
+        postData = config;
+        return [200, successToken];
+      });
     const ebay = new Ebay(config);
 
     const expectedPostData = `<?xml version="1.0" encoding="utf-8"?>

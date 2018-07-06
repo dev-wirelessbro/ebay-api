@@ -1,9 +1,10 @@
 const assert = require("assert");
 const moment = require("moment");
-const axios = require("axios");
-const MockAdapter = require("axios-mock-adapter");
-const mock = new MockAdapter(axios);
+const mock = require("./Mock").create();
 const _ = require("lodash");
+const fs = require("fs");
+const path = require("path");
+const toJson = require("xml2json").toJson;
 
 const EbayClient = require("../lib/EbayClient");
 const errors = require("../lib/Error");
@@ -31,6 +32,8 @@ const AuthNAuthClientData = {
 };
 
 describe("EbayClient", () => {
+  afterEach(() => mock.reset());
+
   it("EbayClient should save email, env, userId, token, authType, expire", () => {
     const ebayClient = new EbayClient(OAuthClientData);
 
@@ -149,7 +152,7 @@ describe("EbayClient", () => {
     return ebayClient
       .getSellerList()
       .catch(() => {})
-      .then(() => {
+      .then(result => {
         assert(postData.data);
         assert.deepEqual(
           _.pick(postData.headers, Object.keys(expectedHeaders)),
@@ -170,6 +173,185 @@ describe("EbayClient", () => {
     }
   });
 
-  it("getSellerList is able to parse result correctly");
-  it("getSellerList is able to handle pagination correctly");
+  it("getSellerList is able to parse result correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+    const sellerListSampleXML = fs
+      .readFileSync(path.resolve(__dirname, "./getSellerListSample.xml"))
+      .toString()
+      .replace(/\n|\r/g, "");
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, sellerListSampleXML];
+    });
+
+    return ebayClient.getSellerList().then(result => {
+      assert(result.GetSellerListResponse);
+      assert(result.GetSellerListResponse.ItemArray.Item.length === 11);
+    });
+  });
+
+  it("getSellerList is able to handle pagination correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+    const pages = [1, 2, 3].map(number =>
+      fs
+        .readFileSync(
+          path.resolve(
+            __dirname,
+            `./getSellerListSampleWithPagnination/${number}.xml`
+          )
+        )
+        .toString()
+    );
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      const pageInfo = /<PageNumber>(\d+)<\/PageNumber>/.exec(postConfig.data);
+      if (pageInfo && pageInfo[1]) {
+        return [200, pages[parseInt(pageInfo[1]) - 1]];
+      }
+      return [200, Page1];
+    });
+
+    return ebayClient.getSellerList().then(result => {
+      assert.equal(result.GetSellerListResponse.ItemArray.Item.length, 11);
+    });
+  });
+
+  it("getSellerOrder is able to post correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+    const orderSampleXML = fs
+      .readFileSync(path.resolve(__dirname, "./getOrdersSample.xml"))
+      .toString()
+      .replace(/\n|\r/g, "");
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, orderSampleXML];
+    });
+    const options = {
+      CreateTimeFrom: "2018-03-07T23:10:24.540Z",
+      CreateTimeTo: "2018-07-05T22:10:24.542Z"
+    };
+    const expectedPost = `<?xml version="1.0" encoding="utf-8" ?>
+    <GetOrdersRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+        <WarningLevel>High</WarningLevel>
+        <OrderRole>Seller</OrderRole>
+        <OrderStatus>Completed</OrderStatus>
+        <CreateTimeFrom>2018-03-07T23:10:24.540Z</CreateTimeFrom>
+        <CreateTimeTo>2018-07-05T22:10:24.542Z</CreateTimeTo>
+        <Pagination>
+            <EntriesPerPage>100</EntriesPerPage>
+            <PageNumber>1</PageNumber>
+        </Pagination>
+    </GetOrdersRequest>`;
+    return ebayClient.getOrders(options).then(result => {
+      assert.deepEqual(
+        JSON.parse(toJson(postData.data)),
+        JSON.parse(toJson(expectedPost))
+      );
+      assert(result.GetOrdersResponse);
+      assert(result.GetOrdersResponse.OrderArray.Order.length === 13);
+    });
+  });
+
+  it("getOrders is able to handle pagination correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+    const pages = [1, 2, 3].map(number =>
+      fs
+        .readFileSync(
+          path.resolve(__dirname, `./getOrdersPagination/${number}.xml`)
+        )
+        .toString()
+    );
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      const pageInfo = /<PageNumber>(\d+)<\/PageNumber>/.exec(postConfig.data);
+      if (pageInfo && pageInfo[1]) {
+        return [200, pages[parseInt(pageInfo[1]) - 1]];
+      }
+      return [200, Page1];
+    });
+
+    return ebayClient.getOrders().then(result => {
+      assert.equal(result.GetOrdersResponse.OrderArray.Order.length, 13);
+    });
+  });
+
+  it("getUser is able to post correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+
+    const getUserSampleXML = fs
+      .readFileSync(path.resolve(__dirname, "./getUserSample.xml"))
+      .toString();
+
+    const expected = `<?xml version="1.0" encoding="utf-8" ?>
+    <GetUserRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+	    <DetailLevel>ReturnAll</DetailLevel>
+    </GetUserRequest>`;
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, getUserSampleXML];
+    });
+
+    return ebayClient.getUser().then(result => {
+      assert.deepEqual(
+        JSON.parse(toJson(postData.data)),
+        JSON.parse(toJson(expected))
+      );
+      assert(result.GetUserResponse.User);
+    });
+  });
+
+  it("compeleteSale is able to post correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+
+    const completeSaleSample = fs
+      .readFileSync(path.resolve(__dirname, "./completeSaleSample.xml"))
+      .toString();
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, completeSaleSample];
+    });
+
+    const expected = `<?xml version="1.0" encoding="utf-8" ?>
+    <CompleteSaleRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+      <ErrorLanguage>en_US</ErrorLanguage>
+      <WarningLevel>High</WarningLevel>
+      <OrderLineItemID>TESTTESTTEST10</OrderLineItemID>
+      <Shipment>
+        <ShipmentTrackingDetails>
+          <ShipmentTrackingNumber>111111111111</ShipmentTrackingNumber>
+          <ShippingCarrierUsed>USPS</ShippingCarrierUsed>
+        </ShipmentTrackingDetails>
+      </Shipment>
+    </CompleteSaleRequest>`;
+
+    const options = {
+      OrderLineItemID: "TESTTESTTEST10",
+      Shipment: {
+        ShipmentTrackingDetails: {
+          ShipmentTrackingNumber: "111111111111",
+          ShippingCarrierUsed: "USPS"
+        }
+      }
+    };
+
+    return ebayClient.completeSale(options).then(result => {
+      assert.deepEqual(
+        JSON.parse(toJson(postData.data)),
+        JSON.parse(toJson(expected))
+      );
+      assert(result.CompleteSaleResponse.Ack);
+    });
+  });
 });

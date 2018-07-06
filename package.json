@@ -4,7 +4,7 @@
   "description": "Wrap XML eBay api in node js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/_mocha"
   },
   "author": "Zhangliang",
   "license": "ISC",
@@ -12,13 +12,15 @@
     "axios": "^0.18.0",
     "bluebird": "^3.5.1",
     "blueimp-md5": "^2.10.0",
+    "ecjson": "^0.1.2",
     "es6-error": "^4.1.1",
     "lodash": "^4.17.10",
     "mocha": "^5.2.0",
     "moment": "^2.22.2",
     "object-to-xml": "^1.1.0",
     "xml2js": "^0.4.19",
-    "xml2js-xpath": "^0.9.0"
+    "xml2js-xpath": "^0.9.0",
+    "xml2json": "^0.11.2"
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.15.0"

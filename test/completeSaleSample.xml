@@ -1,0 +1,6 @@
+<CompleteSaleResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2016-02-17T18:24:03.182Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>967</Version>
+  <Build>E967_CORE_BUNDLED_10639415_R1</Build>
+</CompleteSaleResponse>

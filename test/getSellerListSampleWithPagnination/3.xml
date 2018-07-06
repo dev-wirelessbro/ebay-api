@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetSellerListResponse 
+  xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-07-05T20:37:51.277Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>1023</Version>
+  <Build>E1023_CORE_APISELLING_18580287_R1</Build>
+  <PaginationResult>
+    <TotalNumberOfPages>3</TotalNumberOfPages>
+    <TotalNumberOfEntries>11</TotalNumberOfEntries>
+  </PaginationResult>
+  <HasMoreItems>false</HasMoreItems>
+  <ItemArray>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328552578</ItemID>
+      <ListingDetails>
+        <StartTime>2018-06-13T21:57:18.000Z</StartTime>
+        <EndTime>2018-06-20T21:57:18.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/FUCCCCCCC-/110328552578</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/FUCCCCCCC-/110328552578</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDuration>Days_7</ListingDuration>
+      <Location>San Jose, California</Location>
+      <PrimaryCategory>
+        <CategoryID>171228</CategoryID>
+        <CategoryName>Books:Fiction &amp; Literature</CategoryName>
+      </PrimaryCategory>
+      <Quantity>1</Quantity>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">10.0</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">500.0</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">500.0</CurrentPrice>
+        <MinimumToBid currencyID="USD">500.0</MinimumToBid>
+        <QuantitySold>0</QuantitySold>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Completed</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>FUCCCCCCC</Title>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5796797000</PaymentProfileID>
+          <PaymentProfileName>PayPal#0</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328555638</ItemID>
+      <ListingDetails>
+        <StartTime>2018-06-13T22:11:45.000Z</StartTime>
+        <EndTime>2018-07-13T22:11:45.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/New-Ralph-Lauren-Polo-shirt-Pink-Black-Blue-Yellow-/110328555638</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/New-Ralph-Lauren-Polo-shirt-Pink-Black-Blue-Yellow-/110328555638</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDuration>GTC</ListingDuration>
+      <Location>San Jose, California</Location>
+      <PrimaryCategory>
+        <CategoryID>37565</CategoryID>
+        <CategoryName>Everything Else:Test Category For Internal Use Only Parent Level 2:Test Category For Internal Use Only Parent Level 3:Attributes7</CategoryName>
+      </PrimaryCategory>
+      <Quantity>52</Quantity>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">0.0</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">17.99</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">17.99</CurrentPrice>
+        <MinimumToBid currencyID="USD">17.99</MinimumToBid>
+        <QuantitySold>2</QuantitySold>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Active</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>P8DT1H33M54S</TimeLeft>
+      <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow</Title>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <GalleryURL>http://i12.ebayimg.com/03/i/04/8a/5f/a1_1_sbl.JPG</GalleryURL>
+        <PhotoDisplay>PicturePack</PhotoDisplay>
+        <PictureURL>http://i12.ebayimg.com/03/i/04/8a/5f/a1_1_sbl.JPG</PictureURL>
+        <PictureURL>http://i22.ebayimg.com/01/i/04/8e/53/69_1_sbl.JPG</PictureURL>
+        <PictureURL>http://i4.ebayimg.ebay.com/01/i/000/77/3c/d88f_1_sbl.JPG</PictureURL>
+      </PictureDetails>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5796801000</ShippingProfileID>
+          <ShippingProfileName>Calculated:USPS Priority(Free),UPS Ground,3 b</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5796800000</PaymentProfileID>
+          <PaymentProfileName>PayPal#1</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328558968</ItemID>
+      <ListingDetails>
+        <StartTime>2018-06-13T22:34:09.000Z</StartTime>
+        <EndTime>2018-07-13T22:34:09.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/New-Ralph-Lauren-Polo-shirt-Pink-Black-Blue-Yellow-/110328558968</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/New-Ralph-Lauren-Polo-shirt-Pink-Black-Blue-Yellow-/110328558968</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDuration>GTC</ListingDuration>
+      <Location>San Jose, California</Location>
+      <PrimaryCategory>
+        <CategoryID>37565</CategoryID>
+        <CategoryName>Everything Else:Test Category For Internal Use Only Parent Level 2:Test Category For Internal Use Only Parent Level 3:Attributes7</CategoryName>
+      </PrimaryCategory>
+      <Quantity>52</Quantity>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">0.0</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">17.99</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">17.99</CurrentPrice>
+        <MinimumToBid currencyID="USD">17.99</MinimumToBid>
+        <QuantitySold>16</QuantitySold>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Active</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>P8DT1H56M18S</TimeLeft>
+      <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow</Title>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <GalleryURL>http://i12.ebayimg.com/03/i/04/8a/5f/a1_1_sbl.JPG</GalleryURL>
+        <PhotoDisplay>PicturePack</PhotoDisplay>
+        <PictureURL>http://i12.ebayimg.com/03/i/04/8a/5f/a1_1_sbl.JPG</PictureURL>
+        <PictureURL>http://i22.ebayimg.com/01/i/04/8e/53/69_1_sbl.JPG</PictureURL>
+        <PictureURL>http://i4.ebayimg.ebay.com/01/i/000/77/3c/d88f_1_sbl.JPG</PictureURL>
+      </PictureDetails>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5796797000</PaymentProfileID>
+          <PaymentProfileName>PayPal#0</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+  </ItemArray>
+  <ItemsPerPage>4</ItemsPerPage>
+  <PageNumber>3</PageNumber>
+  <ReturnedItemCountActual>3</ReturnedItemCountActual>
+</GetSellerListResponse>

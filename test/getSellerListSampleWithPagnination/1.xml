@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetSellerListResponse 
+  xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-07-05T20:37:07.324Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>1023</Version>
+  <Build>E1023_CORE_APISELLING_18580287_R1</Build>
+  <PaginationResult>
+    <TotalNumberOfPages>3</TotalNumberOfPages>
+    <TotalNumberOfEntries>11</TotalNumberOfEntries>
+  </PaginationResult>
+  <HasMoreItems>true</HasMoreItems>
+  <ItemArray>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328339066</ItemID>
+      <ListingDetails>
+        <StartTime>2018-06-12T23:17:01.000Z</StartTime>
+        <EndTime>2018-06-13T00:33:44.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328339066</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328339066</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDuration>Days_7</ListingDuration>
+      <Location>San Jose, California</Location>
+      <PrimaryCategory>
+        <CategoryID>280</CategoryID>
+        <CategoryName>Books:Magazine Back Issues</CategoryName>
+      </PrimaryCategory>
+      <Quantity>1</Quantity>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>1</BidCount>
+        <BidIncrement currencyID="USD">0.5</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">18.0</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">18.0</CurrentPrice>
+        <HighBidder>
+          <Email>Invalid Request</Email>
+          <UserID>testuser_wirelessbro3</UserID>
+        </HighBidder>
+        <MinimumToBid currencyID="USD">18.5</MinimumToBid>
+        <QuantitySold>1</QuantitySold>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Ended</ListingStatus>
+        <SoldAsBin>true</SoldAsBin>
+      </SellingStatus>
+      <ShippingDetails>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>Harry Potter and the Goblet of Fire</Title>
+      <UUID>CBEFC1E08AF811DDAD8B0500888C9A55</UUID>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5795862000</PaymentProfileID>
+          <PaymentProfileName>PayPal</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328340066</ItemID>
+      <ListingDetails>
+        <StartTime>2018-06-12T23:21:04.000Z</StartTime>
+        <EndTime>2018-06-19T23:21:04.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328340066</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <BuyItNowAvailable>true</BuyItNowAvailable>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328340066</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDuration>Days_7</ListingDuration>
+      <Location>San Jose, California</Location>
+      <PrimaryCategory>
+        <CategoryID>280</CategoryID>
+        <CategoryName>Books:Magazine Back Issues</CategoryName>
+      </PrimaryCategory>
+      <Quantity>1</Quantity>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">0.05</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">0.99</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">0.99</CurrentPrice>
+        <MinimumToBid currencyID="USD">0.99</MinimumToBid>
+        <QuantitySold>0</QuantitySold>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Completed</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>Harry Potter and the Goblet of Fire</Title>
+      <UUID>CBEFC1E08AF811DDAD8B0500888C9A45</UUID>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5795862000</PaymentProfileID>
+          <PaymentProfileName>PayPal</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328341870</ItemID>
+      <ListingDetails>
+        <StartTime>2018-06-12T23:29:16.000Z</StartTime>
+        <EndTime>2018-06-13T21:22:20.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328341870</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328341870</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDuration>Days_7</ListingDuration>
+      <Location>San Jose, California</Location>
+      <PrimaryCategory>
+        <CategoryID>280</CategoryID>
+        <CategoryName>Books:Magazine Back Issues</CategoryName>
+      </PrimaryCategory>
+      <Quantity>1</Quantity>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>1</BidCount>
+        <BidIncrement currencyID="USD">0.5</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">18.0</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">18.0</CurrentPrice>
+        <HighBidder>
+          <Email>Invalid Request</Email>
+          <UserID>testuser_wirelessbro3</UserID>
+        </HighBidder>
+        <MinimumToBid currencyID="USD">18.5</MinimumToBid>
+        <QuantitySold>1</QuantitySold>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Ended</ListingStatus>
+        <SoldAsBin>true</SoldAsBin>
+      </SellingStatus>
+      <ShippingDetails>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>Harry Potter and the Goblet of Fire</Title>
+      <UUID>CBEFC1E08AF811DDAD8B0344888C9A55</UUID>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5795862000</PaymentProfileID>
+          <PaymentProfileName>PayPal</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328342077</ItemID>
+      <ListingDetails>
+        <StartTime>2018-06-12T23:30:04.000Z</StartTime>
+        <EndTime>2018-06-19T23:30:04.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/AA01-IPHONE-LCF-/110328342077</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <BuyItNowAvailable>true</BuyItNowAvailable>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/AA01-IPHONE-LCF-/110328342077</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDuration>Days_7</ListingDuration>
+      <Location>San Jose, California</Location>
+      <PrimaryCategory>
+        <CategoryID>280</CategoryID>
+        <CategoryName>Books:Magazine Back Issues</CategoryName>
+      </PrimaryCategory>
+      <Quantity>1</Quantity>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">0.05</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">0.99</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">0.99</CurrentPrice>
+        <MinimumToBid currencyID="USD">0.99</MinimumToBid>
+        <QuantitySold>0</QuantitySold>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Completed</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>AA01-IPHONE-LCF</Title>
+      <UUID>CBEFC1E08AF811DDAD8B0344888C9A53</UUID>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5795862000</PaymentProfileID>
+          <PaymentProfileName>PayPal</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+  </ItemArray>
+  <ItemsPerPage>4</ItemsPerPage>
+  <PageNumber>1</PageNumber>
+  <ReturnedItemCountActual>4</ReturnedItemCountActual>
+</GetSellerListResponse>

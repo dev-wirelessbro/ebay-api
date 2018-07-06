@@ -1,0 +1,2108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetOrdersResponse 
+  xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-07-05T21:52:09.957Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>1029</Version>
+  <Build>E1029_CORE_APIXO_18563492_R1</Build>
+  <PaginationResult>
+    <TotalNumberOfPages>1</TotalNumberOfPages>
+    <TotalNumberOfEntries>13</TotalNumberOfEntries>
+  </PaginationResult>
+  <HasMoreOrders>false</HasMoreOrders>
+  <OrderArray>
+    <Order>
+      <OrderID>110328339066-0</OrderID>
+      <OrderStatus>Completed</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">20.5</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>PayPalPaymentInProcess</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-13T00:38:03.000Z</LastModifiedTime>
+        <PaymentMethod>PayPal</PaymentMethod>
+        <Status>Complete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <SalesTaxState></SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>100</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatedTime>2018-06-13T00:33:44.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid@usc.edu</SellerEmail>
+      <ShippingAddress>
+        <Name>Zz112211! Zzhello jie</Name>
+        <Street1>address</Street1>
+        <Street2></Street2>
+        <CityName>city</CityName>
+        <StateOrProvince>WA</StateOrProvince>
+        <Country>US</Country>
+        <CountryName>United States</CountryName>
+        <Phone>1000071713</Phone>
+        <PostalCode>98102</PostalCode>
+        <AddressID>14363561</AddressID>
+        <AddressOwner>eBay</AddressOwner>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSMedia</ShippingService>
+        <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">18.0</Subtotal>
+      <Total currencyID="USD">20.5</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>Zz112211!</UserFirstName>
+            <UserLastName>Zzhello jie</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>100</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T00:33:44.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328339066</ItemID>
+            <Site>US</Site>
+            <Title>Harry Potter and the Goblet of Fire</Title>
+            <ConditionID>1000</ConditionID>
+            <ConditionDisplayName>Brand New</ConditionDisplayName>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>0</TransactionID>
+          <TransactionPrice currencyID="USD">18.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328339066-0</OrderLineItemID>
+          <ExtendedOrderID>110328339066-0!947830000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro3</BuyerUserID>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OCpgqdj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ExtendedOrderID>110328339066-0!947830000</ExtendedOrderID>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+    <Order>
+      <OrderID>110328345822-0</OrderID>
+      <OrderStatus>Completed</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">20.5</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>PayPalPaymentInProcess</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-13T00:52:35.000Z</LastModifiedTime>
+        <PaymentMethod>PayPal</PaymentMethod>
+        <Status>Complete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <SalesTaxState></SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>101</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatedTime>2018-06-13T00:45:50.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid@usc.edu</SellerEmail>
+      <ShippingAddress>
+        <Name>Zz112211! Zzhello jie</Name>
+        <Street1>address</Street1>
+        <Street2></Street2>
+        <CityName>city</CityName>
+        <StateOrProvince>WA</StateOrProvince>
+        <Country>US</Country>
+        <CountryName>United States</CountryName>
+        <Phone>1000071713</Phone>
+        <PostalCode>98102</PostalCode>
+        <AddressID>14363561</AddressID>
+        <AddressOwner>eBay</AddressOwner>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSMedia</ShippingService>
+        <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">18.0</Subtotal>
+      <Total currencyID="USD">20.5</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>Zz112211!</UserFirstName>
+            <UserLastName>Zzhello jie</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>101</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T00:45:50.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328345822</ItemID>
+            <Site>US</Site>
+            <Title>Gavin Basin</Title>
+            <ConditionID>1000</ConditionID>
+            <ConditionDisplayName>Brand New</ConditionDisplayName>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>0</TransactionID>
+          <TransactionPrice currencyID="USD">18.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328345822-0</OrderLineItemID>
+          <ExtendedOrderID>110328345822-0!947831000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro3</BuyerUserID>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OCpgqdj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ExtendedOrderID>110328345822-0!947831000</ExtendedOrderID>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+    <Order>
+      <OrderID>110328341870-0</OrderID>
+      <OrderStatus>Active</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">0.0</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-13T21:22:20.000Z</LastModifiedTime>
+        <PaymentMethod>None</PaymentMethod>
+        <Status>Incomplete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <SalesTaxState></SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>102</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatedTime>2018-06-13T21:22:20.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid@usc.edu</SellerEmail>
+      <ShippingAddress>
+        <Name></Name>
+        <Street1></Street1>
+        <Street2></Street2>
+        <CityName></CityName>
+        <StateOrProvince></StateOrProvince>
+        <CountryName></CountryName>
+        <Phone></Phone>
+        <PostalCode></PostalCode>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSMedia</ShippingService>
+        <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">18.0</Subtotal>
+      <Total currencyID="USD">20.5</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>Zz112211!</UserFirstName>
+            <UserLastName>Zzhello jie</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>102</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T21:22:20.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328341870</ItemID>
+            <Site>US</Site>
+            <Title>Harry Potter and the Goblet of Fire</Title>
+            <ConditionID>1000</ConditionID>
+            <ConditionDisplayName>Brand New</ConditionDisplayName>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>0</TransactionID>
+          <TransactionPrice currencyID="USD">18.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <OrderLineItemID>110328341870-0</OrderLineItemID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro3</BuyerUserID>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OCpgqdj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+    <Order>
+      <OrderID>298721010</OrderID>
+      <OrderStatus>Completed</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">63.48</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-13T23:16:39.000Z</LastModifiedTime>
+        <PaymentMethod>PayPal</PaymentMethod>
+        <Status>Complete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <SalesTaxState></SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">7.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>111</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatingUserRole>Buyer</CreatingUserRole>
+      <CreatedTime>2018-06-13T23:16:39.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid2@wirelessbro.com</SellerEmail>
+      <ShippingAddress>
+        <Name>four four</Name>
+        <Street1>address</Street1>
+        <Street2></Street2>
+        <CityName>city</CityName>
+        <StateOrProvince>WA</StateOrProvince>
+        <Country>US</Country>
+        <CountryName>United States</CountryName>
+        <Phone>1000044433</Phone>
+        <PostalCode>98102</PostalCode>
+        <AddressID>14386785</AddressID>
+        <AddressOwner>eBay</AddressOwner>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSMedia</ShippingService>
+        <ShippingServiceCost currencyID="USD">7.5</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">55.98</Subtotal>
+      <Total currencyID="USD">63.48</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>108</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T23:13:38.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Pink,S]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939097001</TransactionID>
+          <TransactionPrice currencyID="USD">17.99</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Pnk_S</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Pink</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Pink,S]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Pink%0ASize%09S</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328558968-28939097001</OrderLineItemID>
+          <ExtendedOrderID>298721010!947895000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>109</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T23:13:55.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Blue,S]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939098001</TransactionID>
+          <TransactionPrice currencyID="USD">20.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Blu_S</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Blue</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Blue,S]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Blue%0ASize%09S</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328558968-28939098001</OrderLineItemID>
+          <ExtendedOrderID>298721010!947895000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>110</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T23:14:15.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Pink,M]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939099001</TransactionID>
+          <TransactionPrice currencyID="USD">17.99</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Pnk_M</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Pink</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>M</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Pink,M]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Pink%0ASize%09M</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328558968-28939099001</OrderLineItemID>
+          <ExtendedOrderID>298721010!947895000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro4</BuyerUserID>
+      <PaidTime>2018-06-13T23:16:39.000Z</PaidTime>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OApgidj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ExtendedOrderID>298721010!947895000</ExtendedOrderID>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+    <Order>
+      <OrderID>298722010</OrderID>
+      <OrderStatus>Completed</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">45.0</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-13T23:30:36.000Z</LastModifiedTime>
+        <PaymentMethod>PayPal</PaymentMethod>
+        <Status>Complete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <SalesTaxState></SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">5.0</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>114</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatingUserRole>Buyer</CreatingUserRole>
+      <CreatedTime>2018-06-13T23:30:35.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid2@wirelessbro.com</SellerEmail>
+      <ShippingAddress>
+        <Name>four four</Name>
+        <Street1>address</Street1>
+        <Street2></Street2>
+        <CityName>city</CityName>
+        <StateOrProvince>WA</StateOrProvince>
+        <Country>US</Country>
+        <CountryName>United States</CountryName>
+        <Phone>1000044433</Phone>
+        <PostalCode>98102</PostalCode>
+        <AddressID>14386785</AddressID>
+        <AddressOwner>eBay</AddressOwner>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSMedia</ShippingService>
+        <ShippingServiceCost currencyID="USD">5.0</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">40.0</Subtotal>
+      <Total currencyID="USD">45.0</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>112</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T23:27:16.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Blue,S]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939100001</TransactionID>
+          <TransactionPrice currencyID="USD">20.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Blu_S</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Blue</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Blue,S]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Blue%0ASize%09S</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328558968-28939100001</OrderLineItemID>
+          <ExtendedOrderID>298722010!947896000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>113</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T23:27:29.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Black,S]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939101001</TransactionID>
+          <TransactionPrice currencyID="USD">20.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Blk_S</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Black</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Black,S]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Black%0ASize%09S</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328558968-28939101001</OrderLineItemID>
+          <ExtendedOrderID>298722010!947896000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro4</BuyerUserID>
+      <PaidTime>2018-06-13T23:30:36.000Z</PaidTime>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OApgidj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ExtendedOrderID>298722010!947896000</ExtendedOrderID>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+    <Order>
+      <OrderID>298723010</OrderID>
+      <OrderStatus>Completed</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">42.99</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-13T23:50:26.000Z</LastModifiedTime>
+        <PaymentMethod>PayPal</PaymentMethod>
+        <Status>Complete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <SalesTaxState></SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">5.0</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>117</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatingUserRole>Buyer</CreatingUserRole>
+      <CreatedTime>2018-06-13T23:50:25.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid2@wirelessbro.com</SellerEmail>
+      <ShippingAddress>
+        <Name>four four</Name>
+        <Street1>address</Street1>
+        <Street2></Street2>
+        <CityName>city</CityName>
+        <StateOrProvince>WA</StateOrProvince>
+        <Country>US</Country>
+        <CountryName>United States</CountryName>
+        <Phone>1000044433</Phone>
+        <PostalCode>98102</PostalCode>
+        <AddressID>14386785</AddressID>
+        <AddressOwner>eBay</AddressOwner>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSMedia</ShippingService>
+        <ShippingServiceCost currencyID="USD">5.0</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">37.99</Subtotal>
+      <Total currencyID="USD">42.99</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>115</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T23:45:59.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Pink,S]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939102001</TransactionID>
+          <TransactionPrice currencyID="USD">17.99</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Pnk_S</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Pink</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Pink,S]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Pink%0ASize%09S</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328558968-28939102001</OrderLineItemID>
+          <ExtendedOrderID>298723010!947897000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>116</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T23:46:23.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Blue,S]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939103001</TransactionID>
+          <TransactionPrice currencyID="USD">20.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Blu_S</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Blue</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Blue,S]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Blue%0ASize%09S</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328558968-28939103001</OrderLineItemID>
+          <ExtendedOrderID>298723010!947897000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro4</BuyerUserID>
+      <PaidTime>2018-06-13T23:50:26.000Z</PaidTime>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OApgidj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ExtendedOrderID>298723010!947897000</ExtendedOrderID>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+    <Order>
+      <OrderID>298724010</OrderID>
+      <OrderStatus>Completed</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">65.49</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-13T23:58:07.000Z</LastModifiedTime>
+        <PaymentMethod>PayPal</PaymentMethod>
+        <Status>Complete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <SalesTaxState></SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">7.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>121</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatingUserRole>Buyer</CreatingUserRole>
+      <CreatedTime>2018-06-13T23:58:07.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid2@wirelessbro.com</SellerEmail>
+      <ShippingAddress>
+        <Name>four four</Name>
+        <Street1>address</Street1>
+        <Street2></Street2>
+        <CityName>city</CityName>
+        <StateOrProvince>WA</StateOrProvince>
+        <Country>US</Country>
+        <CountryName>United States</CountryName>
+        <Phone>1000044433</Phone>
+        <PostalCode>98102</PostalCode>
+        <AddressID>14386785</AddressID>
+        <AddressOwner>eBay</AddressOwner>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSMedia</ShippingService>
+        <ShippingServiceCost currencyID="USD">7.5</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">57.99</Subtotal>
+      <Total currencyID="USD">65.49</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>118</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T23:54:30.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Pink,S]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939104001</TransactionID>
+          <TransactionPrice currencyID="USD">17.99</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Pnk_S</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Pink</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Pink,S]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Pink%0ASize%09S</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328558968-28939104001</OrderLineItemID>
+          <ExtendedOrderID>298724010!947898000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>119</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T23:54:44.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Blue,S]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939105001</TransactionID>
+          <TransactionPrice currencyID="USD">20.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Blu_S</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Blue</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Blue,S]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Blue%0ASize%09S</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328558968-28939105001</OrderLineItemID>
+          <ExtendedOrderID>298724010!947898000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>120</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T23:54:54.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Blue,M]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939106001</TransactionID>
+          <TransactionPrice currencyID="USD">20.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Blu_M</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Blue</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>M</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Blue,M]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Blue%0ASize%09M</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328558968-28939106001</OrderLineItemID>
+          <ExtendedOrderID>298724010!947898000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro4</BuyerUserID>
+      <PaidTime>2018-06-13T23:58:07.000Z</PaidTime>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OApgidj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ExtendedOrderID>298724010!947898000</ExtendedOrderID>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+    <Order>
+      <OrderID>110328555638-28939092001</OrderID>
+      <OrderStatus>Active</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">0.0</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-16T22:15:25.000Z</LastModifiedTime>
+        <PaymentMethod>None</PaymentMethod>
+        <Status>Incomplete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>8.75</SalesTaxPercent>
+          <SalesTaxState>CA</SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSPriority</ShippingService>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>1</ShippingTimeMin>
+          <ShippingTimeMax>3</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingServiceOptions>
+          <ShippingService>UPSGround</ShippingService>
+          <ShippingServicePriority>2</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>1</ShippingTimeMin>
+          <ShippingTimeMax>5</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingServiceOptions>
+          <ShippingService>UPSNextDay</ShippingService>
+          <ShippingServicePriority>3</ShippingServicePriority>
+          <ExpeditedService>true</ExpeditedService>
+          <ShippingTimeMin>1</ShippingTimeMin>
+          <ShippingTimeMax>1</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>103</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatedTime>2018-06-13T22:16:32.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid2@wirelessbro.com</SellerEmail>
+      <ShippingAddress>
+        <Name></Name>
+        <Street1></Street1>
+        <Street2></Street2>
+        <CityName></CityName>
+        <StateOrProvince></StateOrProvince>
+        <CountryName></CountryName>
+        <Phone></Phone>
+        <PostalCode></PostalCode>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSPriority</ShippingService>
+        <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">17.99</Subtotal>
+      <Total currencyID="USD">17.99</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>Zz112211!</UserFirstName>
+            <UserLastName>Zzhello jie</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <CalculatedShippingRate>
+              <OriginatingPostalCode>95125</OriginatingPostalCode>
+              <PackageDepth measurementSystem="English" unit="inches">6</PackageDepth>
+              <PackageLength measurementSystem="English" unit="inches">7</PackageLength>
+              <PackageWidth measurementSystem="English" unit="inches">7</PackageWidth>
+              <PackagingHandlingCosts currencyID="USD">0.0</PackagingHandlingCosts>
+              <ShippingIrregular>false</ShippingIrregular>
+              <ShippingPackage>PackageThickEnvelope</ShippingPackage>
+              <WeightMajor measurementSystem="English" unit="lbs">2</WeightMajor>
+              <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+            </CalculatedShippingRate>
+            <SellingManagerSalesRecordNumber>103</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T22:16:32.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328555638</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Pink,M]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939092001</TransactionID>
+          <TransactionPrice currencyID="USD">17.99</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Pnk_M</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Pink</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>M</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Pink,M]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328555638&amp;vti=Color%09Pink%0ASize%09M</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <OrderLineItemID>110328555638-28939092001</OrderLineItemID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro3</BuyerUserID>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OCpgqdj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+    <Order>
+      <OrderID>110328555638-28939093001</OrderID>
+      <OrderStatus>Active</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">0.0</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-16T22:24:23.000Z</LastModifiedTime>
+        <PaymentMethod>None</PaymentMethod>
+        <Status>Incomplete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>8.75</SalesTaxPercent>
+          <SalesTaxState>CA</SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSPriority</ShippingService>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>1</ShippingTimeMin>
+          <ShippingTimeMax>3</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingServiceOptions>
+          <ShippingService>UPSGround</ShippingService>
+          <ShippingServicePriority>2</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>1</ShippingTimeMin>
+          <ShippingTimeMax>5</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingServiceOptions>
+          <ShippingService>UPSNextDay</ShippingService>
+          <ShippingServicePriority>3</ShippingServicePriority>
+          <ExpeditedService>true</ExpeditedService>
+          <ShippingTimeMin>1</ShippingTimeMin>
+          <ShippingTimeMax>1</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>104</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatedTime>2018-06-13T22:24:40.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid2@wirelessbro.com</SellerEmail>
+      <ShippingAddress>
+        <Name></Name>
+        <Street1></Street1>
+        <Street2></Street2>
+        <CityName></CityName>
+        <StateOrProvince></StateOrProvince>
+        <CountryName></CountryName>
+        <Phone></Phone>
+        <PostalCode></PostalCode>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSPriority</ShippingService>
+        <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">20.0</Subtotal>
+      <Total currencyID="USD">20.0</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <CalculatedShippingRate>
+              <OriginatingPostalCode>95125</OriginatingPostalCode>
+              <PackageDepth measurementSystem="English" unit="inches">6</PackageDepth>
+              <PackageLength measurementSystem="English" unit="inches">7</PackageLength>
+              <PackageWidth measurementSystem="English" unit="inches">7</PackageWidth>
+              <PackagingHandlingCosts currencyID="USD">0.0</PackagingHandlingCosts>
+              <ShippingIrregular>false</ShippingIrregular>
+              <ShippingPackage>PackageThickEnvelope</ShippingPackage>
+              <WeightMajor measurementSystem="English" unit="lbs">2</WeightMajor>
+              <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+            </CalculatedShippingRate>
+            <SellingManagerSalesRecordNumber>104</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T22:24:40.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328555638</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Black,M]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939093001</TransactionID>
+          <TransactionPrice currencyID="USD">20.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Blk_M</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Black</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>M</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Black,M]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328555638&amp;vti=Color%09Black%0ASize%09M</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <OrderLineItemID>110328555638-28939093001</OrderLineItemID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro4</BuyerUserID>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OApgidj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+    <Order>
+      <OrderID>110328558968-28939094001</OrderID>
+      <OrderStatus>Completed</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">67.5</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-16T22:36:20.000Z</LastModifiedTime>
+        <PaymentMethod>PayPal</PaymentMethod>
+        <Status>Complete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <SalesTaxState></SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>105</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatedTime>2018-06-13T22:35:22.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid2@wirelessbro.com</SellerEmail>
+      <ShippingAddress>
+        <Name>four four</Name>
+        <Street1>address</Street1>
+        <Street2></Street2>
+        <CityName>city</CityName>
+        <StateOrProvince>WA</StateOrProvince>
+        <Country>US</Country>
+        <CountryName>United States</CountryName>
+        <Phone>1000044433</Phone>
+        <PostalCode>98102</PostalCode>
+        <AddressID>14386785</AddressID>
+        <AddressOwner>eBay</AddressOwner>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSMedia</ShippingService>
+        <ShippingServiceCost currencyID="USD">7.5</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">60.0</Subtotal>
+      <Total currencyID="USD">67.5</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>105</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T22:35:22.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Black,S]</Title>
+          </Item>
+          <QuantityPurchased>3</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939094001</TransactionID>
+          <TransactionPrice currencyID="USD">20.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Blk_S</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Black</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Black,S]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Black%0ASize%09S</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">7.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328558968-28939094001</OrderLineItemID>
+          <ExtendedOrderID>110328558968-28939094001!947785000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro4</BuyerUserID>
+      <PaidTime>2018-06-13T23:00:47.000Z</PaidTime>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OApgidj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ExtendedOrderID>110328558968-28939094001!947785000</ExtendedOrderID>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+    <Order>
+      <OrderID>110328558968-28939095001</OrderID>
+      <OrderStatus>Active</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">0.0</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-16T23:09:47.000Z</LastModifiedTime>
+        <PaymentMethod>None</PaymentMethod>
+        <Status>Incomplete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <SalesTaxState></SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>106</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatedTime>2018-06-13T23:09:18.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid2@wirelessbro.com</SellerEmail>
+      <ShippingAddress>
+        <Name></Name>
+        <Street1></Street1>
+        <Street2></Street2>
+        <CityName></CityName>
+        <StateOrProvince></StateOrProvince>
+        <CountryName></CountryName>
+        <Phone></Phone>
+        <PostalCode></PostalCode>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSMedia</ShippingService>
+        <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">20.0</Subtotal>
+      <Total currencyID="USD">22.5</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>Zz112211!</UserFirstName>
+            <UserLastName>Zzhello jie</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>106</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T23:09:18.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Black,S]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939095001</TransactionID>
+          <TransactionPrice currencyID="USD">20.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Blk_S</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Black</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Black,S]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Black%0ASize%09S</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <OrderLineItemID>110328558968-28939095001</OrderLineItemID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro3</BuyerUserID>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OCpgqdj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+    <Order>
+      <OrderID>110328558968-28939096001</OrderID>
+      <OrderStatus>Active</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">0.0</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-16T23:09:48.000Z</LastModifiedTime>
+        <PaymentMethod>None</PaymentMethod>
+        <Status>Incomplete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <SalesTaxState></SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>107</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatedTime>2018-06-13T23:09:38.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid2@wirelessbro.com</SellerEmail>
+      <ShippingAddress>
+        <Name></Name>
+        <Street1></Street1>
+        <Street2></Street2>
+        <CityName></CityName>
+        <StateOrProvince></StateOrProvince>
+        <CountryName></CountryName>
+        <Phone></Phone>
+        <PostalCode></PostalCode>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSMedia</ShippingService>
+        <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">17.99</Subtotal>
+      <Total currencyID="USD">20.49</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>Zz112211!</UserFirstName>
+            <UserLastName>Zzhello jie</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>107</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-13T23:09:38.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Pink,S]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939096001</TransactionID>
+          <TransactionPrice currencyID="USD">17.99</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Pnk_S</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Pink</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Pink,S]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Pink%0ASize%09S</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <OrderLineItemID>110328558968-28939096001</OrderLineItemID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro3</BuyerUserID>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OCpgqdj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+    <Order>
+      <OrderID>110328558968-28939107001</OrderID>
+      <OrderStatus>Completed</OrderStatus>
+      <AdjustmentAmount currencyID="USD">0.0</AdjustmentAmount>
+      <AmountPaid currencyID="USD">22.5</AmountPaid>
+      <AmountSaved currencyID="USD">0.0</AmountSaved>
+      <CheckoutStatus>
+        <eBayPaymentStatus>NoPaymentFailure</eBayPaymentStatus>
+        <LastModifiedTime>2018-06-17T00:02:25.000Z</LastModifiedTime>
+        <PaymentMethod>PayPal</PaymentMethod>
+        <Status>Complete</Status>
+        <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      </CheckoutStatus>
+      <ShippingDetails>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <SalesTaxState></SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          <SalesTaxAmount currencyID="USD">0.0</SalesTaxAmount>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <SellingManagerSalesRecordNumber>122</SellingManagerSalesRecordNumber>
+        <GetItFast>false</GetItFast>
+      </ShippingDetails>
+      <CreatedTime>2018-06-14T00:03:21.000Z</CreatedTime>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <SellerEmail>zhanglid2@wirelessbro.com</SellerEmail>
+      <ShippingAddress>
+        <Name>four four</Name>
+        <Street1>address</Street1>
+        <Street2></Street2>
+        <CityName>city</CityName>
+        <StateOrProvince>WA</StateOrProvince>
+        <Country>US</Country>
+        <CountryName>United States</CountryName>
+        <Phone>1000044433</Phone>
+        <PostalCode>98102</PostalCode>
+        <AddressID>14386785</AddressID>
+        <AddressOwner>eBay</AddressOwner>
+        <ExternalAddressID></ExternalAddressID>
+      </ShippingAddress>
+      <ShippingServiceSelected>
+        <ShippingService>USPSMedia</ShippingService>
+        <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+      </ShippingServiceSelected>
+      <Subtotal currencyID="USD">20.0</Subtotal>
+      <Total currencyID="USD">22.5</Total>
+      <TransactionArray>
+        <Transaction>
+          <Buyer>
+            <Email>Invalid Request</Email>
+            <VATStatus>NoVATTax</VATStatus>
+            <UserFirstName>four</UserFirstName>
+            <UserLastName>four</UserLastName>
+          </Buyer>
+          <ShippingDetails>
+            <SellingManagerSalesRecordNumber>122</SellingManagerSalesRecordNumber>
+          </ShippingDetails>
+          <CreatedDate>2018-06-14T00:03:21.000Z</CreatedDate>
+          <Item>
+            <ItemID>110328558968</ItemID>
+            <Site>US</Site>
+            <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Black,S]</Title>
+          </Item>
+          <QuantityPurchased>1</QuantityPurchased>
+          <Status>
+            <PaymentHoldStatus>None</PaymentHoldStatus>
+            <InquiryStatus>NotApplicable</InquiryStatus>
+            <ReturnStatus>NotApplicable</ReturnStatus>
+          </Status>
+          <TransactionID>28939107001</TransactionID>
+          <TransactionPrice currencyID="USD">20.0</TransactionPrice>
+          <TransactionSiteID>US</TransactionSiteID>
+          <Platform>eBay</Platform>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Blk_S</SKU>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Black</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+            <VariationTitle>New Ralph Lauren Polo shirt Pink Black Blue Yellow[Black,S]</VariationTitle>
+            <VariationViewItemURL>http://cgi.sandbox.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;item=110328558968&amp;vti=Color%09Black%0ASize%09S</VariationViewItemURL>
+          </Variation>
+          <Taxes>
+            <TotalTaxAmount currencyID="USD">0.0</TotalTaxAmount>
+            <TaxDetails>
+              <Imposition>SalesTax</Imposition>
+              <TaxDescription>SalesTax</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+              <TaxOnSubtotalAmount currencyID="USD">0.0</TaxOnSubtotalAmount>
+              <TaxOnShippingAmount currencyID="USD">0.0</TaxOnShippingAmount>
+              <TaxOnHandlingAmount currencyID="USD">0.0</TaxOnHandlingAmount>
+            </TaxDetails>
+            <TaxDetails>
+              <Imposition>WasteRecyclingFee</Imposition>
+              <TaxDescription>ElectronicWasteRecyclingFee</TaxDescription>
+              <TaxAmount currencyID="USD">0.0</TaxAmount>
+            </TaxDetails>
+          </Taxes>
+          <ActualShippingCost currencyID="USD">2.5</ActualShippingCost>
+          <ActualHandlingCost currencyID="USD">0.0</ActualHandlingCost>
+          <OrderLineItemID>110328558968-28939107001</OrderLineItemID>
+          <ExtendedOrderID>110328558968-28939107001!947786000</ExtendedOrderID>
+          <eBayPlusTransaction>false</eBayPlusTransaction>
+          <GuaranteedShipping>false</GuaranteedShipping>
+          <GuaranteedDelivery>false</GuaranteedDelivery>
+        </Transaction>
+      </TransactionArray>
+      <BuyerUserID>testuser_wirelessbro4</BuyerUserID>
+      <PaidTime>2018-06-14T00:05:35.000Z</PaidTime>
+      <IntegratedMerchantCreditCardEnabled>false</IntegratedMerchantCreditCardEnabled>
+      <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OApgidj6x9nY+seQ==</EIASToken>
+      <PaymentHoldStatus>None</PaymentHoldStatus>
+      <IsMultiLegShipping>false</IsMultiLegShipping>
+      <SellerUserID>testuser_wirelessbrobuyer</SellerUserID>
+      <SellerEIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GmCZKKoQWdj6x9nY+seQ==</SellerEIASToken>
+      <CancelStatus>NotApplicable</CancelStatus>
+      <ExtendedOrderID>110328558968-28939107001!947786000</ExtendedOrderID>
+      <ContainseBayPlusTransaction>false</ContainseBayPlusTransaction>
+    </Order>
+  </OrderArray>
+  <OrdersPerPage>100</OrdersPerPage>
+  <PageNumber>1</PageNumber>
+  <ReturnedOrderCountActual>13</ReturnedOrderCountActual>
+</GetOrdersResponse>

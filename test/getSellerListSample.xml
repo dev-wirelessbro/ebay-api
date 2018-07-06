@@ -1,0 +1,1973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetSellerListResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-07-05T17:12:54.833Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>1023</Version>
+  <Build>E1023_CORE_APISELLING_18580287_R1</Build>
+  <PaginationResult>
+    <TotalNumberOfPages>1</TotalNumberOfPages>
+    <TotalNumberOfEntries>11</TotalNumberOfEntries>
+  </PaginationResult>
+  <HasMoreItems>false</HasMoreItems>
+  <ItemArray>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <BuyItNowPrice currencyID="USD">18.0</BuyItNowPrice>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <Description>Text description of return policy details</Description>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328339066</ItemID>
+      <ListingDetails>
+        <Adult>false</Adult>
+        <BindingAuction>false</BindingAuction>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <ConvertedBuyItNowPrice currencyID="USD">18.0</ConvertedBuyItNowPrice>
+        <ConvertedStartPrice currencyID="USD">0.99</ConvertedStartPrice>
+        <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+        <HasReservePrice>false</HasReservePrice>
+        <StartTime>2018-06-12T23:17:01.000Z</StartTime>
+        <EndTime>2018-06-13T00:33:44.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328339066</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328339066</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDesigner>
+        <LayoutID>10000</LayoutID>
+        <ThemeID>10</ThemeID>
+      </ListingDesigner>
+      <ListingDuration>Days_7</ListingDuration>
+      <ListingType>Chinese</ListingType>
+      <Location>San Jose, California</Location>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <PayPalEmailAddress>zhanglid@usc.edu</PayPalEmailAddress>
+      <PrimaryCategory>
+        <CategoryID>280</CategoryID>
+        <CategoryName>Books:Magazine Back Issues</CategoryName>
+      </PrimaryCategory>
+      <PrivateListing>false</PrivateListing>
+      <Quantity>1</Quantity>
+      <ReservePrice currencyID="USD">0.0</ReservePrice>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>1</BidCount>
+        <BidIncrement currencyID="USD">0.5</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">18.0</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">18.0</CurrentPrice>
+        <HighBidder>
+          <AboutMePage>false</AboutMePage>
+          <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OCpgqdj6x9nY+seQ==</EIASToken>
+          <Email>Invalid Request</Email>
+          <FeedbackScore>0</FeedbackScore>
+          <PositiveFeedbackPercent>0.0</PositiveFeedbackPercent>
+          <FeedbackPrivate>false</FeedbackPrivate>
+          <FeedbackRatingStar>None</FeedbackRatingStar>
+          <IDVerified>false</IDVerified>
+          <eBayGoodStanding>true</eBayGoodStanding>
+          <NewUser>true</NewUser>
+          <RegistrationDate>2018-06-12T21:24:53.000Z</RegistrationDate>
+          <Site>US</Site>
+          <Status>Confirmed</Status>
+          <UserID>testuser_wirelessbro3</UserID>
+          <UserIDChanged>false</UserIDChanged>
+          <UserIDLastChanged>2018-06-12T21:24:53.000Z</UserIDLastChanged>
+          <VATStatus>NoVATTax</VATStatus>
+          <BuyerInfo>
+            <ShippingAddress>
+              <Country>US</Country>
+              <PostalCode>98102</PostalCode>
+            </ShippingAddress>
+          </BuyerInfo>
+          <UserAnonymized>false</UserAnonymized>
+        </HighBidder>
+        <MinimumToBid currencyID="USD">18.5</MinimumToBid>
+        <QuantitySold>1</QuantitySold>
+        <ReserveMet>true</ReserveMet>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Ended</ListingStatus>
+        <SoldAsBin>true</SoldAsBin>
+      </SellingStatus>
+      <ShippingDetails>
+        <ApplyShippingDiscount>false</ApplyShippingDiscount>
+        <CalculatedShippingRate>
+          <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+          <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+        </CalculatedShippingRate>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingType>Flat</ShippingType>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+        <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <StartPrice currencyID="USD">0.99</StartPrice>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>Harry Potter and the Goblet of Fire</Title>
+      <UUID>CBEFC1E08AF811DDAD8B0500888C9A55</UUID>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <GetItFast>false</GetItFast>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <DispatchTimeMax>3</DispatchTimeMax>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5795862000</PaymentProfileID>
+          <PaymentProfileName>PayPal</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <ShippingPackageDetails>
+        <ShippingIrregular>false</ShippingIrregular>
+        <ShippingPackage>None</ShippingPackage>
+        <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </ShippingPackageDetails>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <BuyItNowPrice currencyID="USD">18.0</BuyItNowPrice>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <Description>Text description of return policy details</Description>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328340066</ItemID>
+      <ListingDetails>
+        <Adult>false</Adult>
+        <BindingAuction>false</BindingAuction>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <ConvertedBuyItNowPrice currencyID="USD">18.0</ConvertedBuyItNowPrice>
+        <ConvertedStartPrice currencyID="USD">0.99</ConvertedStartPrice>
+        <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+        <HasReservePrice>false</HasReservePrice>
+        <StartTime>2018-06-12T23:21:04.000Z</StartTime>
+        <EndTime>2018-06-19T23:21:04.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328340066</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <BuyItNowAvailable>true</BuyItNowAvailable>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328340066</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDesigner>
+        <LayoutID>10000</LayoutID>
+        <ThemeID>10</ThemeID>
+      </ListingDesigner>
+      <ListingDuration>Days_7</ListingDuration>
+      <ListingType>Chinese</ListingType>
+      <Location>San Jose, California</Location>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <PayPalEmailAddress>zhanglid@usc.edu</PayPalEmailAddress>
+      <PrimaryCategory>
+        <CategoryID>280</CategoryID>
+        <CategoryName>Books:Magazine Back Issues</CategoryName>
+      </PrimaryCategory>
+      <PrivateListing>false</PrivateListing>
+      <Quantity>1</Quantity>
+      <ReservePrice currencyID="USD">0.0</ReservePrice>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">0.05</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">0.99</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">0.99</CurrentPrice>
+        <MinimumToBid currencyID="USD">0.99</MinimumToBid>
+        <QuantitySold>0</QuantitySold>
+        <ReserveMet>true</ReserveMet>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Completed</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ApplyShippingDiscount>false</ApplyShippingDiscount>
+        <CalculatedShippingRate>
+          <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+          <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+        </CalculatedShippingRate>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingType>Flat</ShippingType>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+        <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <StartPrice currencyID="USD">0.99</StartPrice>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>Harry Potter and the Goblet of Fire</Title>
+      <UUID>CBEFC1E08AF811DDAD8B0500888C9A45</UUID>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <GetItFast>false</GetItFast>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <DispatchTimeMax>3</DispatchTimeMax>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5795862000</PaymentProfileID>
+          <PaymentProfileName>PayPal</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <ShippingPackageDetails>
+        <ShippingIrregular>false</ShippingIrregular>
+        <ShippingPackage>None</ShippingPackage>
+        <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </ShippingPackageDetails>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <BuyItNowPrice currencyID="USD">18.0</BuyItNowPrice>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <Description>Text description of return policy details</Description>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328341870</ItemID>
+      <ListingDetails>
+        <Adult>false</Adult>
+        <BindingAuction>false</BindingAuction>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <ConvertedBuyItNowPrice currencyID="USD">18.0</ConvertedBuyItNowPrice>
+        <ConvertedStartPrice currencyID="USD">0.99</ConvertedStartPrice>
+        <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+        <HasReservePrice>false</HasReservePrice>
+        <StartTime>2018-06-12T23:29:16.000Z</StartTime>
+        <EndTime>2018-06-13T21:22:20.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328341870</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328341870</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDesigner>
+        <LayoutID>10000</LayoutID>
+        <ThemeID>10</ThemeID>
+      </ListingDesigner>
+      <ListingDuration>Days_7</ListingDuration>
+      <ListingType>Chinese</ListingType>
+      <Location>San Jose, California</Location>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <PayPalEmailAddress>zhanglid@usc.edu</PayPalEmailAddress>
+      <PrimaryCategory>
+        <CategoryID>280</CategoryID>
+        <CategoryName>Books:Magazine Back Issues</CategoryName>
+      </PrimaryCategory>
+      <PrivateListing>false</PrivateListing>
+      <Quantity>1</Quantity>
+      <ReservePrice currencyID="USD">0.0</ReservePrice>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>1</BidCount>
+        <BidIncrement currencyID="USD">0.5</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">18.0</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">18.0</CurrentPrice>
+        <HighBidder>
+          <AboutMePage>false</AboutMePage>
+          <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OCpgqdj6x9nY+seQ==</EIASToken>
+          <Email>Invalid Request</Email>
+          <FeedbackScore>0</FeedbackScore>
+          <PositiveFeedbackPercent>0.0</PositiveFeedbackPercent>
+          <FeedbackPrivate>false</FeedbackPrivate>
+          <FeedbackRatingStar>None</FeedbackRatingStar>
+          <IDVerified>false</IDVerified>
+          <eBayGoodStanding>true</eBayGoodStanding>
+          <NewUser>true</NewUser>
+          <RegistrationDate>2018-06-12T21:24:53.000Z</RegistrationDate>
+          <Site>US</Site>
+          <Status>Confirmed</Status>
+          <UserID>testuser_wirelessbro3</UserID>
+          <UserIDChanged>false</UserIDChanged>
+          <UserIDLastChanged>2018-06-12T21:24:53.000Z</UserIDLastChanged>
+          <VATStatus>NoVATTax</VATStatus>
+          <BuyerInfo>
+            <ShippingAddress>
+              <Country>US</Country>
+              <PostalCode>98102</PostalCode>
+            </ShippingAddress>
+          </BuyerInfo>
+          <UserAnonymized>false</UserAnonymized>
+        </HighBidder>
+        <MinimumToBid currencyID="USD">18.5</MinimumToBid>
+        <QuantitySold>1</QuantitySold>
+        <ReserveMet>true</ReserveMet>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Ended</ListingStatus>
+        <SoldAsBin>true</SoldAsBin>
+      </SellingStatus>
+      <ShippingDetails>
+        <ApplyShippingDiscount>false</ApplyShippingDiscount>
+        <CalculatedShippingRate>
+          <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+          <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+        </CalculatedShippingRate>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingType>Flat</ShippingType>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+        <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <StartPrice currencyID="USD">0.99</StartPrice>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>Harry Potter and the Goblet of Fire</Title>
+      <UUID>CBEFC1E08AF811DDAD8B0344888C9A55</UUID>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <GetItFast>false</GetItFast>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <DispatchTimeMax>3</DispatchTimeMax>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5795862000</PaymentProfileID>
+          <PaymentProfileName>PayPal</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <ShippingPackageDetails>
+        <ShippingIrregular>false</ShippingIrregular>
+        <ShippingPackage>None</ShippingPackage>
+        <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </ShippingPackageDetails>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <BuyItNowPrice currencyID="USD">18.0</BuyItNowPrice>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <Description>Text description of return policy details</Description>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328342077</ItemID>
+      <ListingDetails>
+        <Adult>false</Adult>
+        <BindingAuction>false</BindingAuction>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <ConvertedBuyItNowPrice currencyID="USD">18.0</ConvertedBuyItNowPrice>
+        <ConvertedStartPrice currencyID="USD">0.99</ConvertedStartPrice>
+        <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+        <HasReservePrice>false</HasReservePrice>
+        <StartTime>2018-06-12T23:30:04.000Z</StartTime>
+        <EndTime>2018-06-19T23:30:04.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/AA01-IPHONE-LCF-/110328342077</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <BuyItNowAvailable>true</BuyItNowAvailable>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/AA01-IPHONE-LCF-/110328342077</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDesigner>
+        <LayoutID>10000</LayoutID>
+        <ThemeID>10</ThemeID>
+      </ListingDesigner>
+      <ListingDuration>Days_7</ListingDuration>
+      <ListingType>Chinese</ListingType>
+      <Location>San Jose, California</Location>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <PayPalEmailAddress>zhanglid@usc.edu</PayPalEmailAddress>
+      <PrimaryCategory>
+        <CategoryID>280</CategoryID>
+        <CategoryName>Books:Magazine Back Issues</CategoryName>
+      </PrimaryCategory>
+      <PrivateListing>false</PrivateListing>
+      <Quantity>1</Quantity>
+      <ReservePrice currencyID="USD">0.0</ReservePrice>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">0.05</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">0.99</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">0.99</CurrentPrice>
+        <MinimumToBid currencyID="USD">0.99</MinimumToBid>
+        <QuantitySold>0</QuantitySold>
+        <ReserveMet>true</ReserveMet>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Completed</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ApplyShippingDiscount>false</ApplyShippingDiscount>
+        <CalculatedShippingRate>
+          <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+          <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+        </CalculatedShippingRate>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingType>Flat</ShippingType>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+        <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <StartPrice currencyID="USD">0.99</StartPrice>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>AA01-IPHONE-LCF</Title>
+      <UUID>CBEFC1E08AF811DDAD8B0344888C9A53</UUID>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <GetItFast>false</GetItFast>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <DispatchTimeMax>3</DispatchTimeMax>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5795862000</PaymentProfileID>
+          <PaymentProfileName>PayPal</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <ShippingPackageDetails>
+        <ShippingIrregular>false</ShippingIrregular>
+        <ShippingPackage>None</ShippingPackage>
+        <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </ShippingPackageDetails>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <BuyItNowPrice currencyID="USD">18.0</BuyItNowPrice>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <Description>Text description of return policy details</Description>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328345822</ItemID>
+      <ListingDetails>
+        <Adult>false</Adult>
+        <BindingAuction>false</BindingAuction>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <ConvertedBuyItNowPrice currencyID="USD">18.0</ConvertedBuyItNowPrice>
+        <ConvertedStartPrice currencyID="USD">0.99</ConvertedStartPrice>
+        <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+        <HasReservePrice>false</HasReservePrice>
+        <StartTime>2018-06-12T23:44:58.000Z</StartTime>
+        <EndTime>2018-06-13T00:45:50.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/Gavin-Basin-/110328345822</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/Gavin-Basin-/110328345822</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDesigner>
+        <LayoutID>10000</LayoutID>
+        <ThemeID>10</ThemeID>
+      </ListingDesigner>
+      <ListingDuration>Days_7</ListingDuration>
+      <ListingType>Chinese</ListingType>
+      <Location>San Jose, California</Location>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <PayPalEmailAddress>zhanglid@usc.edu</PayPalEmailAddress>
+      <PrimaryCategory>
+        <CategoryID>280</CategoryID>
+        <CategoryName>Books:Magazine Back Issues</CategoryName>
+      </PrimaryCategory>
+      <PrivateListing>false</PrivateListing>
+      <Quantity>1</Quantity>
+      <ReservePrice currencyID="USD">0.0</ReservePrice>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>1</BidCount>
+        <BidIncrement currencyID="USD">0.5</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">18.0</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">18.0</CurrentPrice>
+        <HighBidder>
+          <AboutMePage>false</AboutMePage>
+          <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4agD5OCpgqdj6x9nY+seQ==</EIASToken>
+          <Email>Invalid Request</Email>
+          <FeedbackScore>0</FeedbackScore>
+          <PositiveFeedbackPercent>0.0</PositiveFeedbackPercent>
+          <FeedbackPrivate>false</FeedbackPrivate>
+          <FeedbackRatingStar>None</FeedbackRatingStar>
+          <IDVerified>false</IDVerified>
+          <eBayGoodStanding>true</eBayGoodStanding>
+          <NewUser>true</NewUser>
+          <RegistrationDate>2018-06-12T21:24:53.000Z</RegistrationDate>
+          <Site>US</Site>
+          <Status>Confirmed</Status>
+          <UserID>testuser_wirelessbro3</UserID>
+          <UserIDChanged>false</UserIDChanged>
+          <UserIDLastChanged>2018-06-12T21:24:53.000Z</UserIDLastChanged>
+          <VATStatus>NoVATTax</VATStatus>
+          <BuyerInfo>
+            <ShippingAddress>
+              <Country>US</Country>
+              <PostalCode>98102</PostalCode>
+            </ShippingAddress>
+          </BuyerInfo>
+          <UserAnonymized>false</UserAnonymized>
+        </HighBidder>
+        <MinimumToBid currencyID="USD">18.5</MinimumToBid>
+        <QuantitySold>1</QuantitySold>
+        <ReserveMet>true</ReserveMet>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Ended</ListingStatus>
+        <SoldAsBin>true</SoldAsBin>
+      </SellingStatus>
+      <ShippingDetails>
+        <ApplyShippingDiscount>false</ApplyShippingDiscount>
+        <CalculatedShippingRate>
+          <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+          <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+        </CalculatedShippingRate>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingType>Flat</ShippingType>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+        <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <StartPrice currencyID="USD">0.99</StartPrice>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>Gavin Basin</Title>
+      <UUID>CBEFC1E08AF811AAAA4B0500888C9A55</UUID>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <GetItFast>false</GetItFast>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <DispatchTimeMax>3</DispatchTimeMax>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5795862000</PaymentProfileID>
+          <PaymentProfileName>PayPal</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <ShippingPackageDetails>
+        <ShippingIrregular>false</ShippingIrregular>
+        <ShippingPackage>None</ShippingPackage>
+        <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </ShippingPackageDetails>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <BuyItNowPrice currencyID="USD">18.0</BuyItNowPrice>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <Description>Text description of return policy details</Description>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328345891</ItemID>
+      <ListingDetails>
+        <Adult>false</Adult>
+        <BindingAuction>false</BindingAuction>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <ConvertedBuyItNowPrice currencyID="USD">18.0</ConvertedBuyItNowPrice>
+        <ConvertedStartPrice currencyID="USD">0.99</ConvertedStartPrice>
+        <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+        <HasReservePrice>false</HasReservePrice>
+        <StartTime>2018-06-12T23:45:35.000Z</StartTime>
+        <EndTime>2018-06-19T23:45:35.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/Gavin-Basin-LISTISTISTIST-/110328345891</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <BuyItNowAvailable>true</BuyItNowAvailable>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/Gavin-Basin-LISTISTISTIST-/110328345891</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDesigner>
+        <LayoutID>10000</LayoutID>
+        <ThemeID>10</ThemeID>
+      </ListingDesigner>
+      <ListingDuration>Days_7</ListingDuration>
+      <ListingType>Chinese</ListingType>
+      <Location>San Jose, California</Location>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <PayPalEmailAddress>zhanglid@usc.edu</PayPalEmailAddress>
+      <PrimaryCategory>
+        <CategoryID>280</CategoryID>
+        <CategoryName>Books:Magazine Back Issues</CategoryName>
+      </PrimaryCategory>
+      <PrivateListing>false</PrivateListing>
+      <Quantity>1</Quantity>
+      <ReservePrice currencyID="USD">0.0</ReservePrice>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">0.05</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">0.99</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">0.99</CurrentPrice>
+        <MinimumToBid currencyID="USD">0.99</MinimumToBid>
+        <QuantitySold>0</QuantitySold>
+        <ReserveMet>true</ReserveMet>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Completed</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ApplyShippingDiscount>false</ApplyShippingDiscount>
+        <CalculatedShippingRate>
+          <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+          <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+        </CalculatedShippingRate>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingType>Flat</ShippingType>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+        <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <StartPrice currencyID="USD">0.99</StartPrice>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>Gavin Basin LISTISTISTIST</Title>
+      <UUID>CBEFC1E08AF811AAAA4B0507778C9A55</UUID>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <GetItFast>false</GetItFast>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <DispatchTimeMax>3</DispatchTimeMax>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5795862000</PaymentProfileID>
+          <PaymentProfileName>PayPal</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <ShippingPackageDetails>
+        <ShippingIrregular>false</ShippingIrregular>
+        <ShippingPackage>None</ShippingPackage>
+        <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </ShippingPackageDetails>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <BuyItNowPrice currencyID="USD">18.0</BuyItNowPrice>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <Description>Text description of return policy details</Description>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328359983</ItemID>
+      <ListingDetails>
+        <Adult>false</Adult>
+        <BindingAuction>false</BindingAuction>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <ConvertedBuyItNowPrice currencyID="USD">18.0</ConvertedBuyItNowPrice>
+        <ConvertedStartPrice currencyID="USD">0.99</ConvertedStartPrice>
+        <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+        <HasReservePrice>false</HasReservePrice>
+        <StartTime>2018-06-13T02:04:07.000Z</StartTime>
+        <EndTime>2018-06-20T02:04:07.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328359983</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <BuyItNowAvailable>true</BuyItNowAvailable>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/Harry-Potter-and-Goblet-Fire-/110328359983</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDesigner>
+        <LayoutID>10000</LayoutID>
+        <ThemeID>10</ThemeID>
+      </ListingDesigner>
+      <ListingDuration>Days_7</ListingDuration>
+      <ListingType>Chinese</ListingType>
+      <Location>San Jose, California</Location>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <PayPalEmailAddress>zhanglid@usc.edu</PayPalEmailAddress>
+      <PrimaryCategory>
+        <CategoryID>280</CategoryID>
+        <CategoryName>Books:Magazine Back Issues</CategoryName>
+      </PrimaryCategory>
+      <PrivateListing>false</PrivateListing>
+      <Quantity>1</Quantity>
+      <ReservePrice currencyID="USD">0.0</ReservePrice>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">0.05</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">0.99</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">0.99</CurrentPrice>
+        <MinimumToBid currencyID="USD">0.99</MinimumToBid>
+        <QuantitySold>0</QuantitySold>
+        <ReserveMet>true</ReserveMet>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Completed</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ApplyShippingDiscount>false</ApplyShippingDiscount>
+        <CalculatedShippingRate>
+          <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+          <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+        </CalculatedShippingRate>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingType>Flat</ShippingType>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+        <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <StartPrice currencyID="USD">0.99</StartPrice>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>Harry Potter and the Goblet of Fire</Title>
+      <UUID>CBEFC1E08AF811DDAD8B0506788C9A55</UUID>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <GetItFast>false</GetItFast>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <DispatchTimeMax>3</DispatchTimeMax>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5795862000</PaymentProfileID>
+          <PaymentProfileName>PayPal</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <ShippingPackageDetails>
+        <ShippingIrregular>false</ShippingIrregular>
+        <ShippingPackage>None</ShippingPackage>
+        <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </ShippingPackageDetails>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <BuyItNowPrice currencyID="USD">18.0</BuyItNowPrice>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <Description>This is the first book in the Harry Potter series. In excellent condition!</Description>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328551023</ItemID>
+      <ListingDetails>
+        <Adult>false</Adult>
+        <BindingAuction>false</BindingAuction>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <ConvertedBuyItNowPrice currencyID="USD">18.0</ConvertedBuyItNowPrice>
+        <ConvertedStartPrice currencyID="USD">3.0</ConvertedStartPrice>
+        <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+        <HasReservePrice>false</HasReservePrice>
+        <StartTime>2018-06-13T21:52:07.000Z</StartTime>
+        <EndTime>2018-06-20T21:52:07.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/FUCCCCCCC-/110328551023</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <BuyItNowAvailable>true</BuyItNowAvailable>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/FUCCCCCCC-/110328551023</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDesigner>
+        <LayoutID>10000</LayoutID>
+        <ThemeID>10</ThemeID>
+      </ListingDesigner>
+      <ListingDuration>Days_7</ListingDuration>
+      <ListingType>Chinese</ListingType>
+      <Location>San Jose, California</Location>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <PayPalEmailAddress>zhanglid2@wirelessbro.com</PayPalEmailAddress>
+      <PrimaryCategory>
+        <CategoryID>171228</CategoryID>
+        <CategoryName>Books:Fiction &amp; Literature</CategoryName>
+      </PrimaryCategory>
+      <PrivateListing>false</PrivateListing>
+      <Quantity>1</Quantity>
+      <ReservePrice currencyID="USD">0.0</ReservePrice>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">0.25</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">3.0</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">3.0</CurrentPrice>
+        <MinimumToBid currencyID="USD">3.0</MinimumToBid>
+        <QuantitySold>0</QuantitySold>
+        <ReserveMet>true</ReserveMet>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Completed</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ApplyShippingDiscount>false</ApplyShippingDiscount>
+        <CalculatedShippingRate>
+          <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+          <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+        </CalculatedShippingRate>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingType>Flat</ShippingType>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+        <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <StartPrice currencyID="USD">3.0</StartPrice>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>FUCCCCCCC</Title>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <GetItFast>false</GetItFast>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <DispatchTimeMax>3</DispatchTimeMax>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5796797000</PaymentProfileID>
+          <PaymentProfileName>PayPal#0</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <ShippingPackageDetails>
+        <ShippingIrregular>false</ShippingIrregular>
+        <ShippingPackage>None</ShippingPackage>
+        <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </ShippingPackageDetails>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <BuyItNowPrice currencyID="USD">0.0</BuyItNowPrice>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <Description>This is the first book in the Harry Potter series. In excellent condition!</Description>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328552578</ItemID>
+      <ListingDetails>
+        <Adult>false</Adult>
+        <BindingAuction>false</BindingAuction>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <ConvertedBuyItNowPrice currencyID="USD">0.0</ConvertedBuyItNowPrice>
+        <ConvertedStartPrice currencyID="USD">500.0</ConvertedStartPrice>
+        <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+        <HasReservePrice>false</HasReservePrice>
+        <StartTime>2018-06-13T21:57:18.000Z</StartTime>
+        <EndTime>2018-06-20T21:57:18.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/FUCCCCCCC-/110328552578</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/FUCCCCCCC-/110328552578</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDesigner>
+        <LayoutID>10000</LayoutID>
+        <ThemeID>10</ThemeID>
+      </ListingDesigner>
+      <ListingDuration>Days_7</ListingDuration>
+      <ListingType>Chinese</ListingType>
+      <Location>San Jose, California</Location>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <PayPalEmailAddress>zhanglid2@wirelessbro.com</PayPalEmailAddress>
+      <PrimaryCategory>
+        <CategoryID>171228</CategoryID>
+        <CategoryName>Books:Fiction &amp; Literature</CategoryName>
+      </PrimaryCategory>
+      <PrivateListing>false</PrivateListing>
+      <Quantity>1</Quantity>
+      <ReservePrice currencyID="USD">0.0</ReservePrice>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">10.0</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">500.0</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">500.0</CurrentPrice>
+        <MinimumToBid currencyID="USD">500.0</MinimumToBid>
+        <QuantitySold>0</QuantitySold>
+        <ReserveMet>true</ReserveMet>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Completed</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ApplyShippingDiscount>false</ApplyShippingDiscount>
+        <CalculatedShippingRate>
+          <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+          <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+        </CalculatedShippingRate>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingType>Flat</ShippingType>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+        <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <StartPrice currencyID="USD">500.0</StartPrice>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>FUCCCCCCC</Title>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <GetItFast>false</GetItFast>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <PhotoDisplay>None</PhotoDisplay>
+      </PictureDetails>
+      <DispatchTimeMax>3</DispatchTimeMax>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>Brand New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5796797000</PaymentProfileID>
+          <PaymentProfileName>PayPal#0</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <ShippingPackageDetails>
+        <ShippingIrregular>false</ShippingIrregular>
+        <ShippingPackage>None</ShippingPackage>
+        <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </ShippingPackageDetails>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <BuyItNowPrice currencyID="USD">0.0</BuyItNowPrice>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <Description>This is the first book in the Harry Potter series. In excellent condition!</Description>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328555638</ItemID>
+      <ListingDetails>
+        <Adult>false</Adult>
+        <BindingAuction>false</BindingAuction>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <ConvertedBuyItNowPrice currencyID="USD">0.0</ConvertedBuyItNowPrice>
+        <ConvertedStartPrice currencyID="USD">17.99</ConvertedStartPrice>
+        <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+        <HasReservePrice>false</HasReservePrice>
+        <StartTime>2018-06-13T22:11:45.000Z</StartTime>
+        <EndTime>2018-07-13T22:11:45.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/New-Ralph-Lauren-Polo-shirt-Pink-Black-Blue-Yellow-/110328555638</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/New-Ralph-Lauren-Polo-shirt-Pink-Black-Blue-Yellow-/110328555638</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDesigner>
+        <LayoutID>10000</LayoutID>
+        <ThemeID>10</ThemeID>
+      </ListingDesigner>
+      <ListingDuration>GTC</ListingDuration>
+      <ListingType>FixedPriceItem</ListingType>
+      <Location>San Jose, California</Location>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <PayPalEmailAddress>zhanglid2@wirelessbro.com</PayPalEmailAddress>
+      <PrimaryCategory>
+        <CategoryID>37565</CategoryID>
+        <CategoryName>Everything Else:Test Category For Internal Use Only Parent Level 2:Test Category For Internal Use Only Parent Level 3:Attributes7</CategoryName>
+      </PrimaryCategory>
+      <PrivateListing>false</PrivateListing>
+      <Quantity>52</Quantity>
+      <ReservePrice currencyID="USD">0.0</ReservePrice>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">0.0</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">17.99</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">17.99</CurrentPrice>
+        <MinimumToBid currencyID="USD">17.99</MinimumToBid>
+        <QuantitySold>2</QuantitySold>
+        <ReserveMet>true</ReserveMet>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Active</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ApplyShippingDiscount>false</ApplyShippingDiscount>
+        <CalculatedShippingRate>
+          <OriginatingPostalCode>95125</OriginatingPostalCode>
+          <PackageDepth measurementSystem="English" unit="inches">6</PackageDepth>
+          <PackageLength measurementSystem="English" unit="inches">7</PackageLength>
+          <PackageWidth measurementSystem="English" unit="inches">7</PackageWidth>
+          <PackagingHandlingCosts currencyID="USD">0.0</PackagingHandlingCosts>
+          <ShippingIrregular>false</ShippingIrregular>
+          <ShippingPackage>PackageThickEnvelope</ShippingPackage>
+          <WeightMajor measurementSystem="English" unit="lbs">2</WeightMajor>
+          <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+        </CalculatedShippingRate>
+        <PaymentInstructions>Payment must be received within 7 business days of purchase.</PaymentInstructions>
+        <SalesTax>
+          <SalesTaxPercent>8.75</SalesTaxPercent>
+          <SalesTaxState>CA</SalesTaxState>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSPriority</ShippingService>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>1</ShippingTimeMin>
+          <ShippingTimeMax>3</ShippingTimeMax>
+          <FreeShipping>true</FreeShipping>
+        </ShippingServiceOptions>
+        <ShippingServiceOptions>
+          <ShippingService>UPSGround</ShippingService>
+          <ShippingServicePriority>2</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>1</ShippingTimeMin>
+          <ShippingTimeMax>5</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingServiceOptions>
+          <ShippingService>UPSNextDay</ShippingService>
+          <ShippingServicePriority>3</ShippingServicePriority>
+          <ExpeditedService>true</ExpeditedService>
+          <ShippingTimeMin>1</ShippingTimeMin>
+          <ShippingTimeMax>1</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingType>Calculated</ShippingType>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <TaxTable>
+          <TaxJurisdiction>
+            <JurisdictionID>CA</JurisdictionID>
+            <SalesTaxPercent>8.75</SalesTaxPercent>
+            <ShippingIncludedInTax>false</ShippingIncludedInTax>
+          </TaxJurisdiction>
+        </TaxTable>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+        <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <StartPrice currencyID="USD">17.99</StartPrice>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>P8DT4H58M51S</TimeLeft>
+      <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow</Title>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <GetItFast>false</GetItFast>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <GalleryType>Gallery</GalleryType>
+        <GalleryURL>http://i12.ebayimg.com/03/i/04/8a/5f/a1_1_sbl.JPG</GalleryURL>
+        <PhotoDisplay>PicturePack</PhotoDisplay>
+        <PictureURL>http://i12.ebayimg.com/03/i/04/8a/5f/a1_1_sbl.JPG</PictureURL>
+        <PictureURL>http://i22.ebayimg.com/01/i/04/8e/53/69_1_sbl.JPG</PictureURL>
+        <PictureURL>http://i4.ebayimg.ebay.com/01/i/000/77/3c/d88f_1_sbl.JPG</PictureURL>
+      </PictureDetails>
+      <DispatchTimeMax>3</DispatchTimeMax>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <Variations>
+        <Variation>
+          <SKU>RLauren_Wom_TShirt_Pnk_S</SKU>
+          <StartPrice currencyID="USD">17.99</StartPrice>
+          <Quantity>4</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Color</Name>
+              <Value>Pink</Value>
+            </NameValueList>
+            <NameValueList>
+              <Name>Size</Name>
+              <Value>S</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>0</QuantitySold>
+          </SellingStatus>
+        </Variation>
+        <Variation>
+          <SKU>RLauren_Wom_TShirt_Pnk_M</SKU>
+          <StartPrice currencyID="USD">17.99</StartPrice>
+          <Quantity>8</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Color</Name>
+              <Value>Pink</Value>
+            </NameValueList>
+            <NameValueList>
+              <Name>Size</Name>
+              <Value>M</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>1</QuantitySold>
+          </SellingStatus>
+        </Variation>
+        <Variation>
+          <SKU>RLauren_Wom_TShirt_Blk_S</SKU>
+          <StartPrice currencyID="USD">20.0</StartPrice>
+          <Quantity>10</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Color</Name>
+              <Value>Black</Value>
+            </NameValueList>
+            <NameValueList>
+              <Name>Size</Name>
+              <Value>S</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>0</QuantitySold>
+          </SellingStatus>
+        </Variation>
+        <Variation>
+          <SKU>RLauren_Wom_TShirt_Blk_M</SKU>
+          <StartPrice currencyID="USD">20.0</StartPrice>
+          <Quantity>10</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Color</Name>
+              <Value>Black</Value>
+            </NameValueList>
+            <NameValueList>
+              <Name>Size</Name>
+              <Value>M</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>1</QuantitySold>
+          </SellingStatus>
+        </Variation>
+        <Variation>
+          <SKU>RLauren_Wom_TShirt_Blu_S</SKU>
+          <StartPrice currencyID="USD">20.0</StartPrice>
+          <Quantity>10</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Color</Name>
+              <Value>Blue</Value>
+            </NameValueList>
+            <NameValueList>
+              <Name>Size</Name>
+              <Value>S</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>0</QuantitySold>
+          </SellingStatus>
+        </Variation>
+        <Variation>
+          <SKU>RLauren_Wom_TShirt_Blu_M</SKU>
+          <StartPrice currencyID="USD">20.0</StartPrice>
+          <Quantity>10</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Color</Name>
+              <Value>Blue</Value>
+            </NameValueList>
+            <NameValueList>
+              <Name>Size</Name>
+              <Value>M</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>0</QuantitySold>
+          </SellingStatus>
+        </Variation>
+      </Variations>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5796801000</ShippingProfileID>
+          <ShippingProfileName>Calculated:USPS Priority(Free),UPS Ground,3 b</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5796800000</PaymentProfileID>
+          <PaymentProfileName>PayPal#1</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <ShippingPackageDetails>
+        <PackageDepth measurementSystem="English" unit="inches">6</PackageDepth>
+        <PackageLength measurementSystem="English" unit="inches">7</PackageLength>
+        <PackageWidth measurementSystem="English" unit="inches">7</PackageWidth>
+        <ShippingIrregular>false</ShippingIrregular>
+        <ShippingPackage>PackageThickEnvelope</ShippingPackage>
+        <WeightMajor measurementSystem="English" unit="lbs">2</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </ShippingPackageDetails>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <BuyItNowPrice currencyID="USD">0.0</BuyItNowPrice>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <Description>This is the first book in the Harry Potter series. In excellent condition!</Description>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>110328558968</ItemID>
+      <ListingDetails>
+        <Adult>false</Adult>
+        <BindingAuction>false</BindingAuction>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <ConvertedBuyItNowPrice currencyID="USD">0.0</ConvertedBuyItNowPrice>
+        <ConvertedStartPrice currencyID="USD">17.99</ConvertedStartPrice>
+        <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+        <HasReservePrice>false</HasReservePrice>
+        <StartTime>2018-06-13T22:34:09.000Z</StartTime>
+        <EndTime>2018-07-13T22:34:09.000Z</EndTime>
+        <ViewItemURL>http://cgi.sandbox.ebay.com/New-Ralph-Lauren-Polo-shirt-Pink-Black-Blue-Yellow-/110328558968</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/New-Ralph-Lauren-Polo-shirt-Pink-Black-Blue-Yellow-/110328558968</ViewItemURLForNaturalSearch>
+      </ListingDetails>
+      <ListingDesigner>
+        <LayoutID>10000</LayoutID>
+        <ThemeID>10</ThemeID>
+      </ListingDesigner>
+      <ListingDuration>GTC</ListingDuration>
+      <ListingType>FixedPriceItem</ListingType>
+      <Location>San Jose, California</Location>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <PayPalEmailAddress>zhanglid2@wirelessbro.com</PayPalEmailAddress>
+      <PrimaryCategory>
+        <CategoryID>37565</CategoryID>
+        <CategoryName>Everything Else:Test Category For Internal Use Only Parent Level 2:Test Category For Internal Use Only Parent Level 3:Attributes7</CategoryName>
+      </PrimaryCategory>
+      <PrivateListing>false</PrivateListing>
+      <Quantity>52</Quantity>
+      <ReservePrice currencyID="USD">0.0</ReservePrice>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">0.0</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">17.99</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">17.99</CurrentPrice>
+        <MinimumToBid currencyID="USD">17.99</MinimumToBid>
+        <QuantitySold>16</QuantitySold>
+        <ReserveMet>true</ReserveMet>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Active</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ApplyShippingDiscount>false</ApplyShippingDiscount>
+        <CalculatedShippingRate>
+          <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+          <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+        </CalculatedShippingRate>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+        </SalesTax>
+        <ShippingServiceOptions>
+          <ShippingService>USPSMedia</ShippingService>
+          <ShippingServiceCost currencyID="USD">2.5</ShippingServiceCost>
+          <ShippingServiceAdditionalCost currencyID="USD">2.5</ShippingServiceAdditionalCost>
+          <ShippingServicePriority>1</ShippingServicePriority>
+          <ExpeditedService>false</ExpeditedService>
+          <ShippingTimeMin>2</ShippingTimeMin>
+          <ShippingTimeMax>8</ShippingTimeMax>
+        </ShippingServiceOptions>
+        <ShippingType>Flat</ShippingType>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+        <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+      </ShippingDetails>
+      <ShipToLocations>US</ShipToLocations>
+      <Site>US</Site>
+      <StartPrice currencyID="USD">17.99</StartPrice>
+      <Storefront>
+        <StoreCategoryID>1</StoreCategoryID>
+        <StoreCategory2ID>0</StoreCategory2ID>
+        <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      </Storefront>
+      <TimeLeft>P8DT5H21M15S</TimeLeft>
+      <Title>New Ralph Lauren Polo shirt Pink Black Blue Yellow</Title>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <GetItFast>false</GetItFast>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>95125</PostalCode>
+      <PictureDetails>
+        <GalleryType>Gallery</GalleryType>
+        <GalleryURL>http://i12.ebayimg.com/03/i/04/8a/5f/a1_1_sbl.JPG</GalleryURL>
+        <PhotoDisplay>PicturePack</PhotoDisplay>
+        <PictureURL>http://i12.ebayimg.com/03/i/04/8a/5f/a1_1_sbl.JPG</PictureURL>
+        <PictureURL>http://i22.ebayimg.com/01/i/04/8e/53/69_1_sbl.JPG</PictureURL>
+        <PictureURL>http://i4.ebayimg.ebay.com/01/i/000/77/3c/d88f_1_sbl.JPG</PictureURL>
+      </PictureDetails>
+      <DispatchTimeMax>3</DispatchTimeMax>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <RefundOption>MoneyBack</RefundOption>
+        <Refund>Money Back</Refund>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ReturnsWithin>30 Days</ReturnsWithin>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+        <RestockingFeeValue>No</RestockingFeeValue>
+        <RestockingFeeValueOption>NoRestockingFee</RestockingFeeValueOption>
+      </ReturnPolicy>
+      <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+      <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+      <PaymentAllowedSite>Canada</PaymentAllowedSite>
+      <PaymentAllowedSite>US</PaymentAllowedSite>
+      <Variations>
+        <Variation>
+          <SKU>RLauren_Wom_TShirt_Pnk_S</SKU>
+          <StartPrice currencyID="USD">17.99</StartPrice>
+          <Quantity>4</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Color</Name>
+              <Value>Pink</Value>
+            </NameValueList>
+            <NameValueList>
+              <Name>Size</Name>
+              <Value>S</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>4</QuantitySold>
+          </SellingStatus>
+        </Variation>
+        <Variation>
+          <SKU>RLauren_Wom_TShirt_Pnk_M</SKU>
+          <StartPrice currencyID="USD">17.99</StartPrice>
+          <Quantity>8</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Color</Name>
+              <Value>Pink</Value>
+            </NameValueList>
+            <NameValueList>
+              <Name>Size</Name>
+              <Value>M</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>1</QuantitySold>
+          </SellingStatus>
+        </Variation>
+        <Variation>
+          <SKU>RLauren_Wom_TShirt_Blk_S</SKU>
+          <StartPrice currencyID="USD">20.0</StartPrice>
+          <Quantity>10</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Color</Name>
+              <Value>Black</Value>
+            </NameValueList>
+            <NameValueList>
+              <Name>Size</Name>
+              <Value>S</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>6</QuantitySold>
+          </SellingStatus>
+        </Variation>
+        <Variation>
+          <SKU>RLauren_Wom_TShirt_Blk_M</SKU>
+          <StartPrice currencyID="USD">20.0</StartPrice>
+          <Quantity>10</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Color</Name>
+              <Value>Black</Value>
+            </NameValueList>
+            <NameValueList>
+              <Name>Size</Name>
+              <Value>M</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>0</QuantitySold>
+          </SellingStatus>
+        </Variation>
+        <Variation>
+          <SKU>RLauren_Wom_TShirt_Blu_S</SKU>
+          <StartPrice currencyID="USD">20.0</StartPrice>
+          <Quantity>10</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Color</Name>
+              <Value>Blue</Value>
+            </NameValueList>
+            <NameValueList>
+              <Name>Size</Name>
+              <Value>S</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>4</QuantitySold>
+          </SellingStatus>
+        </Variation>
+        <Variation>
+          <SKU>RLauren_Wom_TShirt_Blu_M</SKU>
+          <StartPrice currencyID="USD">20.0</StartPrice>
+          <Quantity>10</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Color</Name>
+              <Value>Blue</Value>
+            </NameValueList>
+            <NameValueList>
+              <Name>Size</Name>
+              <Value>M</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>1</QuantitySold>
+          </SellingStatus>
+        </Variation>
+      </Variations>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>5795863000</ShippingProfileID>
+          <ShippingProfileName>Flat:USPS Media Mail($2.50),3 business days</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>5795861000</ReturnProfileID>
+          <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>5796797000</PaymentProfileID>
+          <PaymentProfileName>PayPal#0</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <ShippingPackageDetails>
+        <ShippingIrregular>false</ShippingIrregular>
+        <ShippingPackage>None</ShippingPackage>
+        <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </ShippingPackageDetails>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+    </Item>
+  </ItemArray>
+  <ItemsPerPage>100</ItemsPerPage>
+  <PageNumber>1</PageNumber>
+  <ReturnedItemCountActual>11</ReturnedItemCountActual>
+  <Seller>
+    <AboutMePage>false</AboutMePage>
+    <FeedbackScore>500</FeedbackScore>
+    <PositiveFeedbackPercent>0.0</PositiveFeedbackPercent>
+    <FeedbackPrivate>false</FeedbackPrivate>
+    <FeedbackRatingStar>Purple</FeedbackRatingStar>
+    <IDVerified>true</IDVerified>
+    <eBayGoodStanding>true</eBayGoodStanding>
+    <NewUser>false</NewUser>
+    <RegistrationDate>2006-01-01T00:00:00.000Z</RegistrationDate>
+    <Site>US</Site>
+    <Status>Confirmed</Status>
+    <UserID>testuser_wirelessbrobuyer</UserID>
+    <UserIDChanged>false</UserIDChanged>
+    <UserIDLastChanged>2017-12-19T03:16:52.000Z</UserIDLastChanged>
+    <VATStatus>NoVATTax</VATStatus>
+    <SellerInfo>
+      <AllowPaymentEdit>true</AllowPaymentEdit>
+      <CheckoutEnabled>true</CheckoutEnabled>
+      <CIPBankAccountStored>false</CIPBankAccountStored>
+      <GoodStanding>true</GoodStanding>
+      <LiveAuctionAuthorized>false</LiveAuctionAuthorized>
+      <MerchandizingPref>OptIn</MerchandizingPref>
+      <QualifiesForB2BVAT>false</QualifiesForB2BVAT>
+      <StoreOwner>true</StoreOwner>
+      <StoreURL>http://www.stores.sandbox.ebay.com/id=133712809http://www.stores.sandbox.ebay.com/testuser_wirelessbrobuyer</StoreURL>
+      <SafePaymentExempt>true</SafePaymentExempt>
+    </SellerInfo>
+    <MotorsDealer>false</MotorsDealer>
+  </Seller>
+</GetSellerListResponse>
