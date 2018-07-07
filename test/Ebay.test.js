@@ -1,7 +1,9 @@
 const assert = require("assert");
 const Ebay = require("../lib/Ebay");
 const _ = require("lodash");
+const qs = require("qs");
 const mock = require("./Mock").create();
+
 const scope = [
   "https://api.ebay.com/oauth/api_scope",
   "https://api.ebay.com/oauth/api_scope/sell.marketing.readonly",
@@ -135,11 +137,14 @@ describe("Ebay class", () => {
           expectedHeaders
         );
 
-        assert.deepEqual(JSON.parse(postData.data), {
-          grant_type: "authorization_code",
-          code,
-          redirect_uri: "TEST"
-        });
+        assert.equal(
+          postData.data,
+          qs.stringify({
+            grant_type: "authorization_code",
+            code,
+            redirect_uri: "TEST"
+          })
+        );
 
         assert.deepEqual(result, successToken);
       });
@@ -186,11 +191,14 @@ describe("Ebay class", () => {
         expectedHeaders
       );
 
-      assert.deepEqual(JSON.parse(postData.data), {
-        grant_type: "refresh_token",
-        refresh_token,
-        redirect_uri: "TEST"
-      });
+      assert.deepEqual(
+        postData.data,
+        qs.stringify({
+          grant_type: "refresh_token",
+          refresh_token,
+          redirect_uri: "TEST"
+        })
+      );
 
       assert.deepEqual(result, successToken);
     });
@@ -222,10 +230,21 @@ describe("Ebay class", () => {
       <Version>1057</Version>
       <WarningLevel>High</WarningLevel>
     </GetSessionIDRequest>`;
+    const expectedPostHeaders = {
+      "Content-Type": "text/xml",
+      "X-EBAY-API-COMPATIBILITY-LEVEL": "1061",
+      "X-EBAY-API-CALL-NAME": "GetSessionID",
+      "X-EBAY-API-SITEID": "0",
+      "X-EBAY-API-APP-NAME": config.clientId,
+      "X-EBAY-API-DEV-NAME": config.devId,
+      "X-EBAY-API-CERT-NAME": config.certId
+    };
 
     let postData = {};
-    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(data => {
-      postData = data;
+    let postHeaders = {};
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig.data;
+      postHeaders = postConfig.headers;
       const response = `<?xml version="1.0" encoding="UTF-8"?>
       <GetSessionIDResponse xmlns="urn:ebay:apis:eBLBaseComponents">
         <Timestamp>2015-11-10T01:31:34.148Z</Timestamp>
@@ -237,14 +256,72 @@ describe("Ebay class", () => {
       return [200, response];
     });
 
+    return ebay.getSessionId().then(sessionId => {
+      assert.equal(sessionId, "MySessionID");
+      assert.equal(postData, expectedPostData);
+      assert.deepEqual(
+        expectedPostHeaders,
+        _.pick(postHeaders, _.keys(expectedPostHeaders))
+      );
+    });
+  });
+
+  it("GetEbayAuthNAuthToken is able to get token", () => {
+    const config = {
+      clientId: "Wireless-wireless-SBX-85d705b3d-529548a6",
+      certId: "SBX-5d705b3d6c82-1c55-473a-8979-04be",
+      authType: "AuthNAuth",
+      env: "sandbox",
+      redirectURI: "TEST",
+      scope
+    };
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(config => {
+      postData = config;
+      return [200, successToken];
+    });
+    const ebay = new Ebay(config);
+
+    const expectedPostData = `<?xml version="1.0" encoding="utf-8"?>
+    <FetchTokenRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+      <SessionID>YourSessionIDHere</SessionID>
+    </FetchTokenRequest>`;
+    const expectedPostHeaders = {
+      "Content-Type": "text/xml",
+      "X-EBAY-API-COMPATIBILITY-LEVEL": "1061",
+      "X-EBAY-API-CALL-NAME": "FetchToken",
+      "X-EBAY-API-SITEID": "0",
+      "X-EBAY-API-APP-NAME": config.clientId,
+      "X-EBAY-API-DEV-NAME": config.devId,
+      "X-EBAY-API-CERT-NAME": config.certId
+    };
+
+    let postData = {};
+    let postHeaders = {};
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig.data;
+      postHeaders = postConfig.headers;
+      const response = `<?xml version="1.0" encoding="utf-8"?>
+      <FetchTokenResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+        <Timestamp>2015-11-10T20:42:58.943Z</Timestamp>
+        <Ack>Success</Ack>
+        <Version>967</Version>
+        <Build>E967_CORE_BUNDLED_12301500_R1</Build>
+        <eBayAuthToken>YourAuthToken</eBayAuthToken>
+        <HardExpirationTime>2016-05-03T20:36:32.000Z</HardExpirationTime>
+      </FetchTokenResponse> `;
+      return [200, response];
+    });
+
     return ebay
-      .getSessionId()
-      .then(sessionId => {
-        assert.equal(sessionId, "MySessionID");
-        assert.equal(postData.data, expectedPostData);
-      })
-      .catch(error => {
-        throw error;
+      .getAuthNAuthToken("YourSessionIDHere")
+      .then(({ token, expire }) => {
+        assert.equal(token, "YourAuthToken");
+        assert.equal(expire, "2016-05-03T20:36:32.000Z");
+        assert.deepEqual(
+          expectedPostHeaders,
+          _.pick(postHeaders, _.keys(expectedPostHeaders))
+        );
+        assert.equal(postData, expectedPostData);
       });
   });
 });

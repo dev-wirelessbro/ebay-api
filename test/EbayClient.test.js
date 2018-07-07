@@ -9,20 +9,16 @@ const toJson = require("xml2json").toJson;
 const EbayClient = require("../lib/EbayClient");
 const errors = require("../lib/Error");
 const OAuthClientData = {
-  email: "testebay@wirelessbro.com",
-  userId: "testebay00",
   token: "TOKENTOKENTOKEN",
   authType: "OAUTH",
-  expire: "2018-07-01T01:31:34.148Z",
+  expire: moment().add(1, "day"),
   env: "sandbox"
 };
 
 const AuthNAuthClientData = {
-  email: "testebay@wirelessbro.com",
-  userId: "testebay00",
   token: "TOKENTOKENTOKEN",
   authType: "AUTHNAUTH",
-  expire: "2018-07-01T01:31:34.148Z",
+  expire: moment().add(1, "day"),
   env: "sandbox",
   appConfig: {
     clientId: "CLIENTIDTEST",
@@ -34,10 +30,10 @@ const AuthNAuthClientData = {
 describe("EbayClient", () => {
   afterEach(() => mock.reset());
 
-  it("EbayClient should save email, env, userId, token, authType, expire", () => {
+  it("EbayClient should save env, token, authType, expire", () => {
     const ebayClient = new EbayClient(OAuthClientData);
 
-    const keys = ["authType", "email", "env", "expire", "token", "userId"];
+    const keys = ["authType", "env", "expire", "token"];
     assert.deepEqual(_.pick(ebayClient.config, keys), OAuthClientData);
   });
 
@@ -80,7 +76,10 @@ describe("EbayClient", () => {
   });
 
   it("is expire determine expire correctly", () => {
-    const ebayClient = new EbayClient(OAuthClientData);
+    const ebayClient = new EbayClient({
+      ...OAuthClientData,
+      expire: moment().subtract(1, "day")
+    });
 
     assert.equal(ebayClient.isExpire, true);
   });
@@ -163,14 +162,12 @@ describe("EbayClient", () => {
 
   it("getSellerList throw InvalidOptionsError when pass an invalid options", () => {
     const ebayClient = new EbayClient(OAuthClientData);
-    let caughtError;
-    try {
-      ebayClient.getSellerList("invalid");
-    } catch (err) {
-      caughtError = err;
-    } finally {
-      assert.equal(caughtError.name, errors.InvalidOptionsError.name);
-    }
+    return ebayClient
+      .getSellerList("invalid")
+      .catch(error => error)
+      .then(error => {
+        assert.equal(error.name, errors.InvalidOptionsError.name);
+      });
   });
 
   it("getSellerList is able to parse result correctly", () => {
@@ -424,5 +421,23 @@ describe("EbayClient", () => {
       );
       assert(result.SetNotificationPreferencesResponse.Ack);
     });
+  });
+
+  it("when request expired token, it will throw ExpiredTokenError", () => {
+    const config = {
+      ...OAuthClientData,
+      expire: moment().subtract(1, "day")
+    };
+
+    const ebayClient = new EbayClient(config);
+
+    mock.onAny().reply(200);
+
+    return ebayClient
+      .getUser()
+      .catch(error => error)
+      .then(error => {
+        assert.equal(error.name, errors.ExpiredTokenError.name);
+      });
   });
 });
