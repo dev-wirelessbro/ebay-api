@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetSellerListResponse 
+  xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-07-09T18:26:55.062Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>1059</Version>
+  <Build>E1059_CORE_APISELLING_18694654_R1</Build>
+  <PaginationResult>
+    <TotalNumberOfPages>1</TotalNumberOfPages>
+    <TotalNumberOfEntries>1</TotalNumberOfEntries>
+  </PaginationResult>
+  <HasMoreItems>false</HasMoreItems>
+  <ItemArray>
+    <Item>
+      <AutoPay>false</AutoPay>
+      <BuyerProtection>ItemIneligible</BuyerProtection>
+      <BuyItNowPrice currencyID="USD">0.0</BuyItNowPrice>
+      <Country>US</Country>
+      <Currency>USD</Currency>
+      <Description>&lt;font rwr=&apos;1&apos; size=&apos;4&apos; style=&apos;font-family:Arial&apos;&gt;This is for test, please do not buy.&lt;/font&gt;</Description>
+      <GiftIcon>0</GiftIcon>
+      <HitCounter>NoHitCounter</HitCounter>
+      <ItemID>273293463285</ItemID>
+      <ListingDetails>
+        <Adult>false</Adult>
+        <BindingAuction>false</BindingAuction>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <ConvertedBuyItNowPrice currencyID="USD">0.0</ConvertedBuyItNowPrice>
+        <ConvertedStartPrice currencyID="USD">1.0</ConvertedStartPrice>
+        <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+        <HasReservePrice>false</HasReservePrice>
+        <RelistedItemID>273293490950</RelistedItemID>
+        <StartTime>2018-06-14T00:32:31.000Z</StartTime>
+        <EndTime>2018-06-14T00:40:51.000Z</EndTime>
+        <ViewItemURL>http://www.ebay.com/itm/LCD-Display-Touch-Screen-Digitizer-Assembly-Replacement-Iphone-6-TEST-/273293463285</ViewItemURL>
+        <HasUnansweredQuestions>false</HasUnansweredQuestions>
+        <HasPublicMessages>false</HasPublicMessages>
+        <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/LCD-Display-Touch-Screen-Digitizer-Assembly-Replacement-Iphone-6-TEST-/273293463285</ViewItemURLForNaturalSearch>
+        <EndingReason>NotAvailable</EndingReason>
+      </ListingDetails>
+      <ListingDesigner>
+        <LayoutID>10000</LayoutID>
+        <ThemeID>10</ThemeID>
+      </ListingDesigner>
+      <ListingDuration>Days_30</ListingDuration>
+      <ListingType>FixedPriceItem</ListingType>
+      <Location>Los Angeles, California</Location>
+      <PaymentMethods>PayPal</PaymentMethods>
+      <PayPalEmailAddress>zhanglid@usc.edu</PayPalEmailAddress>
+      <PrimaryCategory>
+        <CategoryID>43304</CategoryID>
+        <CategoryName>Cell Phones &amp; Accessories:Cell Phone &amp; Smartphone Parts</CategoryName>
+      </PrimaryCategory>
+      <PrivateListing>false</PrivateListing>
+      <Quantity>6</Quantity>
+      <ReservePrice currencyID="USD">0.0</ReservePrice>
+      <ReviseStatus>
+        <ItemRevised>false</ItemRevised>
+      </ReviseStatus>
+      <SellingStatus>
+        <BidCount>0</BidCount>
+        <BidIncrement currencyID="USD">0.0</BidIncrement>
+        <ConvertedCurrentPrice currencyID="USD">1.0</ConvertedCurrentPrice>
+        <CurrentPrice currencyID="USD">1.0</CurrentPrice>
+        <MinimumToBid currencyID="USD">1.0</MinimumToBid>
+        <QuantitySold>0</QuantitySold>
+        <ReserveMet>true</ReserveMet>
+        <SecondChanceEligible>false</SecondChanceEligible>
+        <ListingStatus>Completed</ListingStatus>
+      </SellingStatus>
+      <ShippingDetails>
+        <ApplyShippingDiscount>false</ApplyShippingDiscount>
+        <SalesTax>
+          <SalesTaxPercent>0.0</SalesTaxPercent>
+          <ShippingIncludedInTax>false</ShippingIncludedInTax>
+        </SalesTax>
+        <ThirdPartyCheckout>false</ThirdPartyCheckout>
+        <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+        <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+        <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+      </ShippingDetails>
+      <ShipToLocations>None</ShipToLocations>
+      <Site>US</Site>
+      <StartPrice currencyID="USD">1.0</StartPrice>
+      <TimeLeft>PT0S</TimeLeft>
+      <Title>LCD Display Touch Screen Digitizer Assembly Replacement for Iphone 6 TEST</Title>
+      <WatchCount>0</WatchCount>
+      <LocationDefaulted>true</LocationDefaulted>
+      <GetItFast>false</GetItFast>
+      <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+      <PostalCode>90007</PostalCode>
+      <PictureDetails>
+        <GalleryType>Gallery</GalleryType>
+        <GalleryURL>https://i.ebayimg.com/00/s/NTU3WDc0Mg==/z/OcgAAOSwCpRbIbdG/$_57.PNG?set_id=8800005007</GalleryURL>
+        <PhotoDisplay>PicturePack</PhotoDisplay>
+        <PictureURL>https://i.ebayimg.com/00/s/NTU3WDc0Mg==/z/OcgAAOSwCpRbIbdG/$_57.PNG?set_id=8800005007</PictureURL>
+      </PictureDetails>
+      <ProxyItem>false</ProxyItem>
+      <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+      <ReturnPolicy>
+        <ReturnsAcceptedOption>ReturnsNotAccepted</ReturnsAcceptedOption>
+        <ReturnsAccepted>No returns accepted</ReturnsAccepted>
+      </ReturnPolicy>
+      <Variations>
+        <Variation>
+          <StartPrice currencyID="USD">1.0</StartPrice>
+          <Quantity>3</Quantity>
+          <VariationSpecifics>
+            <NameValueList>
+              <Name>Model</Name>
+              <Value>6s</Value>
+            </NameValueList>
+          </VariationSpecifics>
+          <SellingStatus>
+            <QuantitySold>0</QuantitySold>
+          </SellingStatus>
+        </Variation>
+      </Variations>
+      <ConditionID>1000</ConditionID>
+      <ConditionDisplayName>New</ConditionDisplayName>
+      <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+      <SellerProfiles>
+        <SellerShippingProfile>
+          <ShippingProfileID>115454008025</ShippingProfileID>
+          <ShippingProfileName>Local pickup.</ShippingProfileName>
+        </SellerShippingProfile>
+        <SellerReturnProfile>
+          <ReturnProfileID>115454007025</ReturnProfileID>
+          <ReturnProfileName>No returns accepted,International:No returns</ReturnProfileName>
+        </SellerReturnProfile>
+        <SellerPaymentProfile>
+          <PaymentProfileID>88032812025</PaymentProfileID>
+          <PaymentProfileName>PayPal</PaymentProfileName>
+        </SellerPaymentProfile>
+      </SellerProfiles>
+      <HideFromSearch>false</HideFromSearch>
+      <eBayPlus>false</eBayPlus>
+      <eBayPlusEligible>false</eBayPlusEligible>
+      <IsSecureDescription>true</IsSecureDescription>
+    </Item>
+    </ItemArray>
+  <ItemsPerPage>50</ItemsPerPage>
+  <PageNumber>1</PageNumber>
+  <ReturnedItemCountActual>20</ReturnedItemCountActual>
+  <Seller>
+    <AboutMePage>false</AboutMePage>
+    <FeedbackScore>4</FeedbackScore>
+    <PositiveFeedbackPercent>100.0</PositiveFeedbackPercent>
+    <FeedbackPrivate>false</FeedbackPrivate>
+    <FeedbackRatingStar>None</FeedbackRatingStar>
+    <IDVerified>false</IDVerified>
+    <eBayGoodStanding>true</eBayGoodStanding>
+    <NewUser>false</NewUser>
+    <RegistrationDate>2016-08-04T19:41:06.000Z</RegistrationDate>
+    <Site>US</Site>
+    <Status>Confirmed</Status>
+    <UserID>zhangliandon_0</UserID>
+    <UserIDChanged>false</UserIDChanged>
+    <VATStatus>NoVATTax</VATStatus>
+    <SellerInfo>
+      <AllowPaymentEdit>true</AllowPaymentEdit>
+      <CheckoutEnabled>true</CheckoutEnabled>
+      <CIPBankAccountStored>false</CIPBankAccountStored>
+      <GoodStanding>true</GoodStanding>
+      <LiveAuctionAuthorized>false</LiveAuctionAuthorized>
+      <MerchandizingPref>OptIn</MerchandizingPref>
+      <QualifiesForB2BVAT>false</QualifiesForB2BVAT>
+      <StoreOwner>false</StoreOwner>
+      <SafePaymentExempt>false</SafePaymentExempt>
+    </SellerInfo>
+    <MotorsDealer>false</MotorsDealer>
+  </Seller>
+</GetSellerListResponse>

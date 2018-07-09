@@ -185,7 +185,7 @@ describe("EbayClient", () => {
 
     return ebayClient.getSellerList().then(result => {
       assert(result);
-      assert(result.ItemArray.Item.length === 11);
+      assert(result.ItemArray.Item.length === 20);
     });
   });
 
@@ -216,6 +216,47 @@ describe("EbayClient", () => {
       assert.equal(result.ItemArray.Item.length, 11);
     });
   });
+
+  it("GetSellerList is able to handle response with only one product correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+    const sellerListSampleXML = fs
+      .readFileSync(path.resolve(__dirname, "./getSellerListSingle.xml"))
+      .toString()
+      .replace(/\n|\r/g, "");
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, sellerListSampleXML];
+    });
+
+    return ebayClient.getSellerList().then(result => {
+      assert(result);
+      assert.equal(result.ItemArray.Item.length, 1);
+      assert(Array.isArray(result.ItemArray.Item));
+    });
+  })
+  it("GetSellerList is able to handle response with only one variation and only one value correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+    const sellerListSampleXML = fs
+      .readFileSync(path.resolve(__dirname, "./getSellerListSingle.xml"))
+      .toString()
+      .replace(/\n|\r/g, "");
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, sellerListSampleXML];
+    });
+
+    return ebayClient.getSellerList().then(result => {
+      assert(result);
+      assert.equal(result.ItemArray.Item.length, 1);
+      assert(Array.isArray(result.ItemArray.Item[0].Variations.Variation));
+      assert(Array.isArray(result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics.NameValueList));
+      assert(Array.isArray(result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics.NameValueList[0].Value));
+    }); 
+  })
 
   it("getSellerOrder is able to post correctly", () => {
     const ebayClient = new EbayClient(OAuthClientData);
