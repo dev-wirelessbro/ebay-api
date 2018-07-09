@@ -184,8 +184,8 @@ describe("EbayClient", () => {
     });
 
     return ebayClient.getSellerList().then(result => {
-      assert(result.GetSellerListResponse);
-      assert(result.GetSellerListResponse.ItemArray.Item.length === 11);
+      assert(result);
+      assert(result.ItemArray.Item.length === 11);
     });
   });
 
@@ -213,7 +213,7 @@ describe("EbayClient", () => {
     });
 
     return ebayClient.getSellerList().then(result => {
-      assert.equal(result.GetSellerListResponse.ItemArray.Item.length, 11);
+      assert.equal(result.ItemArray.Item.length, 11);
     });
   });
 
@@ -250,8 +250,8 @@ describe("EbayClient", () => {
         JSON.parse(toJson(postData.data)),
         JSON.parse(toJson(expectedPost))
       );
-      assert(result.GetOrdersResponse);
-      assert(result.GetOrdersResponse.OrderArray.Order.length === 13);
+      assert(result);
+      assert(result.OrderArray.Order.length === 13);
     });
   });
 
@@ -276,7 +276,7 @@ describe("EbayClient", () => {
     });
 
     return ebayClient.getOrders().then(result => {
-      assert.equal(result.GetOrdersResponse.OrderArray.Order.length, 13);
+      assert.equal(result.OrderArray.Order.length, 13);
     });
   });
 
@@ -303,7 +303,7 @@ describe("EbayClient", () => {
         JSON.parse(toJson(postData.data)),
         JSON.parse(toJson(expected))
       );
-      assert(result.GetUserResponse.User);
+      assert(result.User);
     });
   });
 
@@ -348,7 +348,7 @@ describe("EbayClient", () => {
         JSON.parse(toJson(postData.data)),
         JSON.parse(toJson(expected))
       );
-      assert(result.CompleteSaleResponse.Ack);
+      assert(result.Ack);
     });
   });
 
@@ -419,7 +419,7 @@ describe("EbayClient", () => {
         JSON.parse(toJson(postData.data)),
         JSON.parse(toJson(expectedPostData))
       );
-      assert(result.SetNotificationPreferencesResponse.Ack);
+      assert(result.Ack);
     });
   });
 
@@ -438,6 +438,42 @@ describe("EbayClient", () => {
       .catch(error => error)
       .then(error => {
         assert.equal(error.name, errors.ExpiredTokenError.name);
+      });
+  });
+
+  it("when the reply is Failure it should throw out error", () => {
+    const config = {
+      ...OAuthClientData,
+      expire: moment().add(1, "day")
+    };
+
+    const ebayClient = new EbayClient(config);
+
+    const errorData = `<?xml version="1.0" encoding="UTF-8"?>
+    <GetSellerListResponse 
+      xmlns="urn:ebay:apis:eBLBaseComponents">
+      <Timestamp>2018-07-09T17:27:18.452Z</Timestamp>
+      <Ack>Failure</Ack>
+      <Errors>
+        <ShortMessage>Input data is invalid.</ShortMessage>
+        <LongMessage>Input data for tag &lt;StartTimeFrom&gt; is invalid or missing. Please check API documentation.</LongMessage>
+        <ErrorCode>37</ErrorCode>
+        <SeverityCode>Error</SeverityCode>
+        <ErrorParameters ParamID="0">
+          <Value>StartTimeFrom</Value>
+        </ErrorParameters>
+        <ErrorClassification>RequestError</ErrorClassification>
+      </Errors>
+      <Version>1023</Version>
+      <Build>E1023_CORE_APISELLING_18580287_R1</Build>
+    </GetSellerListResponse>`;
+    mock.onAny().reply(200, errorData);
+
+    return ebayClient
+      .getUser()
+      .catch(error => error)
+      .then(error => {
+        assert.equal(error.name, errors.RequestEbayError.name);
       });
   });
 });
