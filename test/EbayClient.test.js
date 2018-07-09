@@ -253,6 +253,7 @@ describe("EbayClient", () => {
       assert(result);
       assert.equal(result.ItemArray.Item.length, 1);
       assert(Array.isArray(result.ItemArray.Item[0].Variations.Variation));
+      assert(Array.isArray(result.ItemArray.Item[0].PictureDetails));
       assert(Array.isArray(result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics.NameValueList));
       assert(Array.isArray(result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics.NameValueList[0].Value));
     }); 
