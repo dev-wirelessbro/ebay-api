@@ -137,7 +137,7 @@ describe("EbayClient", () => {
     const expectedHeaders = {
       "Content-Type": "text/xml",
       "X-EBAY-API-COMPATIBILITY-LEVEL": "1061",
-      "X-EBAY-API-CALL-NAME": "GetSellerListRequest",
+      "X-EBAY-API-CALL-NAME": "GetSellerList",
       "X-EBAY-API-SITEID": "0",
       "X-EBAY-API-IAF-TOKEN": "Bearer " + OAuthClientData.token
     };
