@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetUserPreferencesResponse 
+  xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-07-10T22:04:20.391Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>1069</Version>
+  <Build>E1069_CORE_APISELLING_18741446_R1</Build>
+  <SellerPaymentPreferences>
+    <DisplayPayNowButton>ShowPayNowButtonForAllPaymentMethods</DisplayPayNowButton>
+    <PayPalPreferred>false</PayPalPreferred>
+    <DefaultPayPalEmailAddress>zhanglid@usc.edu</DefaultPayPalEmailAddress>
+    <PayPalAlwaysOn>false</PayPalAlwaysOn>
+    <UPSRateOption>UPSOnDemandRates</UPSRateOption>
+  </SellerPaymentPreferences>
+</GetUserPreferencesResponse>
