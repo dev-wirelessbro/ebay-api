@@ -277,7 +277,7 @@ describe("EbayClient", () => {
     });
   });
 
-  it("getSellerOrder is able to post correctly", () => {
+  it("getSellerOrder is able to post / parse correctly", () => {
     const ebayClient = new EbayClient(OAuthClientData);
     let postData;
     const orderSampleXML = fs
@@ -312,6 +312,26 @@ describe("EbayClient", () => {
       );
       assert(result);
       assert(result.OrderArray.Order.length === 13);
+      assert(Array.isArray(result.OrderArray.Order));
+      assert(
+        result.OrderArray.Order.every(o =>
+          Array.isArray(o.TransactionArray.Transaction)
+        )
+      );
+      assert(
+        result.OrderArray.Order.every(o =>
+          o.TransactionArray.Transaction.every(tr => {
+            return !tr.Variation || !Array.isArray(tr.Variation);
+          })
+        )
+      );
+      assert(
+        result.OrderArray.Order.every(o =>
+          o.TransactionArray.Transaction.every(tr => {
+            return !tr.Variation || Array.isArray(tr.Variation.VariationSpecifics.NameValueList);
+          })
+        )
+      );
     });
   });
 
