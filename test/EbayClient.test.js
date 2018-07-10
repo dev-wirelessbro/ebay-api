@@ -48,6 +48,14 @@ describe("EbayClient", () => {
     }
   });
 
+  it("updateToken should be about to update OAuth headers", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    const oldHeaders = { ...ebayClient.headers };
+    ebayClient.updateToken("THENEWTOKENTHATISNOTTHEOLDONE");
+    const newHeaders = { ...ebayClient.headers };
+    assert.notDeepEqual(oldHeaders, newHeaders);
+  });
+
   it("throw InvalidAuthNAuthConfigError when the authType is AuthNAuth but no appConfig provided", () => {
     let error = null;
     try {
@@ -235,7 +243,7 @@ describe("EbayClient", () => {
       assert.equal(result.ItemArray.Item.length, 1);
       assert(Array.isArray(result.ItemArray.Item));
     });
-  })
+  });
   it("GetSellerList is able to handle response with only one variation and only one value correctly", () => {
     const ebayClient = new EbayClient(OAuthClientData);
     let postData;
@@ -254,10 +262,20 @@ describe("EbayClient", () => {
       assert.equal(result.ItemArray.Item.length, 1);
       assert(Array.isArray(result.ItemArray.Item[0].Variations.Variation));
       assert(Array.isArray(result.ItemArray.Item[0].PictureDetails));
-      assert(Array.isArray(result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics.NameValueList));
-      assert(Array.isArray(result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics.NameValueList[0].Value));
-    }); 
-  })
+      assert(
+        Array.isArray(
+          result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics
+            .NameValueList
+        )
+      );
+      assert(
+        Array.isArray(
+          result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics
+            .NameValueList[0].Value
+        )
+      );
+    });
+  });
 
   it("getSellerOrder is able to post correctly", () => {
     const ebayClient = new EbayClient(OAuthClientData);
