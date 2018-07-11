@@ -560,6 +560,52 @@ describe("EbayClient", () => {
       });
   });
 
+  it("RequestEbayError should handle error arrays", () => {
+    const config = {
+      ...OAuthClientData,
+      expire: moment().add(1, "day")
+    };
+
+    const ebayClient = new EbayClient(config);
+
+    const errorData = `<?xml version="1.0" encoding="UTF-8"?>
+    <GetSellerListResponse 
+      xmlns="urn:ebay:apis:eBLBaseComponents">
+      <Timestamp>2018-07-09T17:27:18.452Z</Timestamp>
+      <Ack>Failure</Ack>
+      <Errors>
+        <ShortMessage>Input data is invalid.</ShortMessage>
+        <LongMessage>1</LongMessage>
+        <ErrorCode>37</ErrorCode>
+        <SeverityCode>Error</SeverityCode>
+        <ErrorParameters ParamID="0">
+          <Value>StartTimeFrom</Value>
+        </ErrorParameters>
+        <ErrorClassification>RequestError</ErrorClassification>
+      </Errors>
+      <Errors>
+        <ShortMessage>Input headers is invalid.</ShortMessage>
+        <LongMessage>2</LongMessage>
+        <ErrorCode>37</ErrorCode>
+        <SeverityCode>Error</SeverityCode>
+        <ErrorParameters ParamID="0">
+          <Value>StartTimeFrom</Value>
+        </ErrorParameters>
+        <ErrorClassification>RequestError</ErrorClassification>
+      </Errors>
+      <Version>1023</Version>
+      <Build>E1023_CORE_APISELLING_18580287_R1</Build>
+    </GetSellerListResponse>`;
+    mock.onAny().reply(200, errorData);
+
+    return ebayClient
+      .getUser()
+      .catch(error => error)
+      .then(error => {
+        assert.equal("The reply from ebay is failure 1,2", error.message);
+      });
+  });
+
   it("addFixedPriceItem is able to post correctly", () => {
     const ebayClient = new EbayClient(OAuthClientData);
     let postData;
@@ -710,7 +756,6 @@ describe("EbayClient", () => {
       <WarningLevel>High</WarningLevel>
       <ShowSellerPaymentPreferences>true</ShowSellerPaymentPreferences>
     </GetUserPreferencesRequest>`;
-
 
     return ebayClient
       .getUserPreferences()
