@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetMyeBaySellingResponse 
+  xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-07-17T00:54:55.626Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>1069</Version>
+  <Build>E1069_CORE_APISELLING_18748556_R1</Build>
+  <Summary>
+    <ActiveAuctionCount>0</ActiveAuctionCount>
+    <AuctionSellingCount>0</AuctionSellingCount>
+    <AuctionBidCount>0</AuctionBidCount>
+    <TotalAuctionSellingValue currencyID="USD">0.0</TotalAuctionSellingValue>
+    <TotalSoldCount>8</TotalSoldCount>
+    <TotalSoldValue currencyID="USD">27.84</TotalSoldValue>
+    <SoldDurationInDays>31</SoldDurationInDays>
+    <ClassifiedAdCount>0</ClassifiedAdCount>
+    <TotalLeadCount>0</TotalLeadCount>
+    <ClassifiedAdOfferCount>0</ClassifiedAdOfferCount>
+    <TotalListingsWithLeads>0</TotalListingsWithLeads>
+    <QuantityLimitRemaining>39</QuantityLimitRemaining>
+    <AmountLimitRemaining currencyID="USD">2281.2</AmountLimitRemaining>
+  </Summary>
+</GetMyeBaySellingResponse>

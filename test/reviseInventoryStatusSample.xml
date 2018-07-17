@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BulkDataExchangeResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+ <ReviseInventoryStatusResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2016-10-30T03:19:35.835Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>967</Version>
+  <Build>e967_core_Bundled_7477537_R1</Build>
+  <InventoryStatus>
+    <SKU/>
+    <ItemID>110035400937</ItemID>
+    <StartPrice>8.95</StartPrice>
+    <Quantity>20</Quantity>
+  </InventoryStatus>
+  <InventoryStatus>
+    <SKU>1122334455-AA</SKU>
+    <ItemID>110035406664</ItemID>
+    <StartPrice>11.95</StartPrice>
+    <Quantity>20</Quantity>
+  </InventoryStatus>
+  <InventoryStatus>
+    <SKU>1122334455-AB</SKU>
+    <ItemID>110035406665</ItemID>
+    <StartPrice>9.95</StartPrice>
+    <Quantity>37</Quantity>
+  </InventoryStatus>
+  <InventoryStatus>
+    <SKU>1122334455-AC</SKU>
+    <ItemID>110035407916</ItemID>
+    <StartPrice>19.95</StartPrice>
+    <Quantity>80</Quantity>
+  </InventoryStatus>
+ </ReviseInventoryStatusResponse>
+</BulkDataExchangeResponse>

@@ -770,4 +770,149 @@ describe("EbayClient", () => {
         assert(result.Ack);
       });
   });
+
+  it("getMyeBaySelling is able to post correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+
+    const getMyeBaySellingSample = fs
+      .readFileSync(path.resolve(__dirname, "./getMyeBaySellingSample.xml"))
+      .toString();
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, getMyeBaySellingSample];
+    });
+
+    const expectedPostData = `<?xml version="1.0" encoding="utf-8"?>
+    <GetMyeBaySellingRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+      <SellingSummary>
+        <Include>true</Include>
+      </SellingSummary>
+      <ErrorLanguage>en_US</ErrorLanguage>
+      <WarningLevel>High</WarningLevel>
+    </GetMyeBaySellingRequest>`;
+
+    return ebayClient
+      .getMyeBaySelling()
+      .catch(error => {
+        console.log(error.message);
+      })
+      .then(result => {
+        assert.deepEqual(
+          JSON.parse(toJson(postData.data)),
+          JSON.parse(toJson(expectedPostData))
+        );
+        assert(result.Ack);
+      });
+  });
+
+  it("SetUserPreferences is able to post correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+
+    const setUserPreferencesSample = fs
+      .readFileSync(path.resolve(__dirname, "./setUserPreferences.xml"))
+      .toString();
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, setUserPreferencesSample];
+    });
+
+    const expectedPostData = `<?xml version="1.0" encoding="utf-8"?> 
+    <SetUserPreferencesRequest xmlns="urn:ebay:apis:eBLBaseComponents"> 
+      <ErrorLanguage>en_US</ErrorLanguage>
+      <WarningLevel>High</WarningLevel>
+      <OutOfStockControlPreference>true</OutOfStockControlPreference>
+    </SetUserPreferencesRequest> `;
+
+    return ebayClient
+      .setUserPreferences()
+      .catch(error => {
+        console.log(error.message);
+      })
+      .then(result => {
+        assert.deepEqual(
+          JSON.parse(toJson(postData.data)),
+          JSON.parse(toJson(expectedPostData))
+        );
+        assert(result.Ack);
+      });
+  });
+
+  it("ReviseInventoryStatus is able to post correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+
+    const reviseInventoryStatusSample = fs
+      .readFileSync(path.resolve(__dirname, "./setUserPreferences.xml"))
+      .toString();
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, reviseInventoryStatusSample];
+    });
+
+    const expectedPostData = `<?xml version="1.0" encoding="utf-8"?>
+    <ReviseInventoryStatusRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+      <ErrorLanguage>en_US</ErrorLanguage>
+      <WarningLevel>High</WarningLevel>
+      <InventoryStatus>
+        <ItemID>110035400937</ItemID>
+        <Quantity>20</Quantity>
+      </InventoryStatus>
+      <InventoryStatus>
+        <SKU>cmg00002</SKU>
+        <ItemID>110035406664</ItemID>
+        <Quantity>20</Quantity>
+      </InventoryStatus>
+      <InventoryStatus>
+        <ItemID>110035406665</ItemID>
+        <StartPrice>9.95</StartPrice>
+      </InventoryStatus>
+      <InventoryStatus>
+        <SKU>cmg00002</SKU>
+        <ItemID>110035407916</ItemID>
+        <StartPrice>19.95</StartPrice>
+        <Quantity>80</Quantity>
+      </InventoryStatus>
+    </ReviseInventoryStatusRequest>`;
+
+    const options = {
+      InventoryStatus: [
+        {
+          ItemID: "110035400937",
+          Quantity: 20
+        },
+        {
+          SKU: "cmg00002",
+          ItemID: "110035406664",
+          Quantity: 20
+        },
+        {
+          ItemID: "110035406665",
+          StartPrice: 9.95
+        },
+        {
+          SKU: "cmg00002",
+          ItemID: "110035407916",
+          StartPrice: 19.95,
+          Quantity: 80
+        }
+      ]
+    };
+    return ebayClient
+      .reviseInventoryStatus(options)
+      .catch(error => {
+        console.log(error.message);
+      })
+      .then(result => {
+        assert.deepEqual(
+          JSON.parse(toJson(postData.data)),
+          JSON.parse(toJson(expectedPostData))
+        );
+        assert(result.Ack);
+      });
+  });
 });

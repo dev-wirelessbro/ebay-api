@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetUserPreferencesResponse 
+  xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-07-17T17:28:30.892Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>1069</Version>
+  <Build>E1069_CORE_APISELLING_18748556_R1</Build>
+</SetUserPreferencesResponse>
