@@ -50,11 +50,9 @@ describe("EbayClient", () => {
 
   it("updateToken should be about to update OAuth headers", () => {
     const ebayClient = new EbayClient(OAuthClientData);
-    const oldHeaders = { ...ebayClient.headers
-    };
+    const oldHeaders = Object.assign({}, ebayClient.headers);
     ebayClient.updateToken("THENEWTOKENTHATISNOTTHEOLDONE");
-    const newHeaders = { ...ebayClient.headers
-    };
+    const newHeaders = Object.assign({}, ebayClient.headers);
     assert.notDeepEqual(oldHeaders, newHeaders);
   });
 
@@ -74,10 +72,11 @@ describe("EbayClient", () => {
   it("throw NotSupportedAuthTypeError when the authType is invalid", () => {
     let error = null;
     try {
-      const ebayClient = new EbayClient({
-        ...OAuthClientData,
-        authType: "FAKE"
-      });
+      const ebayClient = new EbayClient(
+        Object.assign({}, OAuthClientData, {
+          authType: "FAKE"
+        })
+      );
     } catch (err) {
       error = err;
     } finally {
@@ -86,33 +85,37 @@ describe("EbayClient", () => {
   });
 
   it("is expire determine expire correctly", () => {
-    const ebayClient = new EbayClient({
-      ...OAuthClientData,
-      expire: moment().subtract(1, "day")
-    });
+    const ebayClient = new EbayClient(
+      Object.assign({}, OAuthClientData, {
+        expire: moment().subtract(1, "day")
+      })
+    );
 
     assert.equal(ebayClient.isExpire, true);
   });
 
   it("is expire determine not expire correctly", () => {
-    const ebayClient = new EbayClient({
-      ...OAuthClientData,
-      expire: moment().add(1, "hour")
-    });
+    const ebayClient = new EbayClient(
+      Object.assign({}, OAuthClientData, {
+        expire: moment().add(1, "hour")
+      })
+    );
 
     assert.equal(ebayClient.isExpire, false);
   });
 
   it("determine url according to the env", () => {
-    const sandboxClient = new EbayClient({
-      ...OAuthClientData,
-      env: "sandbox"
-    });
+    const sandboxClient = new EbayClient(
+      Object.assign({}, OAuthClientData, {
+        env: "sandbox"
+      })
+    );
 
-    const productionClient = new EbayClient({
-      ...OAuthClientData,
-      env: "production"
-    });
+    const productionClient = new EbayClient(
+      Object.assign({}, OAuthClientData, {
+        env: "production"
+      })
+    );
 
     assert.equal(sandboxClient.url, "https://api.sandbox.ebay.com/ws/api.dll");
     assert.equal(productionClient.url, "https://api.ebay.com/ws/api.dll");
@@ -204,13 +207,13 @@ describe("EbayClient", () => {
     let postData;
     const pages = [1, 2, 3].map(number =>
       fs
-      .readFileSync(
-        path.resolve(
-          __dirname,
-          `./getSellerListSampleWithPagnination/${number}.xml`
+        .readFileSync(
+          path.resolve(
+            __dirname,
+            `./getSellerListSampleWithPagnination/${number}.xml`
+          )
         )
-      )
-      .toString()
+        .toString()
     );
 
     mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
@@ -268,13 +271,13 @@ describe("EbayClient", () => {
       assert(
         Array.isArray(
           result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics
-          .NameValueList
+            .NameValueList
         )
       );
       assert(
         Array.isArray(
           result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics
-          .NameValueList[0].Value
+            .NameValueList[0].Value
         )
       );
     });
@@ -331,7 +334,8 @@ describe("EbayClient", () => {
       assert(
         result.OrderArray.Order.every(o =>
           o.TransactionArray.Transaction.every(tr => {
-            return (!tr.Variation ||
+            return (
+              !tr.Variation ||
               Array.isArray(tr.Variation.VariationSpecifics.NameValueList)
             );
           })
@@ -345,10 +349,10 @@ describe("EbayClient", () => {
     let postData;
     const pages = [1, 2, 3].map(number =>
       fs
-      .readFileSync(
-        path.resolve(__dirname, `./getOrdersPagination/${number}.xml`)
-      )
-      .toString()
+        .readFileSync(
+          path.resolve(__dirname, `./getOrdersPagination/${number}.xml`)
+        )
+        .toString()
     );
 
     mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
@@ -509,10 +513,9 @@ describe("EbayClient", () => {
   });
 
   it("when request expired token, it will throw ExpiredTokenError", () => {
-    const config = {
-      ...OAuthClientData,
+    const config = Object.assign({}, OAuthClientData, {
       expire: moment().subtract(1, "day")
-    };
+    });
 
     const ebayClient = new EbayClient(config);
 
@@ -527,10 +530,9 @@ describe("EbayClient", () => {
   });
 
   it("when the reply is Failure it should throw out error", () => {
-    const config = {
-      ...OAuthClientData,
+    const config = Object.assign({}, OAuthClientData, {
       expire: moment().add(1, "day")
-    };
+    });
 
     const ebayClient = new EbayClient(config);
 
@@ -563,10 +565,9 @@ describe("EbayClient", () => {
   });
 
   it("RequestEbayError should handle error arrays", () => {
-    const config = {
-      ...OAuthClientData,
+    const config = Object.assign({}, OAuthClientData, {
       expire: moment().add(1, "day")
-    };
+    });
 
     const ebayClient = new EbayClient(config);
 
@@ -882,7 +883,8 @@ describe("EbayClient", () => {
     </ReviseInventoryStatusRequest>`;
 
     const options = {
-      InventoryStatus: [{
+      InventoryStatus: [
+        {
           ItemID: "110035400937",
           Quantity: 20
         },
@@ -916,7 +918,6 @@ describe("EbayClient", () => {
         assert(result.Ack);
       });
   });
-
 
   it("RReviseFixedPriceItem is able to post correctly", () => {
     const ebayClient = new EbayClient(OAuthClientData);
@@ -957,7 +958,8 @@ describe("EbayClient", () => {
     </ReviseInventoryStatusRequest>`;
 
     const options = {
-      InventoryStatus: [{
+      InventoryStatus: [
+        {
           ItemID: "110035400937",
           Quantity: 20
         },
