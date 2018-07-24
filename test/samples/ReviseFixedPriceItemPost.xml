@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReviseFixedPriceItemRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+    <ErrorLanguage>en_US</ErrorLanguage>
+    <WarningLevel>High</WarningLevel>
+    <Item>
+        <ItemID>110038081632</ItemID>
+        <ListingDuration>GTC</ListingDuration>
+    </Item>
+</ReviseFixedPriceItemRequest>

@@ -50,9 +50,11 @@ describe("EbayClient", () => {
 
   it("updateToken should be about to update OAuth headers", () => {
     const ebayClient = new EbayClient(OAuthClientData);
-    const oldHeaders = { ...ebayClient.headers };
+    const oldHeaders = { ...ebayClient.headers
+    };
     ebayClient.updateToken("THENEWTOKENTHATISNOTTHEOLDONE");
-    const newHeaders = { ...ebayClient.headers };
+    const newHeaders = { ...ebayClient.headers
+    };
     assert.notDeepEqual(oldHeaders, newHeaders);
   });
 
@@ -202,13 +204,13 @@ describe("EbayClient", () => {
     let postData;
     const pages = [1, 2, 3].map(number =>
       fs
-        .readFileSync(
-          path.resolve(
-            __dirname,
-            `./getSellerListSampleWithPagnination/${number}.xml`
-          )
+      .readFileSync(
+        path.resolve(
+          __dirname,
+          `./getSellerListSampleWithPagnination/${number}.xml`
         )
-        .toString()
+      )
+      .toString()
     );
 
     mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
@@ -244,6 +246,7 @@ describe("EbayClient", () => {
       assert(Array.isArray(result.ItemArray.Item));
     });
   });
+
   it("GetSellerList is able to handle response with only one variation and only one value correctly", () => {
     const ebayClient = new EbayClient(OAuthClientData);
     let postData;
@@ -265,13 +268,13 @@ describe("EbayClient", () => {
       assert(
         Array.isArray(
           result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics
-            .NameValueList
+          .NameValueList
         )
       );
       assert(
         Array.isArray(
           result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics
-            .NameValueList[0].Value
+          .NameValueList[0].Value
         )
       );
     });
@@ -328,8 +331,7 @@ describe("EbayClient", () => {
       assert(
         result.OrderArray.Order.every(o =>
           o.TransactionArray.Transaction.every(tr => {
-            return (
-              !tr.Variation ||
+            return (!tr.Variation ||
               Array.isArray(tr.Variation.VariationSpecifics.NameValueList)
             );
           })
@@ -343,10 +345,10 @@ describe("EbayClient", () => {
     let postData;
     const pages = [1, 2, 3].map(number =>
       fs
-        .readFileSync(
-          path.resolve(__dirname, `./getOrdersPagination/${number}.xml`)
-        )
-        .toString()
+      .readFileSync(
+        path.resolve(__dirname, `./getOrdersPagination/${number}.xml`)
+      )
+      .toString()
     );
 
     mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
@@ -880,8 +882,82 @@ describe("EbayClient", () => {
     </ReviseInventoryStatusRequest>`;
 
     const options = {
-      InventoryStatus: [
+      InventoryStatus: [{
+          ItemID: "110035400937",
+          Quantity: 20
+        },
         {
+          SKU: "cmg00002",
+          ItemID: "110035406664",
+          Quantity: 20
+        },
+        {
+          ItemID: "110035406665",
+          StartPrice: 9.95
+        },
+        {
+          SKU: "cmg00002",
+          ItemID: "110035407916",
+          StartPrice: 19.95,
+          Quantity: 80
+        }
+      ]
+    };
+    return ebayClient
+      .reviseInventoryStatus(options)
+      .catch(error => {
+        console.log(error.message);
+      })
+      .then(result => {
+        assert.deepEqual(
+          JSON.parse(toJson(postData.data)),
+          JSON.parse(toJson(expectedPostData))
+        );
+        assert(result.Ack);
+      });
+  });
+
+
+  it("RReviseFixedPriceItem is able to post correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+
+    const reviseInventoryStatusSample = fs
+      .readFileSync(path.resolve(__dirname, "./setUserPreferences.xml"))
+      .toString();
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, reviseInventoryStatusSample];
+    });
+
+    const expectedPostData = `<?xml version="1.0" encoding="utf-8"?>
+    <ReviseInventoryStatusRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+      <ErrorLanguage>en_US</ErrorLanguage>
+      <WarningLevel>High</WarningLevel>
+      <InventoryStatus>
+        <ItemID>110035400937</ItemID>
+        <Quantity>20</Quantity>
+      </InventoryStatus>
+      <InventoryStatus>
+        <SKU>cmg00002</SKU>
+        <ItemID>110035406664</ItemID>
+        <Quantity>20</Quantity>
+      </InventoryStatus>
+      <InventoryStatus>
+        <ItemID>110035406665</ItemID>
+        <StartPrice>9.95</StartPrice>
+      </InventoryStatus>
+      <InventoryStatus>
+        <SKU>cmg00002</SKU>
+        <ItemID>110035407916</ItemID>
+        <StartPrice>19.95</StartPrice>
+        <Quantity>80</Quantity>
+      </InventoryStatus>
+    </ReviseInventoryStatusRequest>`;
+
+    const options = {
+      InventoryStatus: [{
           ItemID: "110035400937",
           Quantity: 20
         },
