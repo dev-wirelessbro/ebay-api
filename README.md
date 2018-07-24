@@ -31,7 +31,19 @@ eBay, i.e `OAuth` and `Auth'nAuth` which you have to specify when you create it.
 
 #### [x] `CompleleSale`: Update tracking number
 
-#### [ ] `ReviseItem`: Get the inventory of items
+#### [x] `SetNotificationPreferences`: Set the user notification
+
+#### [x] `AddFixedPriceItem`: List item to ebay
+
+#### [x] `GetUserPreferences`: Get user preference including its listing limit
+
+#### [x] `GetMyeBaySelling`: Get seller's selling
+
+#### [x] `SetUserPreferences`: Set the user's preference, including Out-of-Stock feature
+
+#### [x] `ReviseInventoryStatus`: Used for inventory sync
+
+#### [x] `ReviseFixedPriceItem`: Set the item to GTC listing for out-of-stock feature
 
 ### 3. ParsedFixedPriceItemNotification
 
