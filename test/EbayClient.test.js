@@ -564,6 +564,42 @@ describe("EbayClient", () => {
       });
   });
 
+  it("when the reply is Warning it should not throw out error", () => {
+    const config = Object.assign({}, OAuthClientData, {
+      expire: moment().add(1, "day")
+    });
+
+    const ebayClient = new EbayClient(config);
+
+    const errorData = `<?xml version="1.0" encoding="UTF-8"?>
+    <GetSellerListResponse 
+      xmlns="urn:ebay:apis:eBLBaseComponents">
+      <Timestamp>2018-07-09T17:27:18.452Z</Timestamp>
+      <Ack>Warning</Ack>
+      <Errors>
+        <ShortMessage>Input data is invalid.</ShortMessage>
+        <LongMessage>Input data for tag &lt;StartTimeFrom&gt; is invalid or missing. Please check API documentation.</LongMessage>
+        <ErrorCode>37</ErrorCode>
+        <SeverityCode>Error</SeverityCode>
+        <ErrorParameters ParamID="0">
+          <Value>StartTimeFrom</Value>
+        </ErrorParameters>
+        <ErrorClassification>RequestError</ErrorClassification>
+      </Errors>
+      <Version>1023</Version>
+      <Build>E1023_CORE_APISELLING_18580287_R1</Build>
+    </GetSellerListResponse>`;
+    mock.onAny().reply(200, errorData);
+
+    return ebayClient
+      .getUser()
+      .then(() => {})
+      .catch(error => error)
+      .then(error => {
+        assert(_.isEmpty(error))
+      });
+  });
+
   it("RequestEbayError should handle error arrays", () => {
     const config = Object.assign({}, OAuthClientData, {
       expire: moment().add(1, "day")
