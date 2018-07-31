@@ -1,2 +1,4 @@
-module.exports.Ebay = require("./lib/Ebay");
-module.exports.EbayClient = require("./lib/EbayClient");
+module.exports = {
+    Ebay: require("./lib/Ebay"),
+    EbayClient: require("./lib/EbayClient")
+}
