@@ -1,4 +1,4 @@
-# Wirelessbro eBay API
+# Lettopia eBay API
 
 ## Reason
 
