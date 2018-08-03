@@ -44,6 +44,21 @@ describe("Ebay class", () => {
     );
   });
 
+  it("should use `production` as default env", () => {
+    const config = {
+      clientId: "TEST clientId",
+      certId: "TEST certId",
+      devId: "TEST devId",
+      authType: "OAuth",
+      redirectURI: "Wirelessbro-Wireless-wirele-jmdrv"
+    };
+
+    const ebay = new Ebay(config);
+
+    assert.equal(ebay.config.env, "production")
+
+  });
+
   it("save oauth scope successfully", () => {
     const modifiedScope = Object.assign([], scope);
     const config = {
