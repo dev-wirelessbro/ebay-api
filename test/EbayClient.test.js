@@ -125,7 +125,7 @@ describe("EbayClient", () => {
     const ebayClient = new EbayClient(OAuthClientData);
     const expectedHeaders = {
       "Content-Type": "text/xml",
-      "X-EBAY-API-COMPATIBILITY-LEVEL": "1061",
+      "X-EBAY-API-COMPATIBILITY-LEVEL": "1057",
       "X-EBAY-API-SITEID": "0",
       "X-EBAY-API-IAF-TOKEN": "Bearer " + OAuthClientData.token
     };
@@ -136,7 +136,7 @@ describe("EbayClient", () => {
     const ebayClient = new EbayClient(AuthNAuthClientData);
     const expectedHeaders = {
       "Content-Type": "text/xml",
-      "X-EBAY-API-COMPATIBILITY-LEVEL": "1061",
+      "X-EBAY-API-COMPATIBILITY-LEVEL": "1057",
       "X-EBAY-API-SITEID": "0",
       "X-EBAY-API-APP-NAME": AuthNAuthClientData.appConfig.clientId,
       "X-EBAY-API-DEV-NAME": AuthNAuthClientData.appConfig.devId,
@@ -149,7 +149,7 @@ describe("EbayClient", () => {
     const ebayClient = new EbayClient(OAuthClientData);
     const expectedHeaders = {
       "Content-Type": "text/xml",
-      "X-EBAY-API-COMPATIBILITY-LEVEL": "1061",
+      "X-EBAY-API-COMPATIBILITY-LEVEL": "1057",
       "X-EBAY-API-CALL-NAME": "GetSellerList",
       "X-EBAY-API-SITEID": "0",
       "X-EBAY-API-IAF-TOKEN": "Bearer " + OAuthClientData.token

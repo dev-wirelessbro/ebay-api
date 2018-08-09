@@ -247,7 +247,7 @@ describe("Ebay class", () => {
     </GetSessionIDRequest>`;
     const expectedPostHeaders = {
       "Content-Type": "text/xml",
-      "X-EBAY-API-COMPATIBILITY-LEVEL": "1061",
+      "X-EBAY-API-COMPATIBILITY-LEVEL": "1057",
       "X-EBAY-API-CALL-NAME": "GetSessionID",
       "X-EBAY-API-SITEID": "0",
       "X-EBAY-API-APP-NAME": config.clientId,
@@ -302,7 +302,7 @@ describe("Ebay class", () => {
     </FetchTokenRequest>`;
     const expectedPostHeaders = {
       "Content-Type": "text/xml",
-      "X-EBAY-API-COMPATIBILITY-LEVEL": "1061",
+      "X-EBAY-API-COMPATIBILITY-LEVEL": "1057",
       "X-EBAY-API-CALL-NAME": "FetchToken",
       "X-EBAY-API-SITEID": "0",
       "X-EBAY-API-APP-NAME": config.clientId,
