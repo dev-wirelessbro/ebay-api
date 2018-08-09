@@ -19,7 +19,7 @@ const scope = [
 
 describe("Ebay class", () => {
   afterEach(() => mock.reset());
-  it("should save clientId, certId, devId, authType ans env", () => {
+  it("should save clientId, certId, devId, authType, env, redirectURL", () => {
     const config = {
       clientId: "TEST clientId",
       certId: "TEST certId",
@@ -41,6 +41,31 @@ describe("Ebay class", () => {
         "redirectURI"
       ]),
       config
+    );
+  });
+
+  it("should take ruName as alias of redirectURL", () => {
+    const config = {
+      clientId: "TEST clientId",
+      certId: "TEST certId",
+      devId: "TEST devId",
+      authType: "OAuth",
+      env: "sandbox",
+      ruName: "Wirelessbro-Wireless-wirele-jmdrv"
+    };
+
+    const ebay = new Ebay(config);
+
+    assert.deepEqual(
+      _.pick(ebay.config, [
+        "env",
+        "clientId",
+        "certId",
+        "devId",
+        "authType",
+        "redirectURI"
+      ]),
+      Object.assign({}, _.omit(config, "ruName"), {redirectURI: config.ruName})
     );
   });
 
