@@ -112,7 +112,7 @@ describe('should parse general xml notification into json', () => {
     })
 
     it('message should be an array', async () => {
-        const json = NotificationParser.parseNotification(xmlSingle)
+        const json = NotificationParser.parseNotification(xmlMultiple)
         assert(_.isArray(json.Messages.Message))
     })
 })
