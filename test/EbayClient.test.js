@@ -441,6 +441,60 @@ describe("EbayClient", () => {
     });
   });
 
+  it("loggerCallback is able to log correctly", () => {
+    let reqXML = null
+    let resXML = null
+    const loggerCallback = (_reqXML, _resXML) => {
+      reqXML = _reqXML
+      resXML = _resXML
+    }
+    const ebayClient = new EbayClient(OAuthClientData, loggerCallback);
+    let postData;
+
+    const completeSaleSample = fs
+      .readFileSync(path.resolve(__dirname, "./completeSaleSample.xml"))
+      .toString();
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, completeSaleSample];
+    });
+
+    const expected = `<?xml version="1.0" encoding="utf-8" ?>
+    <CompleteSaleRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+      <ErrorLanguage>en_US</ErrorLanguage>
+      <WarningLevel>High</WarningLevel>
+      <OrderLineItemID>TESTTESTTEST10</OrderLineItemID>
+      <Shipment>
+        <ShipmentTrackingDetails>
+          <ShipmentTrackingNumber>111111111111</ShipmentTrackingNumber>
+          <ShippingCarrierUsed>USPS</ShippingCarrierUsed>
+        </ShipmentTrackingDetails>
+      </Shipment>
+    </CompleteSaleRequest>`;
+
+    const options = {
+      OrderLineItemID: "TESTTESTTEST10",
+      Shipment: {
+        ShipmentTrackingDetails: {
+          ShipmentTrackingNumber: "111111111111",
+          ShippingCarrierUsed: "USPS"
+        }
+      }
+    };
+
+    return ebayClient.completeSale(options).then(result => {
+      assert.deepEqual(
+        JSON.parse(toJson(postData.data)),
+        JSON.parse(toJson(expected))
+      );
+      assert(result.Ack);
+
+      assert(reqXML)
+      assert(resXML)
+    });
+  });
+
   it("setNotification is able to post correctly", () => {
     const ebayClient = new EbayClient(AuthNAuthClientData);
     let postData;
