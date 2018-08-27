@@ -207,13 +207,13 @@ describe("EbayClient", () => {
     let postData;
     const pages = [1, 2, 3].map(number =>
       fs
-        .readFileSync(
-          path.resolve(
-            __dirname,
-            `./getSellerListSampleWithPagnination/${number}.xml`
-          )
+      .readFileSync(
+        path.resolve(
+          __dirname,
+          `./getSellerListSampleWithPagnination/${number}.xml`
         )
-        .toString()
+      )
+      .toString()
     );
 
     mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
@@ -271,13 +271,13 @@ describe("EbayClient", () => {
       assert(
         Array.isArray(
           result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics
-            .NameValueList
+          .NameValueList
         )
       );
       assert(
         Array.isArray(
           result.ItemArray.Item[0].Variations.Variation[0].VariationSpecifics
-            .NameValueList[0].Value
+          .NameValueList[0].Value
         )
       );
     });
@@ -334,8 +334,7 @@ describe("EbayClient", () => {
       assert(
         result.OrderArray.Order.every(o =>
           o.TransactionArray.Transaction.every(tr => {
-            return (
-              !tr.Variation ||
+            return (!tr.Variation ||
               Array.isArray(tr.Variation.VariationSpecifics.NameValueList)
             );
           })
@@ -349,10 +348,10 @@ describe("EbayClient", () => {
     let postData;
     const pages = [1, 2, 3].map(number =>
       fs
-        .readFileSync(
-          path.resolve(__dirname, `./getOrdersPagination/${number}.xml`)
-        )
-        .toString()
+      .readFileSync(
+        path.resolve(__dirname, `./getOrdersPagination/${number}.xml`)
+      )
+      .toString()
     );
 
     mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
@@ -1018,8 +1017,7 @@ describe("EbayClient", () => {
     </ReviseInventoryStatusRequest>`;
 
     const options = {
-      InventoryStatus: [
-        {
+      InventoryStatus: [{
           ItemID: "110035400937",
           Quantity: 20
         },
@@ -1054,7 +1052,7 @@ describe("EbayClient", () => {
       });
   });
 
-  it("RReviseFixedPriceItem is able to post correctly", () => {
+  it("ReviseFixedPriceItem is able to post correctly", () => {
     const ebayClient = new EbayClient(OAuthClientData);
     let postData;
 
@@ -1093,8 +1091,7 @@ describe("EbayClient", () => {
     </ReviseInventoryStatusRequest>`;
 
     const options = {
-      InventoryStatus: [
-        {
+      InventoryStatus: [{
           ItemID: "110035400937",
           Quantity: 20
         },
@@ -1128,4 +1125,44 @@ describe("EbayClient", () => {
         assert(result.Ack);
       });
   });
+
+  it("UploadSiteHostedPictures is able to post correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+
+    const sample = fs
+      .readFileSync(path.resolve(__dirname, "./uploadSiteHostedPictures.xml"))
+      .toString();
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, sample];
+    });
+
+    const expectedPostData = `<?xml version="1.0" encoding="utf-8"?>
+    <UploadSiteHostedPicturesRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+      <ErrorLanguage>en_US</ErrorLanguage>
+      <WarningLevel>High</WarningLevel>
+      <ExternalPictureURL>https://example.com/example.png</ExternalPictureURL>
+      <PictureName>IMG_NAME</PictureName>
+    </UploadSiteHostedPicturesRequest>`;
+
+    const options = {
+      ExternalPictureURL: 'https://example.com/example.png',
+      PictureName: 'IMG_NAME'
+    };
+    return ebayClient
+      .uploadSiteHostedPictures(options)
+      .catch(error => {
+        console.log(error.message);
+      })
+      .then(result => {
+        assert.deepEqual(
+          JSON.parse(toJson(postData.data)),
+          JSON.parse(toJson(expectedPostData))
+        );
+        assert(result.Ack);
+      });
+  });
+
 });

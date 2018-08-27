@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UploadSiteHostedPicturesResponse 
+  xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-08-27T19:16:55.534Z</Timestamp>
+  <Ack>Warning</Ack>
+  <Errors>
+    <ShortMessage>Dimensions of the picture you uploaded are smaller than recommended.</ShortMessage>
+    <LongMessage>To reduce possible issues with picture display quality, eBay recommends that pictures you upload are 1000 pixels or larger on the longest side.</LongMessage>
+    <ErrorCode>21916790</ErrorCode>
+    <SeverityCode>Warning</SeverityCode>
+    <ErrorParameters ParamID="0">
+      <Value>1000</Value>
+    </ErrorParameters>
+    <ErrorClassification>RequestError</ErrorClassification>
+  </Errors>
+  <Errors>
+    <ShortMessage>Quality value of the JPEG format picture you uploaded is lower than recommended.</ShortMessage>
+    <LongMessage>To reduce possible issues with picture display quality, eBay recommends that pictures you upload have a JPEG quality value of 90 or greater.</LongMessage>
+    <ErrorCode>21916791</ErrorCode>
+    <SeverityCode>Warning</SeverityCode>
+    <ErrorParameters ParamID="1">
+      <Value>90</Value>
+    </ErrorParameters>
+    <ErrorClassification>RequestError</ErrorClassification>
+  </Errors>
+  <Version>4</Version>
+  <Build>mediasvcs-4.4.9_20180815212723146</Build>
+  <PictureSystemVersion>2</PictureSystemVersion>
+  <SiteHostedPictureDetails>
+    <PictureName>Developer Page Banner</PictureName>
+    <PictureSet>Standard</PictureSet>
+    <PictureFormat>JPG</PictureFormat>
+    <FullURL>https://i.ebayimg.com/00/s/NzUwWDc1MA==/z/9FsAAOSwDLVbhE4n/$_1.JPG?set_id=2</FullURL>
+    <BaseURL>https://i.ebayimg.com/00/s/NzUwWDc1MA==/z/9FsAAOSwDLVbhE4n/$_</BaseURL>
+    <PictureSetMember>
+      <MemberURL>https://i.ebayimg.com/00/s/NzUwWDc1MA==/z/9FsAAOSwDLVbhE4n/$_1.JPG</MemberURL>
+      <PictureHeight>400</PictureHeight>
+      <PictureWidth>400</PictureWidth>
+    </PictureSetMember>
+    <ExternalPictureURL>https://storage.googleapis.com/wirelessbro-images/5b47ecdb531ff45a35e0291a_1531440484085_5ad941b178dd3b2693e4e4b9_1524187569538_skyhighO6A4W-1.jpg</ExternalPictureURL>
+    <UseByDate>2018-09-26T19:16:55.300Z</UseByDate>
+  </SiteHostedPictureDetails>
+</UploadSiteHostedPicturesResponse>
