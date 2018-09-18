@@ -742,7 +742,7 @@ describe("EbayClient", () => {
         assert.equal("The reply from ebay is failure 2", error.message);
       });
   });
-
+  
   it("addFixedPriceItem is able to post correctly", () => {
     const ebayClient = new EbayClient(OAuthClientData);
     let postData;
@@ -1153,6 +1153,138 @@ describe("EbayClient", () => {
     };
     return ebayClient
       .uploadSiteHostedPictures(options)
+      .catch(error => {
+        console.log(error.message);
+      })
+      .then(result => {
+        assert.deepEqual(
+          JSON.parse(toJson(postData.data)),
+          JSON.parse(toJson(expectedPostData))
+        );
+        assert(result.Ack);
+      });
+  });
+
+
+  it("verifyAddFixedPriceItem is able to post correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+
+    const verifyAddFixeddPriceItemSample = fs
+      .readFileSync(path.resolve(__dirname, "./VerifyAddFixedPriceItemSample.xml"))
+      .toString();
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, verifyAddFixeddPriceItemSample];
+    });
+
+    const expectedPostData = `<?xml version="1.0" encoding="utf-8"?>
+    <VerifyAddFixedPriceItemRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+      <ErrorLanguage>en_US</ErrorLanguage>
+      <WarningLevel>High</WarningLevel>
+      <Item>
+        <Title>Apple MacBook Pro MB990LL/A 13.3 in. Notebook NEW</Title>
+        <Description>Brand New Apple MacBook Pro MB990LL/A 13.3 in. Notebook!</Description>
+        <StartPrice>500.0</StartPrice>
+        <ConditionID>1000</ConditionID>
+        <Country>US</Country>
+        <Currency>USD</Currency>
+        <DispatchTimeMax>3</DispatchTimeMax>
+        <ListingDuration>Days_7</ListingDuration>
+        <ListingType>FixedPriceItem</ListingType>
+        <PaymentMethods>PayPal</PaymentMethods>
+        <PayPalEmailAddress>megaonlinemerchant@gmail.com</PayPalEmailAddress>
+        <PictureDetails>
+          <PictureURL>http://i12.ebayimg.com/03/i/04/8a/5f/a1_1_sbl.JPG</PictureURL>
+          <PictureURL>http://i22.ebayimg.com/01/i/04/8e/53/69_1_sbl.JPG</PictureURL>
+          <PictureURL>http://i4.ebayimg.ebay.com/01/i/000/77/3c/d88f_1_sbl.JPG</PictureURL>
+        </PictureDetails>
+        <ProductListingDetails>
+          <UPC>885909298594</UPC>
+          <IncludeStockPhotoURL>true</IncludeStockPhotoURL>
+          <IncludeeBayProductDetails>true</IncludeeBayProductDetails>
+          <UseFirstProduct>true</UseFirstProduct>
+          <UseStockPhotoURLAsGallery>true</UseStockPhotoURLAsGallery>
+          <ReturnSearchResultOnDuplicates>true</ReturnSearchResultOnDuplicates>
+        </ProductListingDetails>
+        <Quantity>6</Quantity>
+        <ReturnPolicy>
+          <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+          <RefundOption>MoneyBack</RefundOption>
+          <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+          <Description>If you are not satisfied, return the item for refund.</Description>
+          <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+        </ReturnPolicy>
+        <ShippingDetails>
+          <ShippingType>Flat</ShippingType>
+          <ShippingServiceOptions>
+            <ShippingServicePriority>1</ShippingServicePriority>
+            <ShippingService>USPSEconomyParcel</ShippingService>
+            <FreeShipping>true</FreeShipping>
+            <ShippingServiceAdditionalCost currencyID="USD">0.00</ShippingServiceAdditionalCost>
+          </ShippingServiceOptions>
+        </ShippingDetails>
+        <Site>US</Site>
+      </Item>
+    </VerifyAddFixedPriceItemRequest>`;
+
+    const options = {
+      Item: {
+        Title: "Apple MacBook Pro MB990LL/A 13.3 in. Notebook NEW",
+        Description: "Brand New Apple MacBook Pro MB990LL/A 13.3 in. Notebook!",
+        StartPrice: "500.0",
+        ConditionID: "1000",
+        Country: "US",
+        Currency: "USD",
+        DispatchTimeMax: "3",
+        ListingDuration: "Days_7",
+        ListingType: "FixedPriceItem",
+        PaymentMethods: "PayPal",
+        PayPalEmailAddress: "megaonlinemerchant@gmail.com",
+        PictureDetails: {
+          PictureURL: [
+            "http://i12.ebayimg.com/03/i/04/8a/5f/a1_1_sbl.JPG",
+            "http://i22.ebayimg.com/01/i/04/8e/53/69_1_sbl.JPG",
+            "http://i4.ebayimg.ebay.com/01/i/000/77/3c/d88f_1_sbl.JPG"
+          ]
+        },
+        ProductListingDetails: {
+          UPC: "885909298594",
+          IncludeStockPhotoURL: "true",
+          IncludeeBayProductDetails: "true",
+          UseFirstProduct: "true",
+          UseStockPhotoURLAsGallery: "true",
+          ReturnSearchResultOnDuplicates: "true"
+        },
+        Quantity: 6,
+        ReturnPolicy: {
+          ReturnsAcceptedOption: "ReturnsAccepted",
+          RefundOption: "MoneyBack",
+          ReturnsWithinOption: "Days_30",
+          Description: "If you are not satisfied, return the item for refund.",
+          ShippingCostPaidByOption: "Buyer"
+        },
+        ShippingDetails: {
+          ShippingType: "Flat",
+          ShippingServiceOptions: {
+            ShippingServicePriority: "1",
+            ShippingService: "USPSEconomyParcel",
+            FreeShipping: "true",
+            ShippingServiceAdditionalCost: {
+              "@": {
+                currencyID: "USD"
+              },
+              "#": "0.00"
+            }
+          }
+        },
+        Site: "US"
+      }
+    };
+
+    return ebayClient
+      .verifyAddFixedPriceItem(options)
       .catch(error => {
         console.log(error.message);
       })
