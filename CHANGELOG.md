@@ -1,3 +1,6 @@
+### Version 1.2.2
+- BUGFIX: getItem will take NameValueList as array
+
 ### Version 1.2.1
 - BUGFIX: fix getMySellingList pagination problem
 
