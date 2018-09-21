@@ -1,3 +1,6 @@
+### Version 1.2.3-0
+- BUGFIX: GetItem should take Item as object
+
 ### Version 1.2.2
 - BUGFIX: getItem will take NameValueList as array
 
