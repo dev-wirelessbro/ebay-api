@@ -368,6 +368,8 @@ describe("EbayClient", () => {
     });
   });
 
+  
+
   it("getUser is able to post correctly", () => {
     const ebayClient = new EbayClient(OAuthClientData);
     let postData;
@@ -1086,6 +1088,30 @@ describe("EbayClient", () => {
         );
         assert(result.Ack);
       });
+  });
+
+  it("GetMyeBaySelling is able to handle pagination correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    const pages = [1, 2].map(number =>
+      fs
+      .readFileSync(
+        path.resolve(__dirname, `./getMySellingListingPagination/${number}.xml`)
+      )
+      .toString()
+    );
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      const pageInfo = /<PageNumber>(\d+)<\/PageNumber>/.exec(postConfig.data);
+      if (pageInfo && pageInfo[1]) {
+        return [200, pages[parseInt(pageInfo[1]) - 1]];
+      }
+      return [200, pages[0]];
+    });
+
+    return ebayClient.getMyeBaySelling().then(result => {
+      assert.equal(result.ActiveList.ItemArray.Item.length, 3);
+    });
   });
 
   it("SetUserPreferences is able to post correctly", () => {

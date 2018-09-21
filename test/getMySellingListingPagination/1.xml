@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetMyeBaySellingResponse 
+  xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-09-21T05:04:41.190Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>1073</Version>
+  <Build>E1073_CORE_APISELLING_18756774_R1</Build>
+  <ActiveList>
+    <ItemArray>
+      <Item>
+        <BuyItNowPrice currencyID="USD">4.99</BuyItNowPrice>
+        <ItemID>382548783734</ItemID>
+        <ListingDetails>
+          <StartTime>2018-08-23T16:43:43.000Z</StartTime>
+          <ViewItemURL>http://www.ebay.com/itm/Case-friendly-3D-curved-Tempered-glass-screen-Black-Samsung-galaxy-S8-/382548783734</ViewItemURL>
+          <ViewItemURLForNaturalSearch>http://cgi.ebay.com/Case-friendly-3D-curved-Tempered-glass-screen-Black-For-Samsung-galaxy-S8?item=382548783734&amp;category=58540&amp;cmd=ViewItem</ViewItemURLForNaturalSearch>
+        </ListingDetails>
+        <ListingDuration>GTC</ListingDuration>
+        <ListingType>FixedPriceItem</ListingType>
+        <Quantity>12</Quantity>
+        <SellingStatus>
+          <CurrentPrice currencyID="USD">4.99</CurrentPrice>
+        </SellingStatus>
+        <ShippingDetails>
+          <ShippingServiceOptions>
+            <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+          </ShippingServiceOptions>
+          <ShippingType>Flat</ShippingType>
+        </ShippingDetails>
+        <TimeLeft>P1DT11H39M2S</TimeLeft>
+        <Title>Case friendly 3D curved Tempered glass screen ( Black ) For Samsung galaxy S8 </Title>
+        <WatchCount>1</WatchCount>
+        <QuantityAvailable>3</QuantityAvailable>
+        <SKU>S1C8kavH7X</SKU>
+        <PictureDetails>
+          <GalleryURL>http://thumbs.ebaystatic.com/pict/3825487837346464_2.jpg</GalleryURL>
+        </PictureDetails>
+        <ClassifiedAdPayPerLeadFee currencyID="USD">0.0</ClassifiedAdPayPerLeadFee>
+        <SellerProfiles>
+          <SellerShippingProfile>
+            <ShippingProfileID>135093515013</ShippingProfileID>
+            <ShippingProfileName>Flat:USPS First Cla(Free),3 business days</ShippingProfileName>
+          </SellerShippingProfile>
+          <SellerReturnProfile>
+            <ReturnProfileID>135423303013</ReturnProfileID>
+            <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back,Int</ReturnProfileName>
+          </SellerReturnProfile>
+          <SellerPaymentProfile>
+            <PaymentProfileID>135093224013</PaymentProfileID>
+            <PaymentProfileName>PayPal</PaymentProfileName>
+          </SellerPaymentProfile>
+        </SellerProfiles>
+      </Item>
+      <Item>
+        <BuyItNowPrice currencyID="USD">11.5</BuyItNowPrice>
+        <ItemID>382548786944</ItemID>
+        <ListingDetails>
+          <StartTime>2018-08-23T16:46:49.000Z</StartTime>
+          <ViewItemURL>http://www.ebay.com/itm/Fairbridge-iBlock-Fun-Display-Case-250mmL-145mmW-120mmH-BLAC-/382548786944</ViewItemURL>
+          <ViewItemURLForNaturalSearch>http://cgi.ebay.com/Fairbridge-iBlock-Fun-Display-Case-250mmL-145mmW-120mmH-BLAC?item=382548786944&amp;category=43304&amp;cmd=ViewItem</ViewItemURLForNaturalSearch>
+        </ListingDetails>
+        <ListingDuration>GTC</ListingDuration>
+        <ListingType>FixedPriceItem</ListingType>
+        <Quantity>1</Quantity>
+        <SellingStatus>
+          <CurrentPrice currencyID="USD">11.5</CurrentPrice>
+        </SellingStatus>
+        <ShippingDetails>
+          <ShippingServiceOptions>
+            <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+          </ShippingServiceOptions>
+          <ShippingType>Flat</ShippingType>
+        </ShippingDetails>
+        <TimeLeft>P1DT11H42M8S</TimeLeft>
+        <Title>Fairbridge iBlock Fun Display Case 250mmL 145mmW 120mmH BLAC</Title>
+        <QuantityAvailable>1</QuantityAvailable>
+        <SKU>rkbKfx2f47</SKU>
+        <PictureDetails>
+          <GalleryURL>http://thumbs.ebaystatic.com/pict/3825487869446464_1.jpg</GalleryURL>
+        </PictureDetails>
+        <ClassifiedAdPayPerLeadFee currencyID="USD">0.0</ClassifiedAdPayPerLeadFee>
+        <SellerProfiles>
+          <SellerShippingProfile>
+            <ShippingProfileID>135093515013</ShippingProfileID>
+            <ShippingProfileName>Flat:USPS First Cla(Free),3 business days</ShippingProfileName>
+          </SellerShippingProfile>
+          <SellerReturnProfile>
+            <ReturnProfileID>135093514013</ReturnProfileID>
+            <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back</ReturnProfileName>
+          </SellerReturnProfile>
+          <SellerPaymentProfile>
+            <PaymentProfileID>135093224013</PaymentProfileID>
+            <PaymentProfileName>PayPal</PaymentProfileName>
+          </SellerPaymentProfile>
+        </SellerProfiles>
+      </Item>
+    </ItemArray>
+    <PaginationResult>
+      <TotalNumberOfPages>2</TotalNumberOfPages>
+      <TotalNumberOfEntries>3</TotalNumberOfEntries>
+    </PaginationResult>
+  </ActiveList>
+</GetMyeBaySellingResponse>
