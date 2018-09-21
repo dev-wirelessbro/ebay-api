@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReviseFixedPriceItemResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2009-03-01T20:42:20.822Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>615</Version>
+  <Build>e615_core_API_8047594_R1</Build>
+  <ItemID>110038081632</ItemID>
+  <StartTime>2009-03-01T17:33:36.000Z</StartTime>
+  <EndTime>2009-03-31T17:33:36.000Z</EndTime>
+  <Fees>
+    <Fee>
+      <Name>AuctionLengthFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>BoldFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>BuyItNowFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>CategoryFeaturedFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>FeaturedFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>GalleryPlusFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>FeaturedGalleryFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>FixedPriceDurationFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>GalleryFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>GiftIconFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>HighLightFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>InsertionFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>InternationalInsertionFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>ListingDesignerFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>ListingFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>PhotoDisplayFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>PhotoFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>ReserveFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>SchedulingFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>SubtitleFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>BorderFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>ProPackBundleFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>BasicUpgradePackBundleFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>ValuePackBundleFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>PrivateListingFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>ExtendedDurationFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>ProPackPlusBundleFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+    <Fee>
+      <Name>MotorsGermanySearchFee</Name>
+      <Fee currencyID="USD">0.0</Fee>
+    </Fee>
+  </Fees>
+</ReviseFixedPriceItemResponse>

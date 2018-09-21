@@ -742,7 +742,7 @@ describe("EbayClient", () => {
         assert.equal("The reply from ebay is failure 2", error.message);
       });
   });
-  
+
   it("addFixedPriceItem is able to post correctly", () => {
     const ebayClient = new EbayClient(OAuthClientData);
     let postData;
@@ -896,6 +896,150 @@ describe("EbayClient", () => {
 
     return ebayClient
       .getUserPreferences()
+      .catch(error => {
+        console.log(error.message);
+      })
+      .then(result => {
+        assert.deepEqual(
+          JSON.parse(toJson(postData.data)),
+          JSON.parse(toJson(expectedPostData))
+        );
+        assert(result.Ack);
+      });
+  });
+
+  it("getItem is able to post correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+
+    const sample = fs
+      .readFileSync(path.resolve(__dirname, "./getItemSample.xml"))
+      .toString();
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, sample];
+    });
+
+    const expectedPostData = `<?xml version="1.0" encoding="utf-8"?> 
+    <GetItemRequest xmlns="urn:ebay:apis:eBLBaseComponents"> 
+      <ErrorLanguage>en_US</ErrorLanguage>
+      <WarningLevel>High</WarningLevel>
+      <ItemID>XXXXX</ItemID>
+    </GetItemRequest>`;
+
+    return ebayClient
+      .getItem({
+        ItemID: "XXXXX"
+      })
+      .catch(error => {
+        console.log(error.message);
+      })
+      .then(result => {
+        assert.deepEqual(
+          JSON.parse(toJson(postData.data)),
+          JSON.parse(toJson(expectedPostData))
+        );
+        assert(result.Ack);
+      });
+  });
+
+
+  it("ReviseFixedPriceItem is able to post correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+
+    const sample = fs
+      .readFileSync(path.resolve(__dirname, "./reviseFixedPriceItemSample.xml"))
+      .toString();
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, sample];
+    });
+
+    const expectedPostData = `<?xml version="1.0" encoding="utf-8"?> 
+    <ReviseFixedPriceItemRequest xmlns="urn:ebay:apis:eBLBaseComponents"> 
+      <ErrorLanguage>en_US</ErrorLanguage>
+      <WarningLevel>High</WarningLevel>
+      <Item>
+        <ItemID>110038081632</ItemID>
+        <Variations>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Pnk_S</SKU>
+            <StartPrice>14.99</StartPrice>
+            <Quantity>4</Quantity>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Pink</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>S</Value>
+              </NameValueList>
+            </VariationSpecifics>
+          </Variation>
+          <Variation>
+            <SKU>RLauren_Wom_TShirt_Pnk_M</SKU>
+            <StartPrice>14.99</StartPrice>
+            <Quantity>8</Quantity>
+            <VariationSpecifics>
+              <NameValueList>
+                <Name>Color</Name>
+                <Value>Pink</Value>
+              </NameValueList>
+              <NameValueList>
+                <Name>Size</Name>
+                <Value>M</Value>
+              </NameValueList>
+            </VariationSpecifics>
+          </Variation>
+        </Variations>
+      </Item>
+    </ReviseFixedPriceItemRequest>`;
+
+    return ebayClient
+      .reviseFixedPriceItem({
+        Item: {
+          ItemID: "110038081632",
+          Variations: {
+            Variation: [{
+                SKU: "RLauren_Wom_TShirt_Pnk_S",
+                StartPrice: "14.99",
+                Quantity: "4",
+                VariationSpecifics: {
+                  NameValueList: [{
+                      Name: "Color",
+                      Value: "Pink"
+                    },
+                    {
+                      Name: "Size",
+                      Value: "S"
+                    },
+                  ]
+                }
+              },
+              {
+                SKU: "RLauren_Wom_TShirt_Pnk_M",
+                StartPrice: "14.99",
+                Quantity: "8",
+                VariationSpecifics: {
+                  NameValueList: [{
+                      Name: "Color",
+                      Value: "Pink"
+                    },
+                    {
+                      Name: "Size",
+                      Value: "M"
+                    },
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      })
       .catch(error => {
         console.log(error.message);
       })

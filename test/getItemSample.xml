@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetItemResponse 
+  xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-09-20T23:58:57.596Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>1077</Version>
+  <Build>E1077_CORE_API_18790675_R1</Build>
+  <Item>
+    <AutoPay>true</AutoPay>
+    <BuyerProtection>ItemIneligible</BuyerProtection>
+    <BuyItNowPrice currencyID="USD">0.0</BuyItNowPrice>
+    <Country>US</Country>
+    <Currency>USD</Currency>
+    <GiftIcon>0</GiftIcon>
+    <HitCounter>NoHitCounter</HitCounter>
+    <ItemID>192661731691</ItemID>
+    <ListingDetails>
+      <Adult>false</Adult>
+      <BindingAuction>false</BindingAuction>
+      <CheckoutEnabled>true</CheckoutEnabled>
+      <ConvertedBuyItNowPrice currencyID="USD">0.0</ConvertedBuyItNowPrice>
+      <ConvertedStartPrice currencyID="USD">11.98</ConvertedStartPrice>
+      <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+      <HasReservePrice>false</HasReservePrice>
+      <StartTime>2018-09-18T04:36:06.000Z</StartTime>
+      <EndTime>2018-10-18T04:36:06.000Z</EndTime>
+      <ViewItemURL>http://www.ebay.com/itm/LCD-Touch-Screen-Digitizer-Replacement-Repair-Kit-iPhone-6-6s-7-Plus-/192661731691</ViewItemURL>
+      <HasUnansweredQuestions>false</HasUnansweredQuestions>
+      <HasPublicMessages>false</HasPublicMessages>
+      <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/LCD-Touch-Screen-Digitizer-Replacement-Repair-Kit-iPhone-6-6s-7-Plus-/192661731691</ViewItemURLForNaturalSearch>
+    </ListingDetails>
+    <ListingDuration>GTC</ListingDuration>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Los Angeles, California</Location>
+    <PaymentMethods>PayPal</PaymentMethods>
+    <PayPalEmailAddress>isolditpasadena@yahoo.com</PayPalEmailAddress>
+    <PrimaryCategory>
+      <CategoryID>43304</CategoryID>
+      <CategoryName>Cell Phones &amp; Accessories:Cell Phone &amp; Smartphone Parts</CategoryName>
+    </PrimaryCategory>
+    <PrivateListing>false</PrivateListing>
+    <Quantity>33</Quantity>
+    <ReservePrice currencyID="USD">0.0</ReservePrice>
+    <ReviseStatus>
+      <ItemRevised>true</ItemRevised>
+    </ReviseStatus>
+    <Seller>
+      <AboutMePage>false</AboutMePage>
+      <Email>dwimark8@hotmail.com</Email>
+      <FeedbackScore>2</FeedbackScore>
+      <PositiveFeedbackPercent>100.0</PositiveFeedbackPercent>
+      <FeedbackPrivate>false</FeedbackPrivate>
+      <FeedbackRatingStar>None</FeedbackRatingStar>
+      <IDVerified>false</IDVerified>
+      <eBayGoodStanding>true</eBayGoodStanding>
+      <NewUser>false</NewUser>
+      <RegistrationDate>2018-08-07T06:48:30.000Z</RegistrationDate>
+      <Site>US</Site>
+      <Status>Confirmed</Status>
+      <UserID>210-mark8</UserID>
+      <UserIDChanged>false</UserIDChanged>
+      <UserIDLastChanged>2018-08-09T21:00:19.000Z</UserIDLastChanged>
+      <VATStatus>NoVATTax</VATStatus>
+      <SellerInfo>
+        <AllowPaymentEdit>true</AllowPaymentEdit>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <CIPBankAccountStored>false</CIPBankAccountStored>
+        <GoodStanding>true</GoodStanding>
+        <LiveAuctionAuthorized>false</LiveAuctionAuthorized>
+        <MerchandizingPref>OptIn</MerchandizingPref>
+        <QualifiesForB2BVAT>false</QualifiesForB2BVAT>
+        <StoreOwner>false</StoreOwner>
+        <SafePaymentExempt>false</SafePaymentExempt>
+      </SellerInfo>
+      <MotorsDealer>false</MotorsDealer>
+    </Seller>
+    <SellingStatus>
+      <BidCount>0</BidCount>
+      <BidIncrement currencyID="USD">0.0</BidIncrement>
+      <ConvertedCurrentPrice currencyID="USD">11.98</ConvertedCurrentPrice>
+      <CurrentPrice currencyID="USD">11.98</CurrentPrice>
+      <LeadCount>0</LeadCount>
+      <MinimumToBid currencyID="USD">11.98</MinimumToBid>
+      <QuantitySold>0</QuantitySold>
+      <ReserveMet>true</ReserveMet>
+      <SecondChanceEligible>false</SecondChanceEligible>
+      <ListingStatus>Active</ListingStatus>
+      <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+    </SellingStatus>
+    <ShippingDetails>
+      <ApplyShippingDiscount>false</ApplyShippingDiscount>
+      <CalculatedShippingRate>
+        <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </CalculatedShippingRate>
+      <SalesTax>
+        <SalesTaxPercent>0.0</SalesTaxPercent>
+        <ShippingIncludedInTax>false</ShippingIncludedInTax>
+      </SalesTax>
+      <ShippingServiceOptions>
+        <ShippingService>USPSFirstClass</ShippingService>
+        <ShippingServiceCost currencyID="USD">0.0</ShippingServiceCost>
+        <ShippingServiceAdditionalCost currencyID="USD">0.0</ShippingServiceAdditionalCost>
+        <ShippingServicePriority>1</ShippingServicePriority>
+        <ExpeditedService>false</ExpeditedService>
+        <ShippingTimeMin>2</ShippingTimeMin>
+        <ShippingTimeMax>3</ShippingTimeMax>
+        <FreeShipping>true</FreeShipping>
+      </ShippingServiceOptions>
+      <ShippingType>Flat</ShippingType>
+      <ThirdPartyCheckout>false</ThirdPartyCheckout>
+      <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+      <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+      <SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+    </ShippingDetails>
+    <ShipToLocations>US</ShipToLocations>
+    <Site>US</Site>
+    <StartPrice currencyID="USD">11.98</StartPrice>
+    <TimeLeft>P27DT4H37M9S</TimeLeft>
+    <Title>LCD Touch Screen Digitizer Replacement Repair Kit  For iPhone 6 6s 7 Plus</Title>
+    <HitCount>21</HitCount>
+    <GetItFast>false</GetItFast>
+    <BuyerResponsibleForShipping>false</BuyerResponsibleForShipping>
+    <PictureDetails>
+      <GalleryType>Gallery</GalleryType>
+      <GalleryURL>https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/HqMAAOSw8H1boICk/$_1.JPG?set_id=2</GalleryURL>
+      <PhotoDisplay>PicturePack</PhotoDisplay>
+      <PictureURL>https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/HqMAAOSw8H1boICk/$_1.JPG?set_id=2</PictureURL>
+    </PictureDetails>
+    <DispatchTimeMax>0</DispatchTimeMax>
+    <ProxyItem>false</ProxyItem>
+    <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+    <IntangibleItem>false</IntangibleItem>
+    <ReturnPolicy>
+      <RefundOption>MoneyBack</RefundOption>
+      <Refund>Money Back</Refund>
+      <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+      <ReturnsWithin>30 Days</ReturnsWithin>
+      <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+      <ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+      <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+      <ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+      <InternationalReturnsAcceptedOption>ReturnsNotAccepted</InternationalReturnsAcceptedOption>
+    </ReturnPolicy>
+    <Variations>
+      <Variation>
+        <SKU>BJnPyTDrmQ</SKU>
+        <StartPrice currencyID="USD">11.98</StartPrice>
+        <Quantity>3</Quantity>
+        <VariationSpecifics>
+          <NameValueList>
+            <Name>color</Name>
+            <Value>white</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>model</Name>
+            <Value>i6</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>size</Name>
+            <Value>4.7</Value>
+          </NameValueList>
+        </VariationSpecifics>
+        <SellingStatus>
+          <QuantitySold>0</QuantitySold>
+          <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+        </SellingStatus>
+        <VariationProductListingDetails>
+          <UPC>Does Not Apply</UPC>
+        </VariationProductListingDetails>
+      </Variation>
+      <Variation>
+        <SKU>H1MbIkTwr7X</SKU>
+        <StartPrice currencyID="USD">15.89</StartPrice>
+        <Quantity>3</Quantity>
+        <VariationSpecifics>
+          <NameValueList>
+            <Name>color</Name>
+            <Value>black</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>model</Name>
+            <Value>i6p</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>size</Name>
+            <Value>5.5</Value>
+          </NameValueList>
+        </VariationSpecifics>
+        <SellingStatus>
+          <QuantitySold>0</QuantitySold>
+          <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+        </SellingStatus>
+        <VariationProductListingDetails>
+          <UPC>Does Not Apply</UPC>
+        </VariationProductListingDetails>
+      </Variation>
+      <Variation>
+        <SKU>HJQW8J6vSmQ</SKU>
+        <StartPrice currencyID="USD">15.89</StartPrice>
+        <Quantity>3</Quantity>
+        <VariationSpecifics>
+          <NameValueList>
+            <Name>color</Name>
+            <Value>white</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>model</Name>
+            <Value>i6p</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>size</Name>
+            <Value>5.5</Value>
+          </NameValueList>
+        </VariationSpecifics>
+        <SellingStatus>
+          <QuantitySold>0</QuantitySold>
+          <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+        </SellingStatus>
+        <VariationProductListingDetails>
+          <UPC>Does Not Apply</UPC>
+        </VariationProductListingDetails>
+      </Variation>
+      <Variation>
+        <SKU>rkNWIJTwBmX</SKU>
+        <StartPrice currencyID="USD">14.68</StartPrice>
+        <Quantity>3</Quantity>
+        <VariationSpecifics>
+          <NameValueList>
+            <Name>color</Name>
+            <Value>black</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>model</Name>
+            <Value>i6s</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>size</Name>
+            <Value>4.7</Value>
+          </NameValueList>
+        </VariationSpecifics>
+        <SellingStatus>
+          <QuantitySold>0</QuantitySold>
+          <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+        </SellingStatus>
+        <VariationProductListingDetails>
+          <UPC>Does Not Apply</UPC>
+        </VariationProductListingDetails>
+      </Variation>
+      <Variation>
+        <SKU>SySZI1TPSXm</SKU>
+        <StartPrice currencyID="USD">14.68</StartPrice>
+        <Quantity>3</Quantity>
+        <VariationSpecifics>
+          <NameValueList>
+            <Name>color</Name>
+            <Value>white</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>model</Name>
+            <Value>i6s</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>size</Name>
+            <Value>4.7</Value>
+          </NameValueList>
+        </VariationSpecifics>
+        <SellingStatus>
+          <QuantitySold>0</QuantitySold>
+          <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+        </SellingStatus>
+        <VariationProductListingDetails>
+          <UPC>Does Not Apply</UPC>
+        </VariationProductListingDetails>
+      </Variation>
+      <Variation>
+        <SKU>SJP16wrXm</SKU>
+        <StartPrice currencyID="USD">17.99</StartPrice>
+        <Quantity>3</Quantity>
+        <VariationSpecifics>
+          <NameValueList>
+            <Name>color</Name>
+            <Value>black</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>model</Name>
+            <Value>i6sp</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>size</Name>
+            <Value>4.7</Value>
+          </NameValueList>
+        </VariationSpecifics>
+        <SellingStatus>
+          <QuantitySold>0</QuantitySold>
+          <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+        </SellingStatus>
+        <VariationProductListingDetails>
+          <UPC>Does Not Apply</UPC>
+        </VariationProductListingDetails>
+      </Variation>
+      <Variation>
+        <SKU>Syev1pPr77</SKU>
+        <StartPrice currencyID="USD">17.99</StartPrice>
+        <Quantity>3</Quantity>
+        <VariationSpecifics>
+          <NameValueList>
+            <Name>color</Name>
+            <Value>white</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>model</Name>
+            <Value>i6sp</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>size</Name>
+            <Value>5.5</Value>
+          </NameValueList>
+        </VariationSpecifics>
+        <SellingStatus>
+          <QuantitySold>0</QuantitySold>
+          <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+        </SellingStatus>
+        <VariationProductListingDetails>
+          <UPC>Does Not Apply</UPC>
+        </VariationProductListingDetails>
+      </Variation>
+      <Variation>
+        <SKU>H1-vJpPBQm</SKU>
+        <StartPrice currencyID="USD">15.59</StartPrice>
+        <Quantity>3</Quantity>
+        <VariationSpecifics>
+          <NameValueList>
+            <Name>color</Name>
+            <Value>black</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>model</Name>
+            <Value>i7</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>size</Name>
+            <Value>4.7</Value>
+          </NameValueList>
+        </VariationSpecifics>
+        <SellingStatus>
+          <QuantitySold>0</QuantitySold>
+          <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+        </SellingStatus>
+        <VariationProductListingDetails>
+          <UPC>Does Not Apply</UPC>
+        </VariationProductListingDetails>
+      </Variation>
+      <Variation>
+        <SKU>BkGv16PSXQ</SKU>
+        <StartPrice currencyID="USD">15.59</StartPrice>
+        <Quantity>3</Quantity>
+        <VariationSpecifics>
+          <NameValueList>
+            <Name>color</Name>
+            <Value>white</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>model</Name>
+            <Value>i7</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>size</Name>
+            <Value>4.7</Value>
+          </NameValueList>
+        </VariationSpecifics>
+        <SellingStatus>
+          <QuantitySold>0</QuantitySold>
+          <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+        </SellingStatus>
+        <VariationProductListingDetails>
+          <UPC>Does Not Apply</UPC>
+        </VariationProductListingDetails>
+      </Variation>
+      <Variation>
+        <SKU>SJBwJTvB7Q</SKU>
+        <StartPrice currencyID="USD">18.99</StartPrice>
+        <Quantity>3</Quantity>
+        <VariationSpecifics>
+          <NameValueList>
+            <Name>color</Name>
+            <Value>black</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>model</Name>
+            <Value>i7p</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>size</Name>
+            <Value>5.5</Value>
+          </NameValueList>
+        </VariationSpecifics>
+        <SellingStatus>
+          <QuantitySold>0</QuantitySold>
+          <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+        </SellingStatus>
+        <VariationProductListingDetails>
+          <UPC>Does Not Apply</UPC>
+        </VariationProductListingDetails>
+      </Variation>
+      <Variation>
+        <SKU>B1LPkTwB77</SKU>
+        <StartPrice currencyID="USD">18.99</StartPrice>
+        <Quantity>3</Quantity>
+        <VariationSpecifics>
+          <NameValueList>
+            <Name>color</Name>
+            <Value>white</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>model</Name>
+            <Value>i7p</Value>
+          </NameValueList>
+          <NameValueList>
+            <Name>size</Name>
+            <Value>5.5</Value>
+          </NameValueList>
+        </VariationSpecifics>
+        <SellingStatus>
+          <QuantitySold>0</QuantitySold>
+          <QuantitySoldByPickupInStore>0</QuantitySoldByPickupInStore>
+        </SellingStatus>
+        <VariationProductListingDetails>
+          <UPC>Does Not Apply</UPC>
+        </VariationProductListingDetails>
+      </Variation>
+      <Pictures>
+        <VariationSpecificName>color</VariationSpecificName>
+        <VariationSpecificPictureSet>
+          <VariationSpecificValue>white</VariationSpecificValue>
+          <PictureURL>https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/xbEAAOSwDOlboICl/$_1.JPG?set_id=2</PictureURL>
+          <PictureURL>https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/5tkAAOSwCPtboICp/$_1.JPG?set_id=2</PictureURL>
+          <PictureURL>https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/HKMAAOSwXZZboICr/$_1.JPG?set_id=2</PictureURL>
+          <PictureURL>https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/v9IAAOSwY5FboICs/$_1.JPG?set_id=2</PictureURL>
+          <PictureURL>https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/nXoAAOSwF1dboICu/$_1.JPG?set_id=2</PictureURL>
+          <PictureURL>https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/hZIAAOSw9yJboICv/$_1.JPG?set_id=2</PictureURL>
+          <PictureURL>https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/g~cAAOSwWQpboICx/$_1.JPG?set_id=2</PictureURL>
+          <PictureURL>https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/83YAAOSwIr9boICy/$_1.JPG?set_id=2</PictureURL>
+          <PictureURL>https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/L98AAOSw7IZboICz/$_1.JPG?set_id=2</PictureURL>
+        </VariationSpecificPictureSet>
+        <VariationSpecificPictureSet>
+          <VariationSpecificValue>black</VariationSpecificValue>
+          <PictureURL>https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/PLkAAOSw6kNboICo/$_1.JPG?set_id=2</PictureURL>
+          <PictureURL>https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/j2cAAOSwI~BboICq/$_1.JPG?set_id=2</PictureURL>
+          <PictureURL>https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/D1kAAOSwTB5boICt/$_1.PNG?set_id=2</PictureURL>
+          <PictureURL>https://i.ebayimg.com/00/s/NzExWDcxMg==/z/RwQAAOSw0c9boICw/$_1.PNG?set_id=2</PictureURL>
+          <PictureURL>https://i.ebayimg.com/00/s/NzExWDcxMg==/z/yTIAAOSwE1BboICz/$_1.PNG?set_id=2</PictureURL>
+        </VariationSpecificPictureSet>
+      </Pictures>
+      <VariationSpecificsSet>
+        <NameValueList>
+          <Name>color</Name>
+          <Value>white</Value>
+          <Value>black</Value>
+        </NameValueList>
+        <NameValueList>
+          <Name>model</Name>
+          <Value>i6</Value>
+          <Value>i6p</Value>
+          <Value>i6s</Value>
+          <Value>i6sp</Value>
+          <Value>i7</Value>
+          <Value>i7p</Value>
+        </NameValueList>
+        <NameValueList>
+          <Name>size</Name>
+          <Value>4.7</Value>
+          <Value>5.5</Value>
+        </NameValueList>
+      </VariationSpecificsSet>
+    </Variations>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New</ConditionDisplayName>
+    <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+    <SellerProfiles>
+      <SellerShippingProfile>
+        <ShippingProfileID>135351004014</ShippingProfileID>
+        <ShippingProfileName>Flat:USPS First Cla(Free),Same business day</ShippingProfileName>
+      </SellerShippingProfile>
+      <SellerReturnProfile>
+        <ReturnProfileID>134405194014</ReturnProfileID>
+        <ReturnProfileName>Returns Accepted,Buyer,30 Days,Money Back,Int</ReturnProfileName>
+      </SellerReturnProfile>
+      <SellerPaymentProfile>
+        <PaymentProfileID>135351002014</PaymentProfileID>
+        <PaymentProfileName>PayPal:Immediate pay</PaymentProfileName>
+      </SellerPaymentProfile>
+    </SellerProfiles>
+    <ShippingPackageDetails>
+      <ShippingIrregular>false</ShippingIrregular>
+      <ShippingPackage>Letter</ShippingPackage>
+      <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+      <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+    </ShippingPackageDetails>
+    <HideFromSearch>false</HideFromSearch>
+    <OutOfStockControl>true</OutOfStockControl>
+    <eBayPlus>false</eBayPlus>
+    <eBayPlusEligible>false</eBayPlusEligible>
+    <IsSecureDescription>true</IsSecureDescription>
+  </Item>
+</GetItemResponse>
