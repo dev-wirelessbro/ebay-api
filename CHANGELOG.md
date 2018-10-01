@@ -1,3 +1,6 @@
+### Version 1.2.3
+- UPDATE: notification add new path and not use convertd price
+
 ### Version 1.2.3-0
 - BUGFIX: GetItem should take Item as object
 
