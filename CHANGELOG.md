@@ -1,3 +1,6 @@
+### Version 1.2.4-0
+- UPDATE: parsed notificaiton parseItem will return sold and quantity
+
 ### Version 1.2.3
 - UPDATE: notification add new path and not use convertd price
 
