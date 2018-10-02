@@ -316,6 +316,8 @@ describe("parse value correctly", () => {
       },
       estimate_delivery: "2018-06-25T07:00:00.000Z",
       itemId: "273296626758",
+      quantity: "12",
+      sold: "2",
       variation: [
         { Name: ["Color"], Value: ["White"] },
         { Name: ["Model"], Value: ["5"] }
