@@ -173,6 +173,34 @@ describe("EbayClient", () => {
       });
   });
 
+  it("should be able to inject extraHeaders", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    const expectedHeaders = {
+      "Content-Type": "text/xml",
+      "X-EBAY-API-COMPATIBILITY-LEVEL": "1057",
+      "X-EBAY-API-CALL-NAME": "GetSellerList",
+      "X-EBAY-API-SITEID": "100",
+      "X-EBAY-API-IAF-TOKEN": "Bearer " + OAuthClientData.token
+    };
+
+    let postData = {};
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200];
+    });
+
+    return ebayClient
+      .getSellerList(null, null, {"X-EBAY-API-SITEID": "100"})
+      .catch(() => {})
+      .then(result => {
+        assert(postData.data);
+        assert.deepEqual(
+          _.pick(postData.headers, Object.keys(expectedHeaders)),
+          expectedHeaders
+        );
+      });
+  });
+
   it("getSellerList throw InvalidOptionsError when pass an invalid options", () => {
     const ebayClient = new EbayClient(OAuthClientData);
     return ebayClient
