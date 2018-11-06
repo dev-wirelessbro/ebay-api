@@ -1,3 +1,6 @@
+### Version 1.3.0
+- UPDATE: add new api
+
 ### Version 1.2.4
 - ADD: able to inject headers
 
