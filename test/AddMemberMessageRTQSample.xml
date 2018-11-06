@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AddMemberMessageRTQResponse 
+  xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2018-11-06T02:59:42.158Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>1073</Version>
+  <Build>E1073_CORE_APIMSG_18774158_R1</Build>
+</AddMemberMessageRTQResponse>

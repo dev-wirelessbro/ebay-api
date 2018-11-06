@@ -1495,4 +1495,59 @@ describe("EbayClient", () => {
       });
   });
 
+  it("AddMemberMessageRTQ is able to post correctly", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    let postData;
+
+    const verifyAddFixeddPriceItemSample = fs
+      .readFileSync(path.resolve(__dirname, "./AddMemberMessageRTQSample.xml"))
+      .toString();
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      return [200, verifyAddFixeddPriceItemSample];
+    });
+
+    const expectedPostData = `<?xml version="1.0" encoding="utf-8"?>
+    <AddMemberMessageRTQRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+    <ErrorLanguage>en_US</ErrorLanguage>
+    <WarningLevel>High</WarningLevel>
+       <!-- Enter the ItemID that is being discussed between the two order partners -->
+    <ItemID>273397084431</ItemID>
+    <MemberMessage>
+      <Body>
+        Indeed, this is the first book in the Harry Potter series, with the original UK title. When released in the United states, the title was changed.
+      </Body>
+      <DisplayToPublic>false</DisplayToPublic>
+      <EmailCopyToSender>true</EmailCopyToSender>
+      <ParentMessageID>1841613249019</ParentMessageID>
+      <RecipientID>haotiaw3</RecipientID>
+    </MemberMessage>
+    </AddMemberMessageRTQRequest>`;
+
+    const options = {
+      ItemID: '273397084431',
+      MemberMessage: {
+        Body: 'Indeed, this is the first book in the Harry Potter series, with the original UK title. When released in the United states, the title was changed.',
+        DisplayToPublic: false,
+        EmailCopyToSender: true,
+        ParentMessageID: '1841613249019',
+        RecipientID: 'haotiaw3'
+      }
+    };
+
+    return ebayClient
+      .addMemberMessageRTQ(options)
+      .catch(error => {
+        console.log(error.message);
+      })
+      .then(result => {
+        assert.deepEqual(
+          JSON.parse(toJson(postData.data)),
+          JSON.parse(toJson(expectedPostData))
+        );
+        assert(result.Ack);
+      });
+  });
+
 });
