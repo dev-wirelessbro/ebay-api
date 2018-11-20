@@ -1,3 +1,6 @@
+### Version 1.4.0
+- ADD: getItem with description
+
 ### Version 1.3.0
 - UPDATE: add new api
 
