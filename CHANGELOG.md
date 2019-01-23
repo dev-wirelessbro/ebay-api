@@ -1,3 +1,6 @@
+### Version 1.4.2
+- FIX: IncludeWatchCount
+
 ### Version 1.4.0
 - ADD: getItem with description
 
@@ -27,4 +30,3 @@
 
 ### Version 1.1.0
 - add VerifyAddFixedPriceItem
-
