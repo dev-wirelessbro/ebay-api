@@ -953,6 +953,7 @@ describe("EbayClient", () => {
 
     const expectedPostData = `<?xml version="1.0" encoding="utf-8"?> 
     <GetItemRequest xmlns="urn:ebay:apis:eBLBaseComponents"> 
+      <DetailLevel>ItemReturnDescription</DetailLevel>
       <ErrorLanguage>en_US</ErrorLanguage>
       <WarningLevel>High</WarningLevel>
       <ItemID>XXXXX</ItemID>
@@ -1139,6 +1140,34 @@ describe("EbayClient", () => {
 
     return ebayClient.getMyeBaySelling().then(result => {
       assert.equal(result.ActiveList.ItemArray.Item.length, 3);
+    });
+  });
+
+  it("getMyeBaySellingEach is able to handle pagination and call callback for each page", () => {
+    const ebayClient = new EbayClient(OAuthClientData);
+    const pages = [1, 2].map(number =>
+      fs
+      .readFileSync(
+        path.resolve(__dirname, `./getMySellingListingPagination/${number}.xml`)
+      )
+      .toString()
+    );
+
+    mock.onPost("https://api.sandbox.ebay.com/ws/api.dll").reply(postConfig => {
+      postData = postConfig;
+      const pageInfo = /<PageNumber>(\d+)<\/PageNumber>/.exec(postConfig.data);
+      if (pageInfo && pageInfo[1]) {
+        return [200, pages[parseInt(pageInfo[1]) - 1]];
+      }
+      return [200, pages[0]];
+    });
+    let callNum = 0;
+    const callback = result => {
+      callNum++;
+      return new Promise(resolve => resolve(result))
+    }
+    return ebayClient.getMyeBaySellingEach(null, callback).then(() => {
+      assert.equal(callNum, 2);
     });
   });
 
