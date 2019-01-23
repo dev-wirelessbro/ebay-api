@@ -1,3 +1,6 @@
+### Version 1.4.3
+- FIX: bugs and improvements
+
 ### Version 1.4.2
 - FIX: IncludeWatchCount
 
