@@ -1,3 +1,6 @@
+### Version 1.4.5
+- UPDATE: request parallelly
+
 ### Version 1.4.4
 - Update: parse Notification sku
 
