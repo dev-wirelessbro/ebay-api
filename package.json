@@ -1,6 +1,6 @@
 {
   "name": "@lettopia/ebay-api",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "Wrap XML eBay api in node js",
   "main": "index.js",
   "scripts": {

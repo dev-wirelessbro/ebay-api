@@ -1,3 +1,6 @@
+### Version 1.4.6
+- change concurreny
+
 ### Version 1.4.5
 - UPDATE: request parallelly
 
