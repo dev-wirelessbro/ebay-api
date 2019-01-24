@@ -1,3 +1,6 @@
+### Version 1.4.4
+- Update: parse Notification sku
+
 ### Version 1.4.3
 - FIX: bugs and improvements
 
