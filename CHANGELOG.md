@@ -1,3 +1,6 @@
+### Version 1.4.7
+- ADD: ruName support for getSession
+
 ### Version 1.4.6
 - change concurreny
 
