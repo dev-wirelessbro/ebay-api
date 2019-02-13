@@ -1,3 +1,6 @@
+### Version 1.4.8
+- ADD: getNotificationUsage
+
 ### Version 1.4.7
 - ADD: ruName support for getSession
 
