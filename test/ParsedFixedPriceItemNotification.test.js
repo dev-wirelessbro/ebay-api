@@ -12,8 +12,8 @@ const xml = `<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/en
   <Timestamp>2018-06-14T18:57:36.878Z</Timestamp>
   <Ack>Success</Ack>
   <CorrelationID>1339194608402</CorrelationID>
-  <Version>1057</Version>
-  <Build>E1057_CORE_APIXO_18684207_R1</Build>
+  <Version>1061</Version>
+  <Build>E1061_CORE_APIXO_18684207_R1</Build>
   <NotificationEventName>FixedPriceTransaction</NotificationEventName>
   <RecipientUserID>zhangliandon_0</RecipientUserID>
   <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6ABkYGmAZSDoQmdj6x9nY+seQ==</EIASToken>

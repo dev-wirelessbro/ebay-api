@@ -267,7 +267,7 @@ describe("Ebay class", () => {
       <RuName>${config.redirectURI}</RuName>
       <!-- Standard Input Fields -->
       <ErrorLanguage>en_US</ErrorLanguage>
-      <Version>1057</Version>
+      <Version>1061</Version>
       <WarningLevel>High</WarningLevel>
     </GetSessionIDRequest>`;
     const expectedPostHeaders = {

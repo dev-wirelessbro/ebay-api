@@ -553,7 +553,7 @@ describe("EbayClient", () => {
         <Status>Enable</Status>
     </DeliveryURLDetails>
     <DeviceType>Platform</DeviceType>
-    <PayloadVersion>1057</PayloadVersion>
+    <PayloadVersion>1061</PayloadVersion>
   </ApplicationDeliveryPreferences>
       <DeliveryURLName>office</DeliveryURLName>
       <UserDeliveryPreferenceArray>
