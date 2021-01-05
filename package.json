@@ -9,7 +9,7 @@
   "author": "Zhangliang",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bluebird": "^3.5.1",
     "blueimp-md5": "^2.10.0",
     "es6-error": "^4.1.1",
